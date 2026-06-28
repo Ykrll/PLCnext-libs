@@ -1,0 +1,572 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/PHOENIX CONTACT/PLCnext_Toolchain/cmake/share/cmake-3.27/Modules/CMakeDetermineSystem.cmake:206 (message)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      The target system is: Linux -  - arm
+      The host system is: Windows - 10.0.19045 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/PHOENIX CONTACT/PLCnext_Toolchain/cmake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/PHOENIX CONTACT/PLCnext_Toolchain/cmake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/PHOENIX CONTACT/PLCnext_Toolchain/cmake/share/cmake-3.27/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: C:/Users/kirill/PLCnextSDK/AXCF2152/2024.0/sysroots/x86_64-w64-mingw32/usr/bin/arm-pxc-linux-gnueabi/arm-pxc-linux-gnueabi-gcc.exe 
+      Build flags: -mthumb;-mfpu=neon;-mfloat-abi=hard;-mcpu=cortex-a9
+      Id flags:  
+      
+      The output was:
+      1
+      c:/users/kirill/plcnextsdk/axcf2152/2024.0/sysroots/x86_64-w64-mingw32/usr/bin/arm-pxc-linux-gnueabi/../../libexec/arm-pxc-linux-gnueabi/gcc/arm-pxc-linux-gnueabi/11.4.0/ld.exe: cannot find Scrt1.o: No such file or directory
+      c:/users/kirill/plcnextsdk/axcf2152/2024.0/sysroots/x86_64-w64-mingw32/usr/bin/arm-pxc-linux-gnueabi/../../libexec/arm-pxc-linux-gnueabi/gcc/arm-pxc-linux-gnueabi/11.4.0/ld.exe: cannot find crti.o: No such file or directory
+      c:/users/kirill/plcnextsdk/axcf2152/2024.0/sysroots/x86_64-w64-mingw32/usr/bin/arm-pxc-linux-gnueabi/../../libexec/arm-pxc-linux-gnueabi/gcc/arm-pxc-linux-gnueabi/11.4.0/ld.exe: cannot find crtbeginS.o: No such file or directory
+      c:/users/kirill/plcnextsdk/axcf2152/2024.0/sysroots/x86_64-w64-mingw32/usr/bin/arm-pxc-linux-gnueabi/../../libexec/arm-pxc-linux-gnueabi/gcc/arm-pxc-linux-gnueabi/11.4.0/ld.exe: cannot find -lgcc: No such file or directory
+      c:/users/kirill/plcnextsdk/axcf2152/2024.0/sysroots/x86_64-w64-mingw32/usr/bin/arm-pxc-linux-gnueabi/../../libexec/arm-pxc-linux-gnueabi/gcc/arm-pxc-linux-gnueabi/11.4.0/ld.exe: cannot find -lgcc_s: No such file or directory
+      c:/users/kirill/plcnextsdk/axcf2152/2024.0/sysroots/x86_64-w64-mingw32/usr/bin/arm-pxc-linux-gnueabi/../../libexec/arm-pxc-linux-gnueabi/gcc/arm-pxc-linux-gnueabi/11.4.0/ld.exe: cannot find -lc: No such file or directory
+      c:/users/kirill/plcnextsdk/axcf2152/2024.0/sysroots/x86_64-w64-mingw32/usr/bin/arm-pxc-linux-gnueabi/../../libexec/arm-pxc-linux-gnueabi/gcc/arm-pxc-linux-gnueabi/11.4.0/ld.exe: cannot find -lgcc: No such file or directory
+      c:/users/kirill/plcnextsdk/axcf2152/2024.0/sysroots/x86_64-w64-mingw32/usr/bin/arm-pxc-linux-gnueabi/../../libexec/arm-pxc-linux-gnueabi/gcc/arm-pxc-linux-gnueabi/11.4.0/ld.exe: cannot find -lgcc_s: No such file or directory
+      c:/users/kirill/plcnextsdk/axcf2152/2024.0/sysroots/x86_64-w64-mingw32/usr/bin/arm-pxc-linux-gnueabi/../../libexec/arm-pxc-linux-gnueabi/gcc/arm-pxc-linux-gnueabi/11.4.0/ld.exe: cannot find crtendS.o: No such file or directory
+      c:/users/kirill/plcnextsdk/axcf2152/2024.0/sysroots/x86_64-w64-mingw32/usr/bin/arm-pxc-linux-gnueabi/../../libexec/arm-pxc-linux-gnueabi/gcc/arm-pxc-linux-gnueabi/11.4.0/ld.exe: cannot find crtn.o: No such file or directory
+      collect2.exe: error: ld returned 1 exit status
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/PHOENIX CONTACT/PLCnext_Toolchain/cmake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/PHOENIX CONTACT/PLCnext_Toolchain/cmake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/PHOENIX CONTACT/PLCnext_Toolchain/cmake/share/cmake-3.27/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: C:/Users/kirill/PLCnextSDK/AXCF2152/2024.0/sysroots/x86_64-w64-mingw32/usr/bin/arm-pxc-linux-gnueabi/arm-pxc-linux-gnueabi-gcc.exe 
+      Build flags: -mthumb;-mfpu=neon;-mfloat-abi=hard;-mcpu=cortex-a9
+      Id flags: -c 
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.o"
+      
+      The C compiler identification is GNU, found in:
+        C:/Users/kirill/PLCnext-libs/TimeUtils/TimeUtilsCpp/intermediate/cmakeAutoBuild/AXCF2152,24.0.17.244/Release/CMakeFiles/3.27.7/CompilerIdC/CMakeCCompilerId.o
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/PHOENIX CONTACT/PLCnext_Toolchain/cmake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/PHOENIX CONTACT/PLCnext_Toolchain/cmake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/PHOENIX CONTACT/PLCnext_Toolchain/cmake/share/cmake-3.27/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: C:/Users/kirill/PLCnextSDK/AXCF2152/2024.0/sysroots/x86_64-w64-mingw32/usr/bin/arm-pxc-linux-gnueabi/arm-pxc-linux-gnueabi-g++.exe 
+      Build flags: -mthumb;-mfpu=neon;-mfloat-abi=hard;-mcpu=cortex-a9
+      Id flags:  
+      
+      The output was:
+      1
+      c:/users/kirill/plcnextsdk/axcf2152/2024.0/sysroots/x86_64-w64-mingw32/usr/bin/arm-pxc-linux-gnueabi/../../libexec/arm-pxc-linux-gnueabi/gcc/arm-pxc-linux-gnueabi/11.4.0/ld.exe: cannot find Scrt1.o: No such file or directory
+      c:/users/kirill/plcnextsdk/axcf2152/2024.0/sysroots/x86_64-w64-mingw32/usr/bin/arm-pxc-linux-gnueabi/../../libexec/arm-pxc-linux-gnueabi/gcc/arm-pxc-linux-gnueabi/11.4.0/ld.exe: cannot find crti.o: No such file or directory
+      c:/users/kirill/plcnextsdk/axcf2152/2024.0/sysroots/x86_64-w64-mingw32/usr/bin/arm-pxc-linux-gnueabi/../../libexec/arm-pxc-linux-gnueabi/gcc/arm-pxc-linux-gnueabi/11.4.0/ld.exe: cannot find crtbeginS.o: No such file or directory
+      c:/users/kirill/plcnextsdk/axcf2152/2024.0/sysroots/x86_64-w64-mingw32/usr/bin/arm-pxc-linux-gnueabi/../../libexec/arm-pxc-linux-gnueabi/gcc/arm-pxc-linux-gnueabi/11.4.0/ld.exe: cannot find -lstdc++: No such file or directory
+      c:/users/kirill/plcnextsdk/axcf2152/2024.0/sysroots/x86_64-w64-mingw32/usr/bin/arm-pxc-linux-gnueabi/../../libexec/arm-pxc-linux-gnueabi/gcc/arm-pxc-linux-gnueabi/11.4.0/ld.exe: cannot find -lm: No such file or directory
+      c:/users/kirill/plcnextsdk/axcf2152/2024.0/sysroots/x86_64-w64-mingw32/usr/bin/arm-pxc-linux-gnueabi/../../libexec/arm-pxc-linux-gnueabi/gcc/arm-pxc-linux-gnueabi/11.4.0/ld.exe: cannot find -lgcc_s: No such file or directory
+      c:/users/kirill/plcnextsdk/axcf2152/2024.0/sysroots/x86_64-w64-mingw32/usr/bin/arm-pxc-linux-gnueabi/../../libexec/arm-pxc-linux-gnueabi/gcc/arm-pxc-linux-gnueabi/11.4.0/ld.exe: cannot find -lgcc: No such file or directory
+      c:/users/kirill/plcnextsdk/axcf2152/2024.0/sysroots/x86_64-w64-mingw32/usr/bin/arm-pxc-linux-gnueabi/../../libexec/arm-pxc-linux-gnueabi/gcc/arm-pxc-linux-gnueabi/11.4.0/ld.exe: cannot find -lc: No such file or directory
+      c:/users/kirill/plcnextsdk/axcf2152/2024.0/sysroots/x86_64-w64-mingw32/usr/bin/arm-pxc-linux-gnueabi/../../libexec/arm-pxc-linux-gnueabi/gcc/arm-pxc-linux-gnueabi/11.4.0/ld.exe: cannot find -lgcc_s: No such file or directory
+      c:/users/kirill/plcnextsdk/axcf2152/2024.0/sysroots/x86_64-w64-mingw32/usr/bin/arm-pxc-linux-gnueabi/../../libexec/arm-pxc-linux-gnueabi/gcc/arm-pxc-linux-gnueabi/11.4.0/ld.exe: cannot find -lgcc: No such file or directory
+      c:/users/kirill/plcnextsdk/axcf2152/2024.0/sysroots/x86_64-w64-mingw32/usr/bin/arm-pxc-linux-gnueabi/../../libexec/arm-pxc-linux-gnueabi/gcc/arm-pxc-linux-gnueabi/11.4.0/ld.exe: cannot find crtendS.o: No such file or directory
+      c:/users/kirill/plcnextsdk/axcf2152/2024.0/sysroots/x86_64-w64-mingw32/usr/bin/arm-pxc-linux-gnueabi/../../libexec/arm-pxc-linux-gnueabi/gcc/arm-pxc-linux-gnueabi/11.4.0/ld.exe: cannot find crtn.o: No such file or directory
+      collect2.exe: error: ld returned 1 exit status
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/PHOENIX CONTACT/PLCnext_Toolchain/cmake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/PHOENIX CONTACT/PLCnext_Toolchain/cmake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/PHOENIX CONTACT/PLCnext_Toolchain/cmake/share/cmake-3.27/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: C:/Users/kirill/PLCnextSDK/AXCF2152/2024.0/sysroots/x86_64-w64-mingw32/usr/bin/arm-pxc-linux-gnueabi/arm-pxc-linux-gnueabi-g++.exe 
+      Build flags: -mthumb;-mfpu=neon;-mfloat-abi=hard;-mcpu=cortex-a9
+      Id flags: -c 
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.o"
+      
+      The CXX compiler identification is GNU, found in:
+        C:/Users/kirill/PLCnext-libs/TimeUtils/TimeUtilsCpp/intermediate/cmakeAutoBuild/AXCF2152,24.0.17.244/Release/CMakeFiles/3.27.7/CompilerIdCXX/CMakeCXXCompilerId.o
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/PHOENIX CONTACT/PLCnext_Toolchain/cmake/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "C:/Program Files/PHOENIX CONTACT/PLCnext_Toolchain/cmake/share/cmake-3.27/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "C:/Users/kirill/PLCnext-libs/TimeUtils/TimeUtilsCpp/intermediate/cmakeAutoBuild/AXCF2152,24.0.17.244/Release/CMakeFiles/CMakeScratch/TryCompile-gp2r7a"
+      binary: "C:/Users/kirill/PLCnext-libs/TimeUtils/TimeUtilsCpp/intermediate/cmakeAutoBuild/AXCF2152,24.0.17.244/Release/CMakeFiles/CMakeScratch/TryCompile-gp2r7a"
+    cmakeVariables:
+      ARP_TOOLCHAIN_NATIVE_SYSROOT: "C:/Users/kirill/PLCnextSDK/AXCF2152/2024.0/sysroots/x86_64-w64-mingw32"
+      ARP_TOOLCHAIN_PREFIX_PATH: ""
+      ARP_TOOLCHAIN_ROOT: "C:/Users/kirill/PLCnextSDK/AXCF2152/2024.0"
+      ARP_TOOLCHAIN_TARGET_SYSROOT: "C:/Users/kirill/PLCnextSDK/AXCF2152/2024.0/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi"
+      CMAKE_C_FLAGS: "  -mthumb -mfpu=neon -mfloat-abi=hard -mcpu=cortex-a9"
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_SYSROOT: "C:/Users/kirill/PLCnextSDK/AXCF2152/2024.0/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/kirill/PLCnext-libs/TimeUtils/TimeUtilsCpp/intermediate/cmakeAutoBuild/AXCF2152,24.0.17.244/Release/CMakeFiles/CMakeScratch/TryCompile-gp2r7a'
+        
+        Run Build Command(s): "C:/Program Files/PHOENIX CONTACT/PLCnext_Toolchain/cmake/bin/cmake.exe" -E env VERBOSE=1 C:/Users/kirill/PLCnextSDK/AXCF2152/2024.0/sysroots/x86_64-w64-mingw32/usr/bin/make.exe -f Makefile cmTC_96f08/fast
+        C:/Users/kirill/PLCnextSDK/AXCF2152/2024.0/sysroots/x86_64-w64-mingw32/usr/bin/make.exe  -f CMakeFiles/cmTC_96f08.dir/build.make CMakeFiles/cmTC_96f08.dir/build
+        make[1]: Entering directory 'C:/Users/kirill/PLCnext-libs/TimeUtils/TimeUtilsCpp/intermediate/cmakeAutoBuild/AXCF2152,24.0.17.244/Release/CMakeFiles/CMakeScratch/TryCompile-gp2r7a'
+        Building C object CMakeFiles/cmTC_96f08.dir/CMakeCCompilerABI.c.o
+        C:/Users/kirill/PLCnextSDK/AXCF2152/2024.0/sysroots/x86_64-w64-mingw32/usr/bin/arm-pxc-linux-gnueabi/arm-pxc-linux-gnueabi-gcc.exe --sysroot=C:/Users/kirill/PLCnextSDK/AXCF2152/2024.0/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi   -mthumb -mfpu=neon -mfloat-abi=hard -mcpu=cortex-a9    -v -o CMakeFiles/cmTC_96f08.dir/CMakeCCompilerABI.c.o -c "C:/Program Files/PHOENIX CONTACT/PLCnext_Toolchain/cmake/share/cmake-3.27/Modules/CMakeCCompilerABI.c"
+        Using built-in specs.
+        COLLECT_GCC=C:/Users/kirill/PLCnextSDK/AXCF2152/2024.0/sysroots/x86_64-w64-mingw32/usr/bin/arm-pxc-linux-gnueabi/arm-pxc-linux-gnueabi-gcc.exe
+        Target: arm-pxc-linux-gnueabi
+        Configured with: ../../../../../../work-shared/gcc-11.4.0-r0/gcc-11.4.0/configure --build=x86_64-linux --host=x86_64-w64-mingw32 --target=arm-pxc-linux-gnueabi --prefix=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-w64-mingw32/usr --exec_prefix=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-w64-mingw32/usr --bindir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-w64-mingw32/usr/bin/arm-pxc-linux-gnueabi --sbindir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-w64-mingw32/usr/bin/arm-pxc-linux-gnueabi --libexecdir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-w64-mingw32/usr/libexec/arm-pxc-linux-gnueabi --datadir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-w64-mingw32/usr/share --sysconfdir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-w64-mingw32/etc --sharedstatedir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-w64-mingw32/com --localstatedir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-w64-mingw32/var --libdir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-w64-mingw32/usr/lib/arm-pxc-linux-gnueabi --includedir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-w64-mingw32/usr/include --oldincludedir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-w64-mingw32/usr/include --infodir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-w64-mingw32/usr/share/info --mandir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-w64-mingw32/usr/share/man --disable-silent-rules --disable-dependency-tracking --with-libtool-sysroot=/yocto/jenkins/workspace/ts_Yocto_AXCF2152_release_24.0.x/axcf2152_build/tmp/work/x86_64-nativesdk-mingw32-w64-mingw32/gcc-cross-canadian-arm/11.4.0-r0/recipe-sysroot --enable-clocale=generic --with-gnu-ld --enable-shared --enable-languages=c,c++ --enable-threads=posix --enable-multilib --enable-default-pie --enable-c99 --enable-long-long --enable-symvers=gnu --enable-libstdcxx-pch --program-prefix=arm-pxc-linux-gnueabi- --without-local-prefix --disable-install-libiberty --disable-libssp --enable-libitm --enable-lto --disable-bootstrap --with-system-zlib --with-linker-hash-style=gnu --enable-linker-build-id --with-ppl=no --with-cloog=no --enable-checking=release --enable-cheaders=c_global --without-isl --with-gxx-include-dir=/not/exist/usr/include/c++/11.4.0 --with-build-time-tools=/yocto/jenkins/workspace/ts_Yocto_AXCF2152_release_24.0.x/axcf2152_build/tmp/work/x86_64-nativesdk-mingw32-w64-mingw32/gcc-cross-canadian-arm/11.4.0-r0/recipe-sysroot-native/usr/arm-pxc-linux-gnueabi/bin --with-sysroot=/not/exist --with-build-sysroot=/yocto/jenkins/workspace/ts_Yocto_AXCF2152_release_24.0.x/axcf2152_build/tmp/work/x86_64-nativesdk-mingw32-w64-mingw32/gcc-cross-canadian-arm/11.4.0-r0/recipe-sysroot --with-plugin-ld=ld --enable-poison-system-directories --disable-static --disable-nls --enable-initfini-array --disable-nls
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 11.4.0 (GCC) 
+        COLLECT_GCC_OPTIONS='-mthumb' '-mfpu=neon' '-mfloat-abi=hard' '-mcpu=cortex-a9' '-v' '-o' 'CMakeFiles/cmTC_96f08.dir/CMakeCCompilerABI.c.o' '-c' '-mtls-dialect=gnu' '-mlibarch=armv7-a+mp+sec+simd' '-march=armv7-a+mp+sec+simd' '-dumpdir' 'CMakeFiles/cmTC_96f08.dir/'
+         c:/users/kirill/plcnextsdk/axcf2152/2024.0/sysroots/x86_64-w64-mingw32/usr/bin/arm-pxc-linux-gnueabi/../../libexec/arm-pxc-linux-gnueabi/gcc/arm-pxc-linux-gnueabi/11.4.0/cc1.exe -quiet -v -iprefix c:\\users\\kirill\\plcnextsdk\\axcf2152\\2024.0\\sysroots\\x86_64-w64-mingw32\\usr\\bin\\arm-pxc-linux-gnueabi\\../../lib/arm-pxc-linux-gnueabi/gcc/arm-pxc-linux-gnueabi/11.4.0/ -isysroot C:/Users/kirill/PLCnextSDK/AXCF2152/2024.0/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi C:/Program Files/PHOENIX CONTACT/PLCnext_Toolchain/cmake/share/cmake-3.27/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_96f08.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mthumb -mfpu=neon -mfloat-abi=hard -mcpu=cortex-a9 -mtls-dialect=gnu -mlibarch=armv7-a+mp+sec+simd -march=armv7-a+mp+sec+simd -version -o C:\\Users\\kirill\\AppData\\Local\\Temp\\cc3L1ZnN.s
+        GNU C17 (GCC) version 11.4.0 (arm-pxc-linux-gnueabi)
+        	compiled by GNU C version 11.4.0, GMP version 6.2.1, MPFR version 4.1.1, MPC version 1.2.1, isl version none
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring nonexistent directory "c:\\users\\kirill\\plcnextsdk\\axcf2152\\2024.0\\sysroots\\x86_64-w64-mingw32\\usr\\bin\\arm-pxc-linux-gnueabi\\../../lib/arm-pxc-linux-gnueabi/gcc/arm-pxc-linux-gnueabi/11.4.0/../../../../../arm-pxc-linux-gnueabi/include"
+        ignoring duplicate directory "c:/users/kirill/plcnextsdk/axcf2152/2024.0/sysroots/x86_64-w64-mingw32/usr/lib/arm-pxc-linux-gnueabi/gcc/../../../lib/arm-pxc-linux-gnueabi/gcc/arm-pxc-linux-gnueabi/11.4.0/include"
+        ignoring nonexistent directory "C:/Users/kirill/PLCnextSDK/AXCF2152/2024.0/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-w64-mingw32/usr/lib/arm-pxc-linux-gnueabi/gcc/arm-pxc-linux-gnueabi/11.4.0/../../../../include"
+        ignoring duplicate directory "c:/users/kirill/plcnextsdk/axcf2152/2024.0/sysroots/x86_64-w64-mingw32/usr/lib/arm-pxc-linux-gnueabi/gcc/../../../lib/arm-pxc-linux-gnueabi/gcc/arm-pxc-linux-gnueabi/11.4.0/include-fixed"
+        ignoring nonexistent directory "c:/users/kirill/plcnextsdk/axcf2152/2024.0/sysroots/x86_64-w64-mingw32/usr/lib/arm-pxc-linux-gnueabi/gcc/../../../lib/arm-pxc-linux-gnueabi/gcc/arm-pxc-linux-gnueabi/11.4.0/../../../../../arm-pxc-linux-gnueabi/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         c:\\users\\kirill\\plcnextsdk\\axcf2152\\2024.0\\sysroots\\x86_64-w64-mingw32\\usr\\bin\\arm-pxc-linux-gnueabi\\../../lib/arm-pxc-linux-gnueabi/gcc/arm-pxc-linux-gnueabi/11.4.0/include
+         c:\\users\\kirill\\plcnextsdk\\axcf2152\\2024.0\\sysroots\\x86_64-w64-mingw32\\usr\\bin\\arm-pxc-linux-gnueabi\\../../lib/arm-pxc-linux-gnueabi/gcc/arm-pxc-linux-gnueabi/11.4.0/include-fixed
+         C:/Users/kirill/PLCnextSDK/AXCF2152/2024.0/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi/usr/lib/arm-pxc-linux-gnueabi/11.4.0/include
+         C:/Users/kirill/PLCnextSDK/AXCF2152/2024.0/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi/usr/include
+        End of search list.
+        GNU C17 (GCC) version 11.4.0 (arm-pxc-linux-gnueabi)
+        	compiled by GNU C version 11.4.0, GMP version 6.2.1, MPFR version 4.1.1, MPC version 1.2.1, isl version none
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        Compiler executable checksum: 27198ff34312069ca5fe550f9c850e8f
+        COLLECT_GCC_OPTIONS='-mthumb' '-mfpu=neon' '-mfloat-abi=hard' '-mcpu=cortex-a9' '-v' '-o' 'CMakeFiles/cmTC_96f08.dir/CMakeCCompilerABI.c.o' '-c' '-mtls-dialect=gnu' '-mlibarch=armv7-a+mp+sec+simd' '-march=armv7-a+mp+sec+simd' '-dumpdir' 'CMakeFiles/cmTC_96f08.dir/'
+         c:/users/kirill/plcnextsdk/axcf2152/2024.0/sysroots/x86_64-w64-mingw32/usr/bin/arm-pxc-linux-gnueabi/../../libexec/arm-pxc-linux-gnueabi/gcc/arm-pxc-linux-gnueabi/11.4.0/as.exe -v -march=armv7-a+mp+sec -mfloat-abi=hard -mfpu=neon -meabi=5 -o CMakeFiles/cmTC_96f08.dir/CMakeCCompilerABI.c.o C:\\Users\\kirill\\AppData\\Local\\Temp\\cc3L1ZnN.s
+        GNU assembler version 2.38 (arm-pxc-linux-gnueabi) using BFD version (GNU Binutils) 2.38.20220708
+        COMPILER_PATH=c:/users/kirill/plcnextsdk/axcf2152/2024.0/sysroots/x86_64-w64-mingw32/usr/bin/arm-pxc-linux-gnueabi/../../libexec/arm-pxc-linux-gnueabi/gcc/arm-pxc-linux-gnueabi/11.4.0/;c:/users/kirill/plcnextsdk/axcf2152/2024.0/sysroots/x86_64-w64-mingw32/usr/bin/arm-pxc-linux-gnueabi/../../libexec/arm-pxc-linux-gnueabi/gcc/
+        LIBRARY_PATH=c:/users/kirill/plcnextsdk/axcf2152/2024.0/sysroots/x86_64-w64-mingw32/usr/bin/arm-pxc-linux-gnueabi/../../lib/arm-pxc-linux-gnueabi/gcc/arm-pxc-linux-gnueabi/11.4.0/;c:/users/kirill/plcnextsdk/axcf2152/2024.0/sysroots/x86_64-w64-mingw32/usr/bin/arm-pxc-linux-gnueabi/../../lib/arm-pxc-linux-gnueabi/gcc/;C:/Users/kirill/PLCnextSDK/AXCF2152/2024.0/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi/lib/;C:/Users/kirill/PLCnextSDK/AXCF2152/2024.0/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi/usr/lib/arm-pxc-linux-gnueabi/11.4.0/;C:/Users/kirill/PLCnextSDK/AXCF2152/2024.0/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi/usr/lib/
+        COLLECT_GCC_OPTIONS='-mthumb' '-mfpu=neon' '-mfloat-abi=hard' '-mcpu=cortex-a9' '-v' '-o' 'CMakeFiles/cmTC_96f08.dir/CMakeCCompilerABI.c.o' '-c' '-mtls-dialect=gnu' '-mlibarch=armv7-a+mp+sec+simd' '-march=armv7-a+mp+sec+simd' '-dumpdir' 'CMakeFiles/cmTC_96f08.dir/CMakeCCompilerABI.c.'
+        Linking C executable cmTC_96f08
+        C:/Users/kirill/PLCnextSDK/AXCF2152/2024.0/sysroots/x86_64-w64-mingw32/usr/bin/arm-pxc-linux-gnueabi/arm-pxc-linux-gnueabi-gcc.exe --sysroot=C:/Users/kirill/PLCnextSDK/AXCF2152/2024.0/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi   -mthumb -mfpu=neon -mfloat-abi=hard -mcpu=cortex-a9    -mthumb -mfpu=neon -mfloat-abi=hard -mcpu=cortex-a9  -v "CMakeFiles/cmTC_96f08.dir/CMakeCCompilerABI.c.o"  -o cmTC_96f08 
+        Using built-in specs.
+        COLLECT_GCC=C:/Users/kirill/PLCnextSDK/AXCF2152/2024.0/sysroots/x86_64-w64-mingw32/usr/bin/arm-pxc-linux-gnueabi/arm-pxc-linux-gnueabi-gcc.exe
+        COLLECT_LTO_WRAPPER=c:/users/kirill/plcnextsdk/axcf2152/2024.0/sysroots/x86_64-w64-mingw32/usr/bin/arm-pxc-linux-gnueabi/../../libexec/arm-pxc-linux-gnueabi/gcc/arm-pxc-linux-gnueabi/11.4.0/lto-wrapper.exe
+        Target: arm-pxc-linux-gnueabi
+        Configured with: ../../../../../../work-shared/gcc-11.4.0-r0/gcc-11.4.0/configure --build=x86_64-linux --host=x86_64-w64-mingw32 --target=arm-pxc-linux-gnueabi --prefix=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-w64-mingw32/usr --exec_prefix=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-w64-mingw32/usr --bindir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-w64-mingw32/usr/bin/arm-pxc-linux-gnueabi --sbindir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-w64-mingw32/usr/bin/arm-pxc-linux-gnueabi --libexecdir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-w64-mingw32/usr/libexec/arm-pxc-linux-gnueabi --datadir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-w64-mingw32/usr/share --sysconfdir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-w64-mingw32/etc --sharedstatedir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-w64-mingw32/com --localstatedir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-w64-mingw32/var --libdir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-w64-mingw32/usr/lib/arm-pxc-linux-gnueabi --includedir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-w64-mingw32/usr/include --oldincludedir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-w64-mingw32/usr/include --infodir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-w64-mingw32/usr/share/info --mandir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-w64-mingw32/usr/share/man --disable-silent-rules --disable-dependency-tracking --with-libtool-sysroot=/yocto/jenkins/workspace/ts_Yocto_AXCF2152_release_24.0.x/axcf2152_build/tmp/work/x86_64-nativesdk-mingw32-w64-mingw32/gcc-cross-canadian-arm/11.4.0-r0/recipe-sysroot --enable-clocale=generic --with-gnu-ld --enable-shared --enable-languages=c,c++ --enable-threads=posix --enable-multilib --enable-default-pie --enable-c99 --enable-long-long --enable-symvers=gnu --enable-libstdcxx-pch --program-prefix=arm-pxc-linux-gnueabi- --without-local-prefix --disable-install-libiberty --disable-libssp --enable-libitm --enable-lto --disable-bootstrap --with-system-zlib --with-linker-hash-style=gnu --enable-linker-build-id --with-ppl=no --with-cloog=no --enable-checking=release --enable-cheaders=c_global --without-isl --with-gxx-include-dir=/not/exist/usr/include/c++/11.4.0 --with-build-time-tools=/yocto/jenkins/workspace/ts_Yocto_AXCF2152_release_24.0.x/axcf2152_build/tmp/work/x86_64-nativesdk-mingw32-w64-mingw32/gcc-cross-canadian-arm/11.4.0-r0/recipe-sysroot-native/usr/arm-pxc-linux-gnueabi/bin --with-sysroot=/not/exist --with-build-sysroot=/yocto/jenkins/workspace/ts_Yocto_AXCF2152_release_24.0.x/axcf2152_build/tmp/work/x86_64-nativesdk-mingw32-w64-mingw32/gcc-cross-canadian-arm/11.4.0-r0/recipe-sysroot --with-plugin-ld=ld --enable-poison-system-directories --disable-static --disable-nls --enable-initfini-array --disable-nls
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 11.4.0 (GCC) 
+        COMPILER_PATH=c:/users/kirill/plcnextsdk/axcf2152/2024.0/sysroots/x86_64-w64-mingw32/usr/bin/arm-pxc-linux-gnueabi/../../libexec/arm-pxc-linux-gnueabi/gcc/arm-pxc-linux-gnueabi/11.4.0/;c:/users/kirill/plcnextsdk/axcf2152/2024.0/sysroots/x86_64-w64-mingw32/usr/bin/arm-pxc-linux-gnueabi/../../libexec/arm-pxc-linux-gnueabi/gcc/
+        LIBRARY_PATH=c:/users/kirill/plcnextsdk/axcf2152/2024.0/sysroots/x86_64-w64-mingw32/usr/bin/arm-pxc-linux-gnueabi/../../lib/arm-pxc-linux-gnueabi/gcc/arm-pxc-linux-gnueabi/11.4.0/;c:/users/kirill/plcnextsdk/axcf2152/2024.0/sysroots/x86_64-w64-mingw32/usr/bin/arm-pxc-linux-gnueabi/../../lib/arm-pxc-linux-gnueabi/gcc/;C:/Users/kirill/PLCnextSDK/AXCF2152/2024.0/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi/lib/;C:/Users/kirill/PLCnextSDK/AXCF2152/2024.0/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi/usr/lib/arm-pxc-linux-gnueabi/11.4.0/;C:/Users/kirill/PLCnextSDK/AXCF2152/2024.0/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi/usr/lib/
+        COLLECT_GCC_OPTIONS='-mfpu=neon' '-mfloat-abi=hard' '-mthumb' '-mfpu=neon' '-mfloat-abi=hard' '-mcpu=cortex-a9' '-v' '-o' 'cmTC_96f08' '-mtls-dialect=gnu' '-mlibarch=armv7-a+mp+sec+simd' '-march=armv7-a+mp+sec+simd' '-dumpdir' 'cmTC_96f08.'
+         c:/users/kirill/plcnextsdk/axcf2152/2024.0/sysroots/x86_64-w64-mingw32/usr/bin/arm-pxc-linux-gnueabi/../../libexec/arm-pxc-linux-gnueabi/gcc/arm-pxc-linux-gnueabi/11.4.0/collect2.exe --sysroot=C:/Users/kirill/PLCnextSDK/AXCF2152/2024.0/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi --build-id --eh-frame-hdr --hash-style=gnu -dynamic-linker /lib/ld-linux-armhf.so.3 -X -m armelf_linux_eabi -pie -o cmTC_96f08 C:/Users/kirill/PLCnextSDK/AXCF2152/2024.0/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi/usr/lib/Scrt1.o C:/Users/kirill/PLCnextSDK/AXCF2152/2024.0/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi/usr/lib/crti.o C:/Users/kirill/PLCnextSDK/AXCF2152/2024.0/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi/usr/lib/arm-pxc-linux-gnueabi/11.4.0/crtbeginS.o -Lc:/users/kirill/plcnextsdk/axcf2152/2024.0/sysroots/x86_64-w64-mingw32/usr/bin/arm-pxc-linux-gnueabi/../../lib/arm-pxc-linux-gnueabi/gcc/arm-pxc-linux-gnueabi/11.4.0 -Lc:/users/kirill/plcnextsdk/axcf2152/2024.0/sysroots/x86_64-w64-mingw32/usr/bin/arm-pxc-linux-gnueabi/../../lib/arm-pxc-linux-gnueabi/gcc -LC:/Users/kirill/PLCnextSDK/AXCF2152/2024.0/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi/lib -LC:/Users/kirill/PLCnextSDK/AXCF2152/2024.0/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi/usr/lib/arm-pxc-linux-gnueabi/11.4.0 -LC:/Users/kirill/PLCnextSDK/AXCF2152/2024.0/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi/usr/lib CMakeFiles/cmTC_96f08.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state C:/Users/kirill/PLCnextSDK/AXCF2152/2024.0/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi/usr/lib/arm-pxc-linux-gnueabi/11.4.0/crtendS.o C:/Users/kirill/PLCnextSDK/AXCF2152/2024.0/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi/usr/lib/crtn.o
+        COLLECT_GCC_OPTIONS='-mfpu=neon' '-mfloat-abi=hard' '-mthumb' '-mfpu=neon' '-mfloat-abi=hard' '-mcpu=cortex-a9' '-v' '-o' 'cmTC_96f08' '-mtls-dialect=gnu' '-mlibarch=armv7-a+mp+sec+simd' '-march=armv7-a+mp+sec+simd' '-dumpdir' 'cmTC_96f08.'
+        make[1]: Leaving directory 'C:/Users/kirill/PLCnext-libs/TimeUtils/TimeUtilsCpp/intermediate/cmakeAutoBuild/AXCF2152,24.0.17.244/Release/CMakeFiles/CMakeScratch/TryCompile-gp2r7a'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/PHOENIX CONTACT/PLCnext_Toolchain/cmake/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:127 (message)"
+      - "C:/Program Files/PHOENIX CONTACT/PLCnext_Toolchain/cmake/share/cmake-3.27/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Parsed C implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [c:/users/kirill/plcnextsdk/axcf2152/2024.0/sysroots/x86_64-w64-mingw32/usr/bin/arm-pxc-linux-gnueabi/../../lib/arm-pxc-linux-gnueabi/gcc/arm-pxc-linux-gnueabi/11.4.0/include]
+          add: [c:/users/kirill/plcnextsdk/axcf2152/2024.0/sysroots/x86_64-w64-mingw32/usr/bin/arm-pxc-linux-gnueabi/../../lib/arm-pxc-linux-gnueabi/gcc/arm-pxc-linux-gnueabi/11.4.0/include-fixed]
+          add: [C:/Users/kirill/PLCnextSDK/AXCF2152/2024.0/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi/usr/lib/arm-pxc-linux-gnueabi/11.4.0/include]
+          add: [C:/Users/kirill/PLCnextSDK/AXCF2152/2024.0/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi/usr/include]
+        end of search list found
+        collapse include dir [c:/users/kirill/plcnextsdk/axcf2152/2024.0/sysroots/x86_64-w64-mingw32/usr/bin/arm-pxc-linux-gnueabi/../../lib/arm-pxc-linux-gnueabi/gcc/arm-pxc-linux-gnueabi/11.4.0/include] ==> [C:/Users/kirill/PLCnextSDK/AXCF2152/2024.0/sysroots/x86_64-w64-mingw32/usr/lib/arm-pxc-linux-gnueabi/gcc/arm-pxc-linux-gnueabi/11.4.0/include]
+        collapse include dir [c:/users/kirill/plcnextsdk/axcf2152/2024.0/sysroots/x86_64-w64-mingw32/usr/bin/arm-pxc-linux-gnueabi/../../lib/arm-pxc-linux-gnueabi/gcc/arm-pxc-linux-gnueabi/11.4.0/include-fixed] ==> [C:/Users/kirill/PLCnextSDK/AXCF2152/2024.0/sysroots/x86_64-w64-mingw32/usr/lib/arm-pxc-linux-gnueabi/gcc/arm-pxc-linux-gnueabi/11.4.0/include-fixed]
+        collapse include dir [C:/Users/kirill/PLCnextSDK/AXCF2152/2024.0/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi/usr/lib/arm-pxc-linux-gnueabi/11.4.0/include] ==> [C:/Users/kirill/PLCnextSDK/AXCF2152/2024.0/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi/usr/lib/arm-pxc-linux-gnueabi/11.4.0/include]
+        collapse include dir [C:/Users/kirill/PLCnextSDK/AXCF2152/2024.0/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi/usr/include] ==> [C:/Users/kirill/PLCnextSDK/AXCF2152/2024.0/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi/usr/include]
+        implicit include dirs: [C:/Users/kirill/PLCnextSDK/AXCF2152/2024.0/sysroots/x86_64-w64-mingw32/usr/lib/arm-pxc-linux-gnueabi/gcc/arm-pxc-linux-gnueabi/11.4.0/include;C:/Users/kirill/PLCnextSDK/AXCF2152/2024.0/sysroots/x86_64-w64-mingw32/usr/lib/arm-pxc-linux-gnueabi/gcc/arm-pxc-linux-gnueabi/11.4.0/include-fixed;C:/Users/kirill/PLCnextSDK/AXCF2152/2024.0/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi/usr/lib/arm-pxc-linux-gnueabi/11.4.0/include;C:/Users/kirill/PLCnextSDK/AXCF2152/2024.0/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi/usr/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/PHOENIX CONTACT/PLCnext_Toolchain/cmake/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:152 (message)"
+      - "C:/Program Files/PHOENIX CONTACT/PLCnext_Toolchain/cmake/share/cmake-3.27/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(arm-pxc-linux-gnueabi-ld\\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        ignore line: [Change Dir: 'C:/Users/kirill/PLCnext-libs/TimeUtils/TimeUtilsCpp/intermediate/cmakeAutoBuild/AXCF2152 24.0.17.244/Release/CMakeFiles/CMakeScratch/TryCompile-gp2r7a']
+        ignore line: []
+        ignore line: [Run Build Command(s): "C:/Program Files/PHOENIX CONTACT/PLCnext_Toolchain/cmake/bin/cmake.exe" -E env VERBOSE=1 C:/Users/kirill/PLCnextSDK/AXCF2152/2024.0/sysroots/x86_64-w64-mingw32/usr/bin/make.exe -f Makefile cmTC_96f08/fast]
+        ignore line: [C:/Users/kirill/PLCnextSDK/AXCF2152/2024.0/sysroots/x86_64-w64-mingw32/usr/bin/make.exe  -f CMakeFiles/cmTC_96f08.dir/build.make CMakeFiles/cmTC_96f08.dir/build]
+        ignore line: [make[1]: Entering directory 'C:/Users/kirill/PLCnext-libs/TimeUtils/TimeUtilsCpp/intermediate/cmakeAutoBuild/AXCF2152 24.0.17.244/Release/CMakeFiles/CMakeScratch/TryCompile-gp2r7a']
+        ignore line: [Building C object CMakeFiles/cmTC_96f08.dir/CMakeCCompilerABI.c.o]
+        ignore line: [C:/Users/kirill/PLCnextSDK/AXCF2152/2024.0/sysroots/x86_64-w64-mingw32/usr/bin/arm-pxc-linux-gnueabi/arm-pxc-linux-gnueabi-gcc.exe --sysroot=C:/Users/kirill/PLCnextSDK/AXCF2152/2024.0/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi   -mthumb -mfpu=neon -mfloat-abi=hard -mcpu=cortex-a9    -v -o CMakeFiles/cmTC_96f08.dir/CMakeCCompilerABI.c.o -c "C:/Program Files/PHOENIX CONTACT/PLCnext_Toolchain/cmake/share/cmake-3.27/Modules/CMakeCCompilerABI.c"]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=C:/Users/kirill/PLCnextSDK/AXCF2152/2024.0/sysroots/x86_64-w64-mingw32/usr/bin/arm-pxc-linux-gnueabi/arm-pxc-linux-gnueabi-gcc.exe]
+        ignore line: [Target: arm-pxc-linux-gnueabi]
+        ignore line: [Configured with: ../../../../../../work-shared/gcc-11.4.0-r0/gcc-11.4.0/configure --build=x86_64-linux --host=x86_64-w64-mingw32 --target=arm-pxc-linux-gnueabi --prefix=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-w64-mingw32/usr --exec_prefix=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-w64-mingw32/usr --bindir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-w64-mingw32/usr/bin/arm-pxc-linux-gnueabi --sbindir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-w64-mingw32/usr/bin/arm-pxc-linux-gnueabi --libexecdir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-w64-mingw32/usr/libexec/arm-pxc-linux-gnueabi --datadir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-w64-mingw32/usr/share --sysconfdir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-w64-mingw32/etc --sharedstatedir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-w64-mingw32/com --localstatedir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-w64-mingw32/var --libdir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-w64-mingw32/usr/lib/arm-pxc-linux-gnueabi --includedir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-w64-mingw32/usr/include --oldincludedir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-w64-mingw32/usr/include --infodir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-w64-mingw32/usr/share/info --mandir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-w64-mingw32/usr/share/man --disable-silent-rules --disable-dependency-tracking --with-libtool-sysroot=/yocto/jenkins/workspace/ts_Yocto_AXCF2152_release_24.0.x/axcf2152_build/tmp/work/x86_64-nativesdk-mingw32-w64-mingw32/gcc-cross-canadian-arm/11.4.0-r0/recipe-sysroot --enable-clocale=generic --with-gnu-ld --enable-shared --enable-languages=c,c++ --enable-threads=posix --enable-multilib --enable-default-pie --enable-c99 --enable-long-long --enable-symvers=gnu --enable-libstdcxx-pch --program-prefix=arm-pxc-linux-gnueabi- --without-local-prefix --disable-install-libiberty --disable-libssp --enable-libitm --enable-lto --disable-bootstrap --with-system-zlib --with-linker-hash-style=gnu --enable-linker-build-id --with-ppl=no --with-cloog=no --enable-checking=release --enable-cheaders=c_global --without-isl --with-gxx-include-dir=/not/exist/usr/include/c++/11.4.0 --with-build-time-tools=/yocto/jenkins/workspace/ts_Yocto_AXCF2152_release_24.0.x/axcf2152_build/tmp/work/x86_64-nativesdk-mingw32-w64-mingw32/gcc-cross-canadian-arm/11.4.0-r0/recipe-sysroot-native/usr/arm-pxc-linux-gnueabi/bin --with-sysroot=/not/exist --with-build-sysroot=/yocto/jenkins/workspace/ts_Yocto_AXCF2152_release_24.0.x/axcf2152_build/tmp/work/x86_64-nativesdk-mingw32-w64-mingw32/gcc-cross-canadian-arm/11.4.0-r0/recipe-sysroot --with-plugin-ld=ld --enable-poison-system-directories --disable-static --disable-nls --enable-initfini-array --disable-nls]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 11.4.0 (GCC) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-mthumb' '-mfpu=neon' '-mfloat-abi=hard' '-mcpu=cortex-a9' '-v' '-o' 'CMakeFiles/cmTC_96f08.dir/CMakeCCompilerABI.c.o' '-c' '-mtls-dialect=gnu' '-mlibarch=armv7-a+mp+sec+simd' '-march=armv7-a+mp+sec+simd' '-dumpdir' 'CMakeFiles/cmTC_96f08.dir/']
+        ignore line: [ c:/users/kirill/plcnextsdk/axcf2152/2024.0/sysroots/x86_64-w64-mingw32/usr/bin/arm-pxc-linux-gnueabi/../../libexec/arm-pxc-linux-gnueabi/gcc/arm-pxc-linux-gnueabi/11.4.0/cc1.exe -quiet -v -iprefix c:\\users\\kirill\\plcnextsdk\\axcf2152\\2024.0\\sysroots\\x86_64-w64-mingw32\\usr\\bin\\arm-pxc-linux-gnueabi\\../../lib/arm-pxc-linux-gnueabi/gcc/arm-pxc-linux-gnueabi/11.4.0/ -isysroot C:/Users/kirill/PLCnextSDK/AXCF2152/2024.0/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi C:/Program Files/PHOENIX CONTACT/PLCnext_Toolchain/cmake/share/cmake-3.27/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_96f08.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mthumb -mfpu=neon -mfloat-abi=hard -mcpu=cortex-a9 -mtls-dialect=gnu -mlibarch=armv7-a+mp+sec+simd -march=armv7-a+mp+sec+simd -version -o C:\\Users\\kirill\\AppData\\Local\\Temp\\cc3L1ZnN.s]
+        ignore line: [GNU C17 (GCC) version 11.4.0 (arm-pxc-linux-gnueabi)]
+        ignore line: [	compiled by GNU C version 11.4.0  GMP version 6.2.1  MPFR version 4.1.1  MPC version 1.2.1  isl version none]
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring nonexistent directory "c:\\users\\kirill\\plcnextsdk\\axcf2152\\2024.0\\sysroots\\x86_64-w64-mingw32\\usr\\bin\\arm-pxc-linux-gnueabi\\../../lib/arm-pxc-linux-gnueabi/gcc/arm-pxc-linux-gnueabi/11.4.0/../../../../../arm-pxc-linux-gnueabi/include"]
+        ignore line: [ignoring duplicate directory "c:/users/kirill/plcnextsdk/axcf2152/2024.0/sysroots/x86_64-w64-mingw32/usr/lib/arm-pxc-linux-gnueabi/gcc/../../../lib/arm-pxc-linux-gnueabi/gcc/arm-pxc-linux-gnueabi/11.4.0/include"]
+        ignore line: [ignoring nonexistent directory "C:/Users/kirill/PLCnextSDK/AXCF2152/2024.0/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-w64-mingw32/usr/lib/arm-pxc-linux-gnueabi/gcc/arm-pxc-linux-gnueabi/11.4.0/../../../../include"]
+        ignore line: [ignoring duplicate directory "c:/users/kirill/plcnextsdk/axcf2152/2024.0/sysroots/x86_64-w64-mingw32/usr/lib/arm-pxc-linux-gnueabi/gcc/../../../lib/arm-pxc-linux-gnueabi/gcc/arm-pxc-linux-gnueabi/11.4.0/include-fixed"]
+        ignore line: [ignoring nonexistent directory "c:/users/kirill/plcnextsdk/axcf2152/2024.0/sysroots/x86_64-w64-mingw32/usr/lib/arm-pxc-linux-gnueabi/gcc/../../../lib/arm-pxc-linux-gnueabi/gcc/arm-pxc-linux-gnueabi/11.4.0/../../../../../arm-pxc-linux-gnueabi/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ c:\\users\\kirill\\plcnextsdk\\axcf2152\\2024.0\\sysroots\\x86_64-w64-mingw32\\usr\\bin\\arm-pxc-linux-gnueabi\\../../lib/arm-pxc-linux-gnueabi/gcc/arm-pxc-linux-gnueabi/11.4.0/include]
+        ignore line: [ c:\\users\\kirill\\plcnextsdk\\axcf2152\\2024.0\\sysroots\\x86_64-w64-mingw32\\usr\\bin\\arm-pxc-linux-gnueabi\\../../lib/arm-pxc-linux-gnueabi/gcc/arm-pxc-linux-gnueabi/11.4.0/include-fixed]
+        ignore line: [ C:/Users/kirill/PLCnextSDK/AXCF2152/2024.0/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi/usr/lib/arm-pxc-linux-gnueabi/11.4.0/include]
+        ignore line: [ C:/Users/kirill/PLCnextSDK/AXCF2152/2024.0/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi/usr/include]
+        ignore line: [End of search list.]
+        ignore line: [GNU C17 (GCC) version 11.4.0 (arm-pxc-linux-gnueabi)]
+        ignore line: [	compiled by GNU C version 11.4.0  GMP version 6.2.1  MPFR version 4.1.1  MPC version 1.2.1  isl version none]
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [Compiler executable checksum: 27198ff34312069ca5fe550f9c850e8f]
+        ignore line: [COLLECT_GCC_OPTIONS='-mthumb' '-mfpu=neon' '-mfloat-abi=hard' '-mcpu=cortex-a9' '-v' '-o' 'CMakeFiles/cmTC_96f08.dir/CMakeCCompilerABI.c.o' '-c' '-mtls-dialect=gnu' '-mlibarch=armv7-a+mp+sec+simd' '-march=armv7-a+mp+sec+simd' '-dumpdir' 'CMakeFiles/cmTC_96f08.dir/']
+        ignore line: [ c:/users/kirill/plcnextsdk/axcf2152/2024.0/sysroots/x86_64-w64-mingw32/usr/bin/arm-pxc-linux-gnueabi/../../libexec/arm-pxc-linux-gnueabi/gcc/arm-pxc-linux-gnueabi/11.4.0/as.exe -v -march=armv7-a+mp+sec -mfloat-abi=hard -mfpu=neon -meabi=5 -o CMakeFiles/cmTC_96f08.dir/CMakeCCompilerABI.c.o C:\\Users\\kirill\\AppData\\Local\\Temp\\cc3L1ZnN.s]
+        ignore line: [GNU assembler version 2.38 (arm-pxc-linux-gnueabi) using BFD version (GNU Binutils) 2.38.20220708]
+        ignore line: [COMPILER_PATH=c:/users/kirill/plcnextsdk/axcf2152/2024.0/sysroots/x86_64-w64-mingw32/usr/bin/arm-pxc-linux-gnueabi/../../libexec/arm-pxc-linux-gnueabi/gcc/arm-pxc-linux-gnueabi/11.4.0/]
+        ignore line: [c:/users/kirill/plcnextsdk/axcf2152/2024.0/sysroots/x86_64-w64-mingw32/usr/bin/arm-pxc-linux-gnueabi/../../libexec/arm-pxc-linux-gnueabi/gcc/]
+        ignore line: [LIBRARY_PATH=c:/users/kirill/plcnextsdk/axcf2152/2024.0/sysroots/x86_64-w64-mingw32/usr/bin/arm-pxc-linux-gnueabi/../../lib/arm-pxc-linux-gnueabi/gcc/arm-pxc-linux-gnueabi/11.4.0/]
+        ignore line: [c:/users/kirill/plcnextsdk/axcf2152/2024.0/sysroots/x86_64-w64-mingw32/usr/bin/arm-pxc-linux-gnueabi/../../lib/arm-pxc-linux-gnueabi/gcc/]
+        ignore line: [C:/Users/kirill/PLCnextSDK/AXCF2152/2024.0/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi/lib/]
+        ignore line: [C:/Users/kirill/PLCnextSDK/AXCF2152/2024.0/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi/usr/lib/arm-pxc-linux-gnueabi/11.4.0/]
+        ignore line: [C:/Users/kirill/PLCnextSDK/AXCF2152/2024.0/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-mthumb' '-mfpu=neon' '-mfloat-abi=hard' '-mcpu=cortex-a9' '-v' '-o' 'CMakeFiles/cmTC_96f08.dir/CMakeCCompilerABI.c.o' '-c' '-mtls-dialect=gnu' '-mlibarch=armv7-a+mp+sec+simd' '-march=armv7-a+mp+sec+simd' '-dumpdir' 'CMakeFiles/cmTC_96f08.dir/CMakeCCompilerABI.c.']
+        ignore line: [Linking C executable cmTC_96f08]
+        ignore line: [C:/Users/kirill/PLCnextSDK/AXCF2152/2024.0/sysroots/x86_64-w64-mingw32/usr/bin/arm-pxc-linux-gnueabi/arm-pxc-linux-gnueabi-gcc.exe --sysroot=C:/Users/kirill/PLCnextSDK/AXCF2152/2024.0/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi   -mthumb -mfpu=neon -mfloat-abi=hard -mcpu=cortex-a9    -mthumb -mfpu=neon -mfloat-abi=hard -mcpu=cortex-a9  -v "CMakeFiles/cmTC_96f08.dir/CMakeCCompilerABI.c.o"  -o cmTC_96f08 ]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=C:/Users/kirill/PLCnextSDK/AXCF2152/2024.0/sysroots/x86_64-w64-mingw32/usr/bin/arm-pxc-linux-gnueabi/arm-pxc-linux-gnueabi-gcc.exe]
+        ignore line: [COLLECT_LTO_WRAPPER=c:/users/kirill/plcnextsdk/axcf2152/2024.0/sysroots/x86_64-w64-mingw32/usr/bin/arm-pxc-linux-gnueabi/../../libexec/arm-pxc-linux-gnueabi/gcc/arm-pxc-linux-gnueabi/11.4.0/lto-wrapper.exe]
+        ignore line: [Target: arm-pxc-linux-gnueabi]
+        ignore line: [Configured with: ../../../../../../work-shared/gcc-11.4.0-r0/gcc-11.4.0/configure --build=x86_64-linux --host=x86_64-w64-mingw32 --target=arm-pxc-linux-gnueabi --prefix=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-w64-mingw32/usr --exec_prefix=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-w64-mingw32/usr --bindir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-w64-mingw32/usr/bin/arm-pxc-linux-gnueabi --sbindir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-w64-mingw32/usr/bin/arm-pxc-linux-gnueabi --libexecdir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-w64-mingw32/usr/libexec/arm-pxc-linux-gnueabi --datadir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-w64-mingw32/usr/share --sysconfdir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-w64-mingw32/etc --sharedstatedir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-w64-mingw32/com --localstatedir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-w64-mingw32/var --libdir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-w64-mingw32/usr/lib/arm-pxc-linux-gnueabi --includedir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-w64-mingw32/usr/include --oldincludedir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-w64-mingw32/usr/include --infodir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-w64-mingw32/usr/share/info --mandir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-w64-mingw32/usr/share/man --disable-silent-rules --disable-dependency-tracking --with-libtool-sysroot=/yocto/jenkins/workspace/ts_Yocto_AXCF2152_release_24.0.x/axcf2152_build/tmp/work/x86_64-nativesdk-mingw32-w64-mingw32/gcc-cross-canadian-arm/11.4.0-r0/recipe-sysroot --enable-clocale=generic --with-gnu-ld --enable-shared --enable-languages=c,c++ --enable-threads=posix --enable-multilib --enable-default-pie --enable-c99 --enable-long-long --enable-symvers=gnu --enable-libstdcxx-pch --program-prefix=arm-pxc-linux-gnueabi- --without-local-prefix --disable-install-libiberty --disable-libssp --enable-libitm --enable-lto --disable-bootstrap --with-system-zlib --with-linker-hash-style=gnu --enable-linker-build-id --with-ppl=no --with-cloog=no --enable-checking=release --enable-cheaders=c_global --without-isl --with-gxx-include-dir=/not/exist/usr/include/c++/11.4.0 --with-build-time-tools=/yocto/jenkins/workspace/ts_Yocto_AXCF2152_release_24.0.x/axcf2152_build/tmp/work/x86_64-nativesdk-mingw32-w64-mingw32/gcc-cross-canadian-arm/11.4.0-r0/recipe-sysroot-native/usr/arm-pxc-linux-gnueabi/bin --with-sysroot=/not/exist --with-build-sysroot=/yocto/jenkins/workspace/ts_Yocto_AXCF2152_release_24.0.x/axcf2152_build/tmp/work/x86_64-nativesdk-mingw32-w64-mingw32/gcc-cross-canadian-arm/11.4.0-r0/recipe-sysroot --with-plugin-ld=ld --enable-poison-system-directories --disable-static --disable-nls --enable-initfini-array --disable-nls]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 11.4.0 (GCC) ]
+        ignore line: [COMPILER_PATH=c:/users/kirill/plcnextsdk/axcf2152/2024.0/sysroots/x86_64-w64-mingw32/usr/bin/arm-pxc-linux-gnueabi/../../libexec/arm-pxc-linux-gnueabi/gcc/arm-pxc-linux-gnueabi/11.4.0/]
+        ignore line: [c:/users/kirill/plcnextsdk/axcf2152/2024.0/sysroots/x86_64-w64-mingw32/usr/bin/arm-pxc-linux-gnueabi/../../libexec/arm-pxc-linux-gnueabi/gcc/]
+        ignore line: [LIBRARY_PATH=c:/users/kirill/plcnextsdk/axcf2152/2024.0/sysroots/x86_64-w64-mingw32/usr/bin/arm-pxc-linux-gnueabi/../../lib/arm-pxc-linux-gnueabi/gcc/arm-pxc-linux-gnueabi/11.4.0/]
+        ignore line: [c:/users/kirill/plcnextsdk/axcf2152/2024.0/sysroots/x86_64-w64-mingw32/usr/bin/arm-pxc-linux-gnueabi/../../lib/arm-pxc-linux-gnueabi/gcc/]
+        ignore line: [C:/Users/kirill/PLCnextSDK/AXCF2152/2024.0/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi/lib/]
+        ignore line: [C:/Users/kirill/PLCnextSDK/AXCF2152/2024.0/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi/usr/lib/arm-pxc-linux-gnueabi/11.4.0/]
+        ignore line: [C:/Users/kirill/PLCnextSDK/AXCF2152/2024.0/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-mfpu=neon' '-mfloat-abi=hard' '-mthumb' '-mfpu=neon' '-mfloat-abi=hard' '-mcpu=cortex-a9' '-v' '-o' 'cmTC_96f08' '-mtls-dialect=gnu' '-mlibarch=armv7-a+mp+sec+simd' '-march=armv7-a+mp+sec+simd' '-dumpdir' 'cmTC_96f08.']
+        link line: [ c:/users/kirill/plcnextsdk/axcf2152/2024.0/sysroots/x86_64-w64-mingw32/usr/bin/arm-pxc-linux-gnueabi/../../libexec/arm-pxc-linux-gnueabi/gcc/arm-pxc-linux-gnueabi/11.4.0/collect2.exe --sysroot=C:/Users/kirill/PLCnextSDK/AXCF2152/2024.0/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi --build-id --eh-frame-hdr --hash-style=gnu -dynamic-linker /lib/ld-linux-armhf.so.3 -X -m armelf_linux_eabi -pie -o cmTC_96f08 C:/Users/kirill/PLCnextSDK/AXCF2152/2024.0/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi/usr/lib/Scrt1.o C:/Users/kirill/PLCnextSDK/AXCF2152/2024.0/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi/usr/lib/crti.o C:/Users/kirill/PLCnextSDK/AXCF2152/2024.0/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi/usr/lib/arm-pxc-linux-gnueabi/11.4.0/crtbeginS.o -Lc:/users/kirill/plcnextsdk/axcf2152/2024.0/sysroots/x86_64-w64-mingw32/usr/bin/arm-pxc-linux-gnueabi/../../lib/arm-pxc-linux-gnueabi/gcc/arm-pxc-linux-gnueabi/11.4.0 -Lc:/users/kirill/plcnextsdk/axcf2152/2024.0/sysroots/x86_64-w64-mingw32/usr/bin/arm-pxc-linux-gnueabi/../../lib/arm-pxc-linux-gnueabi/gcc -LC:/Users/kirill/PLCnextSDK/AXCF2152/2024.0/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi/lib -LC:/Users/kirill/PLCnextSDK/AXCF2152/2024.0/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi/usr/lib/arm-pxc-linux-gnueabi/11.4.0 -LC:/Users/kirill/PLCnextSDK/AXCF2152/2024.0/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi/usr/lib CMakeFiles/cmTC_96f08.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state C:/Users/kirill/PLCnextSDK/AXCF2152/2024.0/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi/usr/lib/arm-pxc-linux-gnueabi/11.4.0/crtendS.o C:/Users/kirill/PLCnextSDK/AXCF2152/2024.0/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi/usr/lib/crtn.o]
+          arg [c:/users/kirill/plcnextsdk/axcf2152/2024.0/sysroots/x86_64-w64-mingw32/usr/bin/arm-pxc-linux-gnueabi/../../libexec/arm-pxc-linux-gnueabi/gcc/arm-pxc-linux-gnueabi/11.4.0/collect2.exe] ==> ignore
+          arg [--sysroot=C:/Users/kirill/PLCnextSDK/AXCF2152/2024.0/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi] ==> ignore
+          arg [--build-id] ==> ignore
+          arg [--eh-frame-hdr] ==> ignore
+          arg [--hash-style=gnu] ==> ignore
+          arg [-dynamic-linker] ==> ignore
+          arg [/lib/ld-linux-armhf.so.3] ==> ignore
+          arg [-X] ==> ignore
+          arg [-m] ==> ignore
+          arg [armelf_linux_eabi] ==> ignore
+          arg [-pie] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_96f08] ==> ignore
+          arg [C:/Users/kirill/PLCnextSDK/AXCF2152/2024.0/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi/usr/lib/Scrt1.o] ==> obj [C:/Users/kirill/PLCnextSDK/AXCF2152/2024.0/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi/usr/lib/Scrt1.o]
+          arg [C:/Users/kirill/PLCnextSDK/AXCF2152/2024.0/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi/usr/lib/crti.o] ==> obj [C:/Users/kirill/PLCnextSDK/AXCF2152/2024.0/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi/usr/lib/crti.o]
+          arg [C:/Users/kirill/PLCnextSDK/AXCF2152/2024.0/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi/usr/lib/arm-pxc-linux-gnueabi/11.4.0/crtbeginS.o] ==> obj [C:/Users/kirill/PLCnextSDK/AXCF2152/2024.0/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi/usr/lib/arm-pxc-linux-gnueabi/11.4.0/crtbeginS.o]
+          arg [-Lc:/users/kirill/plcnextsdk/axcf2152/2024.0/sysroots/x86_64-w64-mingw32/usr/bin/arm-pxc-linux-gnueabi/../../lib/arm-pxc-linux-gnueabi/gcc/arm-pxc-linux-gnueabi/11.4.0] ==> dir [c:/users/kirill/plcnextsdk/axcf2152/2024.0/sysroots/x86_64-w64-mingw32/usr/bin/arm-pxc-linux-gnueabi/../../lib/arm-pxc-linux-gnueabi/gcc/arm-pxc-linux-gnueabi/11.4.0]
+          arg [-Lc:/users/kirill/plcnextsdk/axcf2152/2024.0/sysroots/x86_64-w64-mingw32/usr/bin/arm-pxc-linux-gnueabi/../../lib/arm-pxc-linux-gnueabi/gcc] ==> dir [c:/users/kirill/plcnextsdk/axcf2152/2024.0/sysroots/x86_64-w64-mingw32/usr/bin/arm-pxc-linux-gnueabi/../../lib/arm-pxc-linux-gnueabi/gcc]
+          arg [-LC:/Users/kirill/PLCnextSDK/AXCF2152/2024.0/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi/lib] ==> dir [C:/Users/kirill/PLCnextSDK/AXCF2152/2024.0/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi/lib]
+          arg [-LC:/Users/kirill/PLCnextSDK/AXCF2152/2024.0/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi/usr/lib/arm-pxc-linux-gnueabi/11.4.0] ==> dir [C:/Users/kirill/PLCnextSDK/AXCF2152/2024.0/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi/usr/lib/arm-pxc-linux-gnueabi/11.4.0]
+          arg [-LC:/Users/kirill/PLCnextSDK/AXCF2152/2024.0/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi/usr/lib] ==> dir [C:/Users/kirill/PLCnextSDK/AXCF2152/2024.0/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi/usr/lib]
+          arg [CMakeFiles/cmTC_96f08.dir/CMakeCCompilerABI.c.o] ==> ignore
+          arg [-lgcc] ==> lib [gcc]
+          arg [--push-state] ==> ignore
+          arg [--as-needed] ==> ignore
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [--pop-state] ==> ignore
+          arg [-lc] ==> lib [c]
+          arg [-lgcc] ==> lib [gcc]
+          arg [--push-state] ==> ignore
+          arg [--as-needed] ==> ignore
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [--pop-state] ==> ignore
+          arg [C:/Users/kirill/PLCnextSDK/AXCF2152/2024.0/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi/usr/lib/arm-pxc-linux-gnueabi/11.4.0/crtendS.o] ==> obj [C:/Users/kirill/PLCnextSDK/AXCF2152/2024.0/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi/usr/lib/arm-pxc-linux-gnueabi/11.4.0/crtendS.o]
+          arg [C:/Users/kirill/PLCnextSDK/AXCF2152/2024.0/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi/usr/lib/crtn.o] ==> obj [C:/Users/kirill/PLCnextSDK/AXCF2152/2024.0/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi/usr/lib/crtn.o]
+        collapse library dir [c:/users/kirill/plcnextsdk/axcf2152/2024.0/sysroots/x86_64-w64-mingw32/usr/bin/arm-pxc-linux-gnueabi/../../lib/arm-pxc-linux-gnueabi/gcc/arm-pxc-linux-gnueabi/11.4.0] ==> [C:/Users/kirill/PLCnextSDK/AXCF2152/2024.0/sysroots/x86_64-w64-mingw32/usr/lib/arm-pxc-linux-gnueabi/gcc/arm-pxc-linux-gnueabi/11.4.0]
+        collapse library dir [c:/users/kirill/plcnextsdk/axcf2152/2024.0/sysroots/x86_64-w64-mingw32/usr/bin/arm-pxc-linux-gnueabi/../../lib/arm-pxc-linux-gnueabi/gcc] ==> [C:/Users/kirill/PLCnextSDK/AXCF2152/2024.0/sysroots/x86_64-w64-mingw32/usr/lib/arm-pxc-linux-gnueabi/gcc]
+        collapse library dir [C:/Users/kirill/PLCnextSDK/AXCF2152/2024.0/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi/lib] ==> [C:/Users/kirill/PLCnextSDK/AXCF2152/2024.0/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi/lib]
+        collapse library dir [C:/Users/kirill/PLCnextSDK/AXCF2152/2024.0/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi/usr/lib/arm-pxc-linux-gnueabi/11.4.0] ==> [C:/Users/kirill/PLCnextSDK/AXCF2152/2024.0/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi/usr/lib/arm-pxc-linux-gnueabi/11.4.0]
+        collapse library dir [C:/Users/kirill/PLCnextSDK/AXCF2152/2024.0/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi/usr/lib] ==> [C:/Users/kirill/PLCnextSDK/AXCF2152/2024.0/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi/usr/lib]
+        implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
+        implicit objs: [C:/Users/kirill/PLCnextSDK/AXCF2152/2024.0/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi/usr/lib/Scrt1.o;C:/Users/kirill/PLCnextSDK/AXCF2152/2024.0/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi/usr/lib/crti.o;C:/Users/kirill/PLCnextSDK/AXCF2152/2024.0/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi/usr/lib/arm-pxc-linux-gnueabi/11.4.0/crtbeginS.o;C:/Users/kirill/PLCnextSDK/AXCF2152/2024.0/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi/usr/lib/arm-pxc-linux-gnueabi/11.4.0/crtendS.o;C:/Users/kirill/PLCnextSDK/AXCF2152/2024.0/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi/usr/lib/crtn.o]
+        implicit dirs: [C:/Users/kirill/PLCnextSDK/AXCF2152/2024.0/sysroots/x86_64-w64-mingw32/usr/lib/arm-pxc-linux-gnueabi/gcc/arm-pxc-linux-gnueabi/11.4.0;C:/Users/kirill/PLCnextSDK/AXCF2152/2024.0/sysroots/x86_64-w64-mingw32/usr/lib/arm-pxc-linux-gnueabi/gcc;C:/Users/kirill/PLCnextSDK/AXCF2152/2024.0/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi/lib;C:/Users/kirill/PLCnextSDK/AXCF2152/2024.0/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi/usr/lib/arm-pxc-linux-gnueabi/11.4.0;C:/Users/kirill/PLCnextSDK/AXCF2152/2024.0/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi/usr/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/PHOENIX CONTACT/PLCnext_Toolchain/cmake/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "C:/Program Files/PHOENIX CONTACT/PLCnext_Toolchain/cmake/share/cmake-3.27/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "C:/Users/kirill/PLCnext-libs/TimeUtils/TimeUtilsCpp/intermediate/cmakeAutoBuild/AXCF2152,24.0.17.244/Release/CMakeFiles/CMakeScratch/TryCompile-a6ldq9"
+      binary: "C:/Users/kirill/PLCnext-libs/TimeUtils/TimeUtilsCpp/intermediate/cmakeAutoBuild/AXCF2152,24.0.17.244/Release/CMakeFiles/CMakeScratch/TryCompile-a6ldq9"
+    cmakeVariables:
+      ARP_TOOLCHAIN_NATIVE_SYSROOT: "C:/Users/kirill/PLCnextSDK/AXCF2152/2024.0/sysroots/x86_64-w64-mingw32"
+      ARP_TOOLCHAIN_PREFIX_PATH: ""
+      ARP_TOOLCHAIN_ROOT: "C:/Users/kirill/PLCnextSDK/AXCF2152/2024.0"
+      ARP_TOOLCHAIN_TARGET_SYSROOT: "C:/Users/kirill/PLCnextSDK/AXCF2152/2024.0/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi"
+      CMAKE_CXX_FLAGS: "  -mthumb -mfpu=neon -mfloat-abi=hard -mcpu=cortex-a9"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_SYSROOT: "C:/Users/kirill/PLCnextSDK/AXCF2152/2024.0/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/kirill/PLCnext-libs/TimeUtils/TimeUtilsCpp/intermediate/cmakeAutoBuild/AXCF2152,24.0.17.244/Release/CMakeFiles/CMakeScratch/TryCompile-a6ldq9'
+        
+        Run Build Command(s): "C:/Program Files/PHOENIX CONTACT/PLCnext_Toolchain/cmake/bin/cmake.exe" -E env VERBOSE=1 C:/Users/kirill/PLCnextSDK/AXCF2152/2024.0/sysroots/x86_64-w64-mingw32/usr/bin/make.exe -f Makefile cmTC_a557d/fast
+        C:/Users/kirill/PLCnextSDK/AXCF2152/2024.0/sysroots/x86_64-w64-mingw32/usr/bin/make.exe  -f CMakeFiles/cmTC_a557d.dir/build.make CMakeFiles/cmTC_a557d.dir/build
+        make[1]: Entering directory 'C:/Users/kirill/PLCnext-libs/TimeUtils/TimeUtilsCpp/intermediate/cmakeAutoBuild/AXCF2152,24.0.17.244/Release/CMakeFiles/CMakeScratch/TryCompile-a6ldq9'
+        Building CXX object CMakeFiles/cmTC_a557d.dir/CMakeCXXCompilerABI.cpp.o
+        C:/Users/kirill/PLCnextSDK/AXCF2152/2024.0/sysroots/x86_64-w64-mingw32/usr/bin/arm-pxc-linux-gnueabi/arm-pxc-linux-gnueabi-g++.exe --sysroot=C:/Users/kirill/PLCnextSDK/AXCF2152/2024.0/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi   -mthumb -mfpu=neon -mfloat-abi=hard -mcpu=cortex-a9  -std=c++17   -v -o CMakeFiles/cmTC_a557d.dir/CMakeCXXCompilerABI.cpp.o -c "C:/Program Files/PHOENIX CONTACT/PLCnext_Toolchain/cmake/share/cmake-3.27/Modules/CMakeCXXCompilerABI.cpp"
+        Using built-in specs.
+        COLLECT_GCC=C:/Users/kirill/PLCnextSDK/AXCF2152/2024.0/sysroots/x86_64-w64-mingw32/usr/bin/arm-pxc-linux-gnueabi/arm-pxc-linux-gnueabi-g++.exe
+        Target: arm-pxc-linux-gnueabi
+        Configured with: ../../../../../../work-shared/gcc-11.4.0-r0/gcc-11.4.0/configure --build=x86_64-linux --host=x86_64-w64-mingw32 --target=arm-pxc-linux-gnueabi --prefix=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-w64-mingw32/usr --exec_prefix=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-w64-mingw32/usr --bindir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-w64-mingw32/usr/bin/arm-pxc-linux-gnueabi --sbindir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-w64-mingw32/usr/bin/arm-pxc-linux-gnueabi --libexecdir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-w64-mingw32/usr/libexec/arm-pxc-linux-gnueabi --datadir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-w64-mingw32/usr/share --sysconfdir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-w64-mingw32/etc --sharedstatedir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-w64-mingw32/com --localstatedir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-w64-mingw32/var --libdir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-w64-mingw32/usr/lib/arm-pxc-linux-gnueabi --includedir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-w64-mingw32/usr/include --oldincludedir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-w64-mingw32/usr/include --infodir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-w64-mingw32/usr/share/info --mandir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-w64-mingw32/usr/share/man --disable-silent-rules --disable-dependency-tracking --with-libtool-sysroot=/yocto/jenkins/workspace/ts_Yocto_AXCF2152_release_24.0.x/axcf2152_build/tmp/work/x86_64-nativesdk-mingw32-w64-mingw32/gcc-cross-canadian-arm/11.4.0-r0/recipe-sysroot --enable-clocale=generic --with-gnu-ld --enable-shared --enable-languages=c,c++ --enable-threads=posix --enable-multilib --enable-default-pie --enable-c99 --enable-long-long --enable-symvers=gnu --enable-libstdcxx-pch --program-prefix=arm-pxc-linux-gnueabi- --without-local-prefix --disable-install-libiberty --disable-libssp --enable-libitm --enable-lto --disable-bootstrap --with-system-zlib --with-linker-hash-style=gnu --enable-linker-build-id --with-ppl=no --with-cloog=no --enable-checking=release --enable-cheaders=c_global --without-isl --with-gxx-include-dir=/not/exist/usr/include/c++/11.4.0 --with-build-time-tools=/yocto/jenkins/workspace/ts_Yocto_AXCF2152_release_24.0.x/axcf2152_build/tmp/work/x86_64-nativesdk-mingw32-w64-mingw32/gcc-cross-canadian-arm/11.4.0-r0/recipe-sysroot-native/usr/arm-pxc-linux-gnueabi/bin --with-sysroot=/not/exist --with-build-sysroot=/yocto/jenkins/workspace/ts_Yocto_AXCF2152_release_24.0.x/axcf2152_build/tmp/work/x86_64-nativesdk-mingw32-w64-mingw32/gcc-cross-canadian-arm/11.4.0-r0/recipe-sysroot --with-plugin-ld=ld --enable-poison-system-directories --disable-static --disable-nls --enable-initfini-array --disable-nls
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 11.4.0 (GCC) 
+        COLLECT_GCC_OPTIONS='-mthumb' '-mfpu=neon' '-mfloat-abi=hard' '-mcpu=cortex-a9' '-std=c++17' '-v' '-o' 'CMakeFiles/cmTC_a557d.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtls-dialect=gnu' '-mlibarch=armv7-a+mp+sec+simd' '-march=armv7-a+mp+sec+simd' '-dumpdir' 'CMakeFiles/cmTC_a557d.dir/'
+         c:/users/kirill/plcnextsdk/axcf2152/2024.0/sysroots/x86_64-w64-mingw32/usr/bin/arm-pxc-linux-gnueabi/../../libexec/arm-pxc-linux-gnueabi/gcc/arm-pxc-linux-gnueabi/11.4.0/cc1plus.exe -quiet -v -iprefix c:\\users\\kirill\\plcnextsdk\\axcf2152\\2024.0\\sysroots\\x86_64-w64-mingw32\\usr\\bin\\arm-pxc-linux-gnueabi\\../../lib/arm-pxc-linux-gnueabi/gcc/arm-pxc-linux-gnueabi/11.4.0/ -isysroot C:/Users/kirill/PLCnextSDK/AXCF2152/2024.0/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi -D_GNU_SOURCE C:/Program Files/PHOENIX CONTACT/PLCnext_Toolchain/cmake/share/cmake-3.27/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_a557d.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mthumb -mfpu=neon -mfloat-abi=hard -mcpu=cortex-a9 -mtls-dialect=gnu -mlibarch=armv7-a+mp+sec+simd -march=armv7-a+mp+sec+simd -std=c++17 -version -o C:\\Users\\kirill\\AppData\\Local\\Temp\\ccBdJgea.s
+        GNU C++17 (GCC) version 11.4.0 (arm-pxc-linux-gnueabi)
+        	compiled by GNU C version 11.4.0, GMP version 6.2.1, MPFR version 4.1.1, MPC version 1.2.1, isl version none
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring nonexistent directory "c:\\users\\kirill\\plcnextsdk\\axcf2152\\2024.0\\sysroots\\x86_64-w64-mingw32\\usr\\bin\\arm-pxc-linux-gnueabi\\../../lib/arm-pxc-linux-gnueabi/gcc/arm-pxc-linux-gnueabi/11.4.0/../../../../../arm-pxc-linux-gnueabi/include"
+        ignoring duplicate directory "c:/users/kirill/plcnextsdk/axcf2152/2024.0/sysroots/x86_64-w64-mingw32/usr/lib/arm-pxc-linux-gnueabi/gcc/../../../lib/arm-pxc-linux-gnueabi/gcc/arm-pxc-linux-gnueabi/11.4.0/include"
+        ignoring nonexistent directory "C:/Users/kirill/PLCnextSDK/AXCF2152/2024.0/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-w64-mingw32/usr/lib/arm-pxc-linux-gnueabi/gcc/arm-pxc-linux-gnueabi/11.4.0/../../../../include"
+        ignoring duplicate directory "c:/users/kirill/plcnextsdk/axcf2152/2024.0/sysroots/x86_64-w64-mingw32/usr/lib/arm-pxc-linux-gnueabi/gcc/../../../lib/arm-pxc-linux-gnueabi/gcc/arm-pxc-linux-gnueabi/11.4.0/include-fixed"
+        ignoring nonexistent directory "c:/users/kirill/plcnextsdk/axcf2152/2024.0/sysroots/x86_64-w64-mingw32/usr/lib/arm-pxc-linux-gnueabi/gcc/../../../lib/arm-pxc-linux-gnueabi/gcc/arm-pxc-linux-gnueabi/11.4.0/../../../../../arm-pxc-linux-gnueabi/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         c:\\users\\kirill\\plcnextsdk\\axcf2152\\2024.0\\sysroots\\x86_64-w64-mingw32\\usr\\bin\\arm-pxc-linux-gnueabi\\../../lib/arm-pxc-linux-gnueabi/gcc/arm-pxc-linux-gnueabi/11.4.0/include
+         c:\\users\\kirill\\plcnextsdk\\axcf2152\\2024.0\\sysroots\\x86_64-w64-mingw32\\usr\\bin\\arm-pxc-linux-gnueabi\\../../lib/arm-pxc-linux-gnueabi/gcc/arm-pxc-linux-gnueabi/11.4.0/include-fixed
+         C:/Users/kirill/PLCnextSDK/AXCF2152/2024.0/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi/usr/include/c++/11.4.0
+         C:/Users/kirill/PLCnextSDK/AXCF2152/2024.0/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi/usr/include/c++/11.4.0/arm-pxc-linux-gnueabi
+         C:/Users/kirill/PLCnextSDK/AXCF2152/2024.0/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi/usr/include/c++/11.4.0/backward
+         C:/Users/kirill/PLCnextSDK/AXCF2152/2024.0/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi/usr/lib/arm-pxc-linux-gnueabi/11.4.0/include
+         C:/Users/kirill/PLCnextSDK/AXCF2152/2024.0/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi/usr/include
+        End of search list.
+        GNU C++17 (GCC) version 11.4.0 (arm-pxc-linux-gnueabi)
+        	compiled by GNU C version 11.4.0, GMP version 6.2.1, MPFR version 4.1.1, MPC version 1.2.1, isl version none
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        Compiler executable checksum: d02fd9fefb8c28c62a37dcc6ffb90857
+        COLLECT_GCC_OPTIONS='-mthumb' '-mfpu=neon' '-mfloat-abi=hard' '-mcpu=cortex-a9' '-std=c++17' '-v' '-o' 'CMakeFiles/cmTC_a557d.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtls-dialect=gnu' '-mlibarch=armv7-a+mp+sec+simd' '-march=armv7-a+mp+sec+simd' '-dumpdir' 'CMakeFiles/cmTC_a557d.dir/'
+         c:/users/kirill/plcnextsdk/axcf2152/2024.0/sysroots/x86_64-w64-mingw32/usr/bin/arm-pxc-linux-gnueabi/../../libexec/arm-pxc-linux-gnueabi/gcc/arm-pxc-linux-gnueabi/11.4.0/as.exe -v -march=armv7-a+mp+sec -mfloat-abi=hard -mfpu=neon -meabi=5 -o CMakeFiles/cmTC_a557d.dir/CMakeCXXCompilerABI.cpp.o C:\\Users\\kirill\\AppData\\Local\\Temp\\ccBdJgea.s
+        GNU assembler version 2.38 (arm-pxc-linux-gnueabi) using BFD version (GNU Binutils) 2.38.20220708
+        COMPILER_PATH=c:/users/kirill/plcnextsdk/axcf2152/2024.0/sysroots/x86_64-w64-mingw32/usr/bin/arm-pxc-linux-gnueabi/../../libexec/arm-pxc-linux-gnueabi/gcc/arm-pxc-linux-gnueabi/11.4.0/;c:/users/kirill/plcnextsdk/axcf2152/2024.0/sysroots/x86_64-w64-mingw32/usr/bin/arm-pxc-linux-gnueabi/../../libexec/arm-pxc-linux-gnueabi/gcc/
+        LIBRARY_PATH=c:/users/kirill/plcnextsdk/axcf2152/2024.0/sysroots/x86_64-w64-mingw32/usr/bin/arm-pxc-linux-gnueabi/../../lib/arm-pxc-linux-gnueabi/gcc/arm-pxc-linux-gnueabi/11.4.0/;c:/users/kirill/plcnextsdk/axcf2152/2024.0/sysroots/x86_64-w64-mingw32/usr/bin/arm-pxc-linux-gnueabi/../../lib/arm-pxc-linux-gnueabi/gcc/;C:/Users/kirill/PLCnextSDK/AXCF2152/2024.0/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi/lib/;C:/Users/kirill/PLCnextSDK/AXCF2152/2024.0/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi/usr/lib/arm-pxc-linux-gnueabi/11.4.0/;C:/Users/kirill/PLCnextSDK/AXCF2152/2024.0/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi/usr/lib/
+        COLLECT_GCC_OPTIONS='-mthumb' '-mfpu=neon' '-mfloat-abi=hard' '-mcpu=cortex-a9' '-std=c++17' '-v' '-o' 'CMakeFiles/cmTC_a557d.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtls-dialect=gnu' '-mlibarch=armv7-a+mp+sec+simd' '-march=armv7-a+mp+sec+simd' '-dumpdir' 'CMakeFiles/cmTC_a557d.dir/CMakeCXXCompilerABI.cpp.'
+        Linking CXX executable cmTC_a557d
+        C:/Users/kirill/PLCnextSDK/AXCF2152/2024.0/sysroots/x86_64-w64-mingw32/usr/bin/arm-pxc-linux-gnueabi/arm-pxc-linux-gnueabi-g++.exe --sysroot=C:/Users/kirill/PLCnextSDK/AXCF2152/2024.0/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi   -mthumb -mfpu=neon -mfloat-abi=hard -mcpu=cortex-a9    -mthumb -mfpu=neon -mfloat-abi=hard -mcpu=cortex-a9  -v "CMakeFiles/cmTC_a557d.dir/CMakeCXXCompilerABI.cpp.o"  -o cmTC_a557d 
+        Using built-in specs.
+        COLLECT_GCC=C:/Users/kirill/PLCnextSDK/AXCF2152/2024.0/sysroots/x86_64-w64-mingw32/usr/bin/arm-pxc-linux-gnueabi/arm-pxc-linux-gnueabi-g++.exe
+        COLLECT_LTO_WRAPPER=c:/users/kirill/plcnextsdk/axcf2152/2024.0/sysroots/x86_64-w64-mingw32/usr/bin/arm-pxc-linux-gnueabi/../../libexec/arm-pxc-linux-gnueabi/gcc/arm-pxc-linux-gnueabi/11.4.0/lto-wrapper.exe
+        Target: arm-pxc-linux-gnueabi
+        Configured with: ../../../../../../work-shared/gcc-11.4.0-r0/gcc-11.4.0/configure --build=x86_64-linux --host=x86_64-w64-mingw32 --target=arm-pxc-linux-gnueabi --prefix=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-w64-mingw32/usr --exec_prefix=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-w64-mingw32/usr --bindir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-w64-mingw32/usr/bin/arm-pxc-linux-gnueabi --sbindir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-w64-mingw32/usr/bin/arm-pxc-linux-gnueabi --libexecdir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-w64-mingw32/usr/libexec/arm-pxc-linux-gnueabi --datadir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-w64-mingw32/usr/share --sysconfdir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-w64-mingw32/etc --sharedstatedir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-w64-mingw32/com --localstatedir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-w64-mingw32/var --libdir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-w64-mingw32/usr/lib/arm-pxc-linux-gnueabi --includedir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-w64-mingw32/usr/include --oldincludedir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-w64-mingw32/usr/include --infodir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-w64-mingw32/usr/share/info --mandir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-w64-mingw32/usr/share/man --disable-silent-rules --disable-dependency-tracking --with-libtool-sysroot=/yocto/jenkins/workspace/ts_Yocto_AXCF2152_release_24.0.x/axcf2152_build/tmp/work/x86_64-nativesdk-mingw32-w64-mingw32/gcc-cross-canadian-arm/11.4.0-r0/recipe-sysroot --enable-clocale=generic --with-gnu-ld --enable-shared --enable-languages=c,c++ --enable-threads=posix --enable-multilib --enable-default-pie --enable-c99 --enable-long-long --enable-symvers=gnu --enable-libstdcxx-pch --program-prefix=arm-pxc-linux-gnueabi- --without-local-prefix --disable-install-libiberty --disable-libssp --enable-libitm --enable-lto --disable-bootstrap --with-system-zlib --with-linker-hash-style=gnu --enable-linker-build-id --with-ppl=no --with-cloog=no --enable-checking=release --enable-cheaders=c_global --without-isl --with-gxx-include-dir=/not/exist/usr/include/c++/11.4.0 --with-build-time-tools=/yocto/jenkins/workspace/ts_Yocto_AXCF2152_release_24.0.x/axcf2152_build/tmp/work/x86_64-nativesdk-mingw32-w64-mingw32/gcc-cross-canadian-arm/11.4.0-r0/recipe-sysroot-native/usr/arm-pxc-linux-gnueabi/bin --with-sysroot=/not/exist --with-build-sysroot=/yocto/jenkins/workspace/ts_Yocto_AXCF2152_release_24.0.x/axcf2152_build/tmp/work/x86_64-nativesdk-mingw32-w64-mingw32/gcc-cross-canadian-arm/11.4.0-r0/recipe-sysroot --with-plugin-ld=ld --enable-poison-system-directories --disable-static --disable-nls --enable-initfini-array --disable-nls
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 11.4.0 (GCC) 
+        COMPILER_PATH=c:/users/kirill/plcnextsdk/axcf2152/2024.0/sysroots/x86_64-w64-mingw32/usr/bin/arm-pxc-linux-gnueabi/../../libexec/arm-pxc-linux-gnueabi/gcc/arm-pxc-linux-gnueabi/11.4.0/;c:/users/kirill/plcnextsdk/axcf2152/2024.0/sysroots/x86_64-w64-mingw32/usr/bin/arm-pxc-linux-gnueabi/../../libexec/arm-pxc-linux-gnueabi/gcc/
+        LIBRARY_PATH=c:/users/kirill/plcnextsdk/axcf2152/2024.0/sysroots/x86_64-w64-mingw32/usr/bin/arm-pxc-linux-gnueabi/../../lib/arm-pxc-linux-gnueabi/gcc/arm-pxc-linux-gnueabi/11.4.0/;c:/users/kirill/plcnextsdk/axcf2152/2024.0/sysroots/x86_64-w64-mingw32/usr/bin/arm-pxc-linux-gnueabi/../../lib/arm-pxc-linux-gnueabi/gcc/;C:/Users/kirill/PLCnextSDK/AXCF2152/2024.0/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi/lib/;C:/Users/kirill/PLCnextSDK/AXCF2152/2024.0/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi/usr/lib/arm-pxc-linux-gnueabi/11.4.0/;C:/Users/kirill/PLCnextSDK/AXCF2152/2024.0/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi/usr/lib/
+        COLLECT_GCC_OPTIONS='-mfpu=neon' '-mfloat-abi=hard' '-mthumb' '-mfpu=neon' '-mfloat-abi=hard' '-mcpu=cortex-a9' '-v' '-o' 'cmTC_a557d' '-shared-libgcc' '-mtls-dialect=gnu' '-mlibarch=armv7-a+mp+sec+simd' '-march=armv7-a+mp+sec+simd' '-dumpdir' 'cmTC_a557d.'
+         c:/users/kirill/plcnextsdk/axcf2152/2024.0/sysroots/x86_64-w64-mingw32/usr/bin/arm-pxc-linux-gnueabi/../../libexec/arm-pxc-linux-gnueabi/gcc/arm-pxc-linux-gnueabi/11.4.0/collect2.exe --sysroot=C:/Users/kirill/PLCnextSDK/AXCF2152/2024.0/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi --build-id --eh-frame-hdr --hash-style=gnu -dynamic-linker /lib/ld-linux-armhf.so.3 -X -m armelf_linux_eabi -pie -o cmTC_a557d C:/Users/kirill/PLCnextSDK/AXCF2152/2024.0/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi/usr/lib/Scrt1.o C:/Users/kirill/PLCnextSDK/AXCF2152/2024.0/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi/usr/lib/crti.o C:/Users/kirill/PLCnextSDK/AXCF2152/2024.0/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi/usr/lib/arm-pxc-linux-gnueabi/11.4.0/crtbeginS.o -Lc:/users/kirill/plcnextsdk/axcf2152/2024.0/sysroots/x86_64-w64-mingw32/usr/bin/arm-pxc-linux-gnueabi/../../lib/arm-pxc-linux-gnueabi/gcc/arm-pxc-linux-gnueabi/11.4.0 -Lc:/users/kirill/plcnextsdk/axcf2152/2024.0/sysroots/x86_64-w64-mingw32/usr/bin/arm-pxc-linux-gnueabi/../../lib/arm-pxc-linux-gnueabi/gcc -LC:/Users/kirill/PLCnextSDK/AXCF2152/2024.0/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi/lib -LC:/Users/kirill/PLCnextSDK/AXCF2152/2024.0/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi/usr/lib/arm-pxc-linux-gnueabi/11.4.0 -LC:/Users/kirill/PLCnextSDK/AXCF2152/2024.0/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi/usr/lib CMakeFiles/cmTC_a557d.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc C:/Users/kirill/PLCnextSDK/AXCF2152/2024.0/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi/usr/lib/arm-pxc-linux-gnueabi/11.4.0/crtendS.o C:/Users/kirill/PLCnextSDK/AXCF2152/2024.0/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi/usr/lib/crtn.o
+        COLLECT_GCC_OPTIONS='-mfpu=neon' '-mfloat-abi=hard' '-mthumb' '-mfpu=neon' '-mfloat-abi=hard' '-mcpu=cortex-a9' '-v' '-o' 'cmTC_a557d' '-shared-libgcc' '-mtls-dialect=gnu' '-mlibarch=armv7-a+mp+sec+simd' '-march=armv7-a+mp+sec+simd' '-dumpdir' 'cmTC_a557d.'
+        make[1]: Leaving directory 'C:/Users/kirill/PLCnext-libs/TimeUtils/TimeUtilsCpp/intermediate/cmakeAutoBuild/AXCF2152,24.0.17.244/Release/CMakeFiles/CMakeScratch/TryCompile-a6ldq9'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/PHOENIX CONTACT/PLCnext_Toolchain/cmake/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:127 (message)"
+      - "C:/Program Files/PHOENIX CONTACT/PLCnext_Toolchain/cmake/share/cmake-3.27/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Parsed CXX implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [c:/users/kirill/plcnextsdk/axcf2152/2024.0/sysroots/x86_64-w64-mingw32/usr/bin/arm-pxc-linux-gnueabi/../../lib/arm-pxc-linux-gnueabi/gcc/arm-pxc-linux-gnueabi/11.4.0/include]
+          add: [c:/users/kirill/plcnextsdk/axcf2152/2024.0/sysroots/x86_64-w64-mingw32/usr/bin/arm-pxc-linux-gnueabi/../../lib/arm-pxc-linux-gnueabi/gcc/arm-pxc-linux-gnueabi/11.4.0/include-fixed]
+          add: [C:/Users/kirill/PLCnextSDK/AXCF2152/2024.0/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi/usr/include/c++/11.4.0]
+          add: [C:/Users/kirill/PLCnextSDK/AXCF2152/2024.0/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi/usr/include/c++/11.4.0/arm-pxc-linux-gnueabi]
+          add: [C:/Users/kirill/PLCnextSDK/AXCF2152/2024.0/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi/usr/include/c++/11.4.0/backward]
+          add: [C:/Users/kirill/PLCnextSDK/AXCF2152/2024.0/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi/usr/lib/arm-pxc-linux-gnueabi/11.4.0/include]
+          add: [C:/Users/kirill/PLCnextSDK/AXCF2152/2024.0/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi/usr/include]
+        end of search list found
+        collapse include dir [c:/users/kirill/plcnextsdk/axcf2152/2024.0/sysroots/x86_64-w64-mingw32/usr/bin/arm-pxc-linux-gnueabi/../../lib/arm-pxc-linux-gnueabi/gcc/arm-pxc-linux-gnueabi/11.4.0/include] ==> [C:/Users/kirill/PLCnextSDK/AXCF2152/2024.0/sysroots/x86_64-w64-mingw32/usr/lib/arm-pxc-linux-gnueabi/gcc/arm-pxc-linux-gnueabi/11.4.0/include]
+        collapse include dir [c:/users/kirill/plcnextsdk/axcf2152/2024.0/sysroots/x86_64-w64-mingw32/usr/bin/arm-pxc-linux-gnueabi/../../lib/arm-pxc-linux-gnueabi/gcc/arm-pxc-linux-gnueabi/11.4.0/include-fixed] ==> [C:/Users/kirill/PLCnextSDK/AXCF2152/2024.0/sysroots/x86_64-w64-mingw32/usr/lib/arm-pxc-linux-gnueabi/gcc/arm-pxc-linux-gnueabi/11.4.0/include-fixed]
+        collapse include dir [C:/Users/kirill/PLCnextSDK/AXCF2152/2024.0/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi/usr/include/c++/11.4.0] ==> [C:/Users/kirill/PLCnextSDK/AXCF2152/2024.0/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi/usr/include/c++/11.4.0]
+        collapse include dir [C:/Users/kirill/PLCnextSDK/AXCF2152/2024.0/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi/usr/include/c++/11.4.0/arm-pxc-linux-gnueabi] ==> [C:/Users/kirill/PLCnextSDK/AXCF2152/2024.0/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi/usr/include/c++/11.4.0/arm-pxc-linux-gnueabi]
+        collapse include dir [C:/Users/kirill/PLCnextSDK/AXCF2152/2024.0/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi/usr/include/c++/11.4.0/backward] ==> [C:/Users/kirill/PLCnextSDK/AXCF2152/2024.0/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi/usr/include/c++/11.4.0/backward]
+        collapse include dir [C:/Users/kirill/PLCnextSDK/AXCF2152/2024.0/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi/usr/lib/arm-pxc-linux-gnueabi/11.4.0/include] ==> [C:/Users/kirill/PLCnextSDK/AXCF2152/2024.0/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi/usr/lib/arm-pxc-linux-gnueabi/11.4.0/include]
+        collapse include dir [C:/Users/kirill/PLCnextSDK/AXCF2152/2024.0/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi/usr/include] ==> [C:/Users/kirill/PLCnextSDK/AXCF2152/2024.0/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi/usr/include]
+        implicit include dirs: [C:/Users/kirill/PLCnextSDK/AXCF2152/2024.0/sysroots/x86_64-w64-mingw32/usr/lib/arm-pxc-linux-gnueabi/gcc/arm-pxc-linux-gnueabi/11.4.0/include;C:/Users/kirill/PLCnextSDK/AXCF2152/2024.0/sysroots/x86_64-w64-mingw32/usr/lib/arm-pxc-linux-gnueabi/gcc/arm-pxc-linux-gnueabi/11.4.0/include-fixed;C:/Users/kirill/PLCnextSDK/AXCF2152/2024.0/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi/usr/include/c++/11.4.0;C:/Users/kirill/PLCnextSDK/AXCF2152/2024.0/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi/usr/include/c++/11.4.0/arm-pxc-linux-gnueabi;C:/Users/kirill/PLCnextSDK/AXCF2152/2024.0/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi/usr/include/c++/11.4.0/backward;C:/Users/kirill/PLCnextSDK/AXCF2152/2024.0/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi/usr/lib/arm-pxc-linux-gnueabi/11.4.0/include;C:/Users/kirill/PLCnextSDK/AXCF2152/2024.0/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi/usr/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/PHOENIX CONTACT/PLCnext_Toolchain/cmake/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:152 (message)"
+      - "C:/Program Files/PHOENIX CONTACT/PLCnext_Toolchain/cmake/share/cmake-3.27/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(arm-pxc-linux-gnueabi-ld\\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        ignore line: [Change Dir: 'C:/Users/kirill/PLCnext-libs/TimeUtils/TimeUtilsCpp/intermediate/cmakeAutoBuild/AXCF2152 24.0.17.244/Release/CMakeFiles/CMakeScratch/TryCompile-a6ldq9']
+        ignore line: []
+        ignore line: [Run Build Command(s): "C:/Program Files/PHOENIX CONTACT/PLCnext_Toolchain/cmake/bin/cmake.exe" -E env VERBOSE=1 C:/Users/kirill/PLCnextSDK/AXCF2152/2024.0/sysroots/x86_64-w64-mingw32/usr/bin/make.exe -f Makefile cmTC_a557d/fast]
+        ignore line: [C:/Users/kirill/PLCnextSDK/AXCF2152/2024.0/sysroots/x86_64-w64-mingw32/usr/bin/make.exe  -f CMakeFiles/cmTC_a557d.dir/build.make CMakeFiles/cmTC_a557d.dir/build]
+        ignore line: [make[1]: Entering directory 'C:/Users/kirill/PLCnext-libs/TimeUtils/TimeUtilsCpp/intermediate/cmakeAutoBuild/AXCF2152 24.0.17.244/Release/CMakeFiles/CMakeScratch/TryCompile-a6ldq9']
+        ignore line: [Building CXX object CMakeFiles/cmTC_a557d.dir/CMakeCXXCompilerABI.cpp.o]
+        ignore line: [C:/Users/kirill/PLCnextSDK/AXCF2152/2024.0/sysroots/x86_64-w64-mingw32/usr/bin/arm-pxc-linux-gnueabi/arm-pxc-linux-gnueabi-g++.exe --sysroot=C:/Users/kirill/PLCnextSDK/AXCF2152/2024.0/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi   -mthumb -mfpu=neon -mfloat-abi=hard -mcpu=cortex-a9  -std=c++17   -v -o CMakeFiles/cmTC_a557d.dir/CMakeCXXCompilerABI.cpp.o -c "C:/Program Files/PHOENIX CONTACT/PLCnext_Toolchain/cmake/share/cmake-3.27/Modules/CMakeCXXCompilerABI.cpp"]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=C:/Users/kirill/PLCnextSDK/AXCF2152/2024.0/sysroots/x86_64-w64-mingw32/usr/bin/arm-pxc-linux-gnueabi/arm-pxc-linux-gnueabi-g++.exe]
+        ignore line: [Target: arm-pxc-linux-gnueabi]
+        ignore line: [Configured with: ../../../../../../work-shared/gcc-11.4.0-r0/gcc-11.4.0/configure --build=x86_64-linux --host=x86_64-w64-mingw32 --target=arm-pxc-linux-gnueabi --prefix=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-w64-mingw32/usr --exec_prefix=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-w64-mingw32/usr --bindir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-w64-mingw32/usr/bin/arm-pxc-linux-gnueabi --sbindir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-w64-mingw32/usr/bin/arm-pxc-linux-gnueabi --libexecdir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-w64-mingw32/usr/libexec/arm-pxc-linux-gnueabi --datadir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-w64-mingw32/usr/share --sysconfdir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-w64-mingw32/etc --sharedstatedir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-w64-mingw32/com --localstatedir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-w64-mingw32/var --libdir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-w64-mingw32/usr/lib/arm-pxc-linux-gnueabi --includedir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-w64-mingw32/usr/include --oldincludedir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-w64-mingw32/usr/include --infodir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-w64-mingw32/usr/share/info --mandir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-w64-mingw32/usr/share/man --disable-silent-rules --disable-dependency-tracking --with-libtool-sysroot=/yocto/jenkins/workspace/ts_Yocto_AXCF2152_release_24.0.x/axcf2152_build/tmp/work/x86_64-nativesdk-mingw32-w64-mingw32/gcc-cross-canadian-arm/11.4.0-r0/recipe-sysroot --enable-clocale=generic --with-gnu-ld --enable-shared --enable-languages=c,c++ --enable-threads=posix --enable-multilib --enable-default-pie --enable-c99 --enable-long-long --enable-symvers=gnu --enable-libstdcxx-pch --program-prefix=arm-pxc-linux-gnueabi- --without-local-prefix --disable-install-libiberty --disable-libssp --enable-libitm --enable-lto --disable-bootstrap --with-system-zlib --with-linker-hash-style=gnu --enable-linker-build-id --with-ppl=no --with-cloog=no --enable-checking=release --enable-cheaders=c_global --without-isl --with-gxx-include-dir=/not/exist/usr/include/c++/11.4.0 --with-build-time-tools=/yocto/jenkins/workspace/ts_Yocto_AXCF2152_release_24.0.x/axcf2152_build/tmp/work/x86_64-nativesdk-mingw32-w64-mingw32/gcc-cross-canadian-arm/11.4.0-r0/recipe-sysroot-native/usr/arm-pxc-linux-gnueabi/bin --with-sysroot=/not/exist --with-build-sysroot=/yocto/jenkins/workspace/ts_Yocto_AXCF2152_release_24.0.x/axcf2152_build/tmp/work/x86_64-nativesdk-mingw32-w64-mingw32/gcc-cross-canadian-arm/11.4.0-r0/recipe-sysroot --with-plugin-ld=ld --enable-poison-system-directories --disable-static --disable-nls --enable-initfini-array --disable-nls]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 11.4.0 (GCC) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-mthumb' '-mfpu=neon' '-mfloat-abi=hard' '-mcpu=cortex-a9' '-std=c++17' '-v' '-o' 'CMakeFiles/cmTC_a557d.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtls-dialect=gnu' '-mlibarch=armv7-a+mp+sec+simd' '-march=armv7-a+mp+sec+simd' '-dumpdir' 'CMakeFiles/cmTC_a557d.dir/']
+        ignore line: [ c:/users/kirill/plcnextsdk/axcf2152/2024.0/sysroots/x86_64-w64-mingw32/usr/bin/arm-pxc-linux-gnueabi/../../libexec/arm-pxc-linux-gnueabi/gcc/arm-pxc-linux-gnueabi/11.4.0/cc1plus.exe -quiet -v -iprefix c:\\users\\kirill\\plcnextsdk\\axcf2152\\2024.0\\sysroots\\x86_64-w64-mingw32\\usr\\bin\\arm-pxc-linux-gnueabi\\../../lib/arm-pxc-linux-gnueabi/gcc/arm-pxc-linux-gnueabi/11.4.0/ -isysroot C:/Users/kirill/PLCnextSDK/AXCF2152/2024.0/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi -D_GNU_SOURCE C:/Program Files/PHOENIX CONTACT/PLCnext_Toolchain/cmake/share/cmake-3.27/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_a557d.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mthumb -mfpu=neon -mfloat-abi=hard -mcpu=cortex-a9 -mtls-dialect=gnu -mlibarch=armv7-a+mp+sec+simd -march=armv7-a+mp+sec+simd -std=c++17 -version -o C:\\Users\\kirill\\AppData\\Local\\Temp\\ccBdJgea.s]
+        ignore line: [GNU C++17 (GCC) version 11.4.0 (arm-pxc-linux-gnueabi)]
+        ignore line: [	compiled by GNU C version 11.4.0  GMP version 6.2.1  MPFR version 4.1.1  MPC version 1.2.1  isl version none]
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring nonexistent directory "c:\\users\\kirill\\plcnextsdk\\axcf2152\\2024.0\\sysroots\\x86_64-w64-mingw32\\usr\\bin\\arm-pxc-linux-gnueabi\\../../lib/arm-pxc-linux-gnueabi/gcc/arm-pxc-linux-gnueabi/11.4.0/../../../../../arm-pxc-linux-gnueabi/include"]
+        ignore line: [ignoring duplicate directory "c:/users/kirill/plcnextsdk/axcf2152/2024.0/sysroots/x86_64-w64-mingw32/usr/lib/arm-pxc-linux-gnueabi/gcc/../../../lib/arm-pxc-linux-gnueabi/gcc/arm-pxc-linux-gnueabi/11.4.0/include"]
+        ignore line: [ignoring nonexistent directory "C:/Users/kirill/PLCnextSDK/AXCF2152/2024.0/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-w64-mingw32/usr/lib/arm-pxc-linux-gnueabi/gcc/arm-pxc-linux-gnueabi/11.4.0/../../../../include"]
+        ignore line: [ignoring duplicate directory "c:/users/kirill/plcnextsdk/axcf2152/2024.0/sysroots/x86_64-w64-mingw32/usr/lib/arm-pxc-linux-gnueabi/gcc/../../../lib/arm-pxc-linux-gnueabi/gcc/arm-pxc-linux-gnueabi/11.4.0/include-fixed"]
+        ignore line: [ignoring nonexistent directory "c:/users/kirill/plcnextsdk/axcf2152/2024.0/sysroots/x86_64-w64-mingw32/usr/lib/arm-pxc-linux-gnueabi/gcc/../../../lib/arm-pxc-linux-gnueabi/gcc/arm-pxc-linux-gnueabi/11.4.0/../../../../../arm-pxc-linux-gnueabi/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ c:\\users\\kirill\\plcnextsdk\\axcf2152\\2024.0\\sysroots\\x86_64-w64-mingw32\\usr\\bin\\arm-pxc-linux-gnueabi\\../../lib/arm-pxc-linux-gnueabi/gcc/arm-pxc-linux-gnueabi/11.4.0/include]
+        ignore line: [ c:\\users\\kirill\\plcnextsdk\\axcf2152\\2024.0\\sysroots\\x86_64-w64-mingw32\\usr\\bin\\arm-pxc-linux-gnueabi\\../../lib/arm-pxc-linux-gnueabi/gcc/arm-pxc-linux-gnueabi/11.4.0/include-fixed]
+        ignore line: [ C:/Users/kirill/PLCnextSDK/AXCF2152/2024.0/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi/usr/include/c++/11.4.0]
+        ignore line: [ C:/Users/kirill/PLCnextSDK/AXCF2152/2024.0/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi/usr/include/c++/11.4.0/arm-pxc-linux-gnueabi]
+        ignore line: [ C:/Users/kirill/PLCnextSDK/AXCF2152/2024.0/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi/usr/include/c++/11.4.0/backward]
+        ignore line: [ C:/Users/kirill/PLCnextSDK/AXCF2152/2024.0/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi/usr/lib/arm-pxc-linux-gnueabi/11.4.0/include]
+        ignore line: [ C:/Users/kirill/PLCnextSDK/AXCF2152/2024.0/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi/usr/include]
+        ignore line: [End of search list.]
+        ignore line: [GNU C++17 (GCC) version 11.4.0 (arm-pxc-linux-gnueabi)]
+        ignore line: [	compiled by GNU C version 11.4.0  GMP version 6.2.1  MPFR version 4.1.1  MPC version 1.2.1  isl version none]
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [Compiler executable checksum: d02fd9fefb8c28c62a37dcc6ffb90857]
+        ignore line: [COLLECT_GCC_OPTIONS='-mthumb' '-mfpu=neon' '-mfloat-abi=hard' '-mcpu=cortex-a9' '-std=c++17' '-v' '-o' 'CMakeFiles/cmTC_a557d.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtls-dialect=gnu' '-mlibarch=armv7-a+mp+sec+simd' '-march=armv7-a+mp+sec+simd' '-dumpdir' 'CMakeFiles/cmTC_a557d.dir/']
+        ignore line: [ c:/users/kirill/plcnextsdk/axcf2152/2024.0/sysroots/x86_64-w64-mingw32/usr/bin/arm-pxc-linux-gnueabi/../../libexec/arm-pxc-linux-gnueabi/gcc/arm-pxc-linux-gnueabi/11.4.0/as.exe -v -march=armv7-a+mp+sec -mfloat-abi=hard -mfpu=neon -meabi=5 -o CMakeFiles/cmTC_a557d.dir/CMakeCXXCompilerABI.cpp.o C:\\Users\\kirill\\AppData\\Local\\Temp\\ccBdJgea.s]
+        ignore line: [GNU assembler version 2.38 (arm-pxc-linux-gnueabi) using BFD version (GNU Binutils) 2.38.20220708]
+        ignore line: [COMPILER_PATH=c:/users/kirill/plcnextsdk/axcf2152/2024.0/sysroots/x86_64-w64-mingw32/usr/bin/arm-pxc-linux-gnueabi/../../libexec/arm-pxc-linux-gnueabi/gcc/arm-pxc-linux-gnueabi/11.4.0/]
+        ignore line: [c:/users/kirill/plcnextsdk/axcf2152/2024.0/sysroots/x86_64-w64-mingw32/usr/bin/arm-pxc-linux-gnueabi/../../libexec/arm-pxc-linux-gnueabi/gcc/]
+        ignore line: [LIBRARY_PATH=c:/users/kirill/plcnextsdk/axcf2152/2024.0/sysroots/x86_64-w64-mingw32/usr/bin/arm-pxc-linux-gnueabi/../../lib/arm-pxc-linux-gnueabi/gcc/arm-pxc-linux-gnueabi/11.4.0/]
+        ignore line: [c:/users/kirill/plcnextsdk/axcf2152/2024.0/sysroots/x86_64-w64-mingw32/usr/bin/arm-pxc-linux-gnueabi/../../lib/arm-pxc-linux-gnueabi/gcc/]
+        ignore line: [C:/Users/kirill/PLCnextSDK/AXCF2152/2024.0/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi/lib/]
+        ignore line: [C:/Users/kirill/PLCnextSDK/AXCF2152/2024.0/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi/usr/lib/arm-pxc-linux-gnueabi/11.4.0/]
+        ignore line: [C:/Users/kirill/PLCnextSDK/AXCF2152/2024.0/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-mthumb' '-mfpu=neon' '-mfloat-abi=hard' '-mcpu=cortex-a9' '-std=c++17' '-v' '-o' 'CMakeFiles/cmTC_a557d.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtls-dialect=gnu' '-mlibarch=armv7-a+mp+sec+simd' '-march=armv7-a+mp+sec+simd' '-dumpdir' 'CMakeFiles/cmTC_a557d.dir/CMakeCXXCompilerABI.cpp.']
+        ignore line: [Linking CXX executable cmTC_a557d]
+        ignore line: [C:/Users/kirill/PLCnextSDK/AXCF2152/2024.0/sysroots/x86_64-w64-mingw32/usr/bin/arm-pxc-linux-gnueabi/arm-pxc-linux-gnueabi-g++.exe --sysroot=C:/Users/kirill/PLCnextSDK/AXCF2152/2024.0/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi   -mthumb -mfpu=neon -mfloat-abi=hard -mcpu=cortex-a9    -mthumb -mfpu=neon -mfloat-abi=hard -mcpu=cortex-a9  -v "CMakeFiles/cmTC_a557d.dir/CMakeCXXCompilerABI.cpp.o"  -o cmTC_a557d ]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=C:/Users/kirill/PLCnextSDK/AXCF2152/2024.0/sysroots/x86_64-w64-mingw32/usr/bin/arm-pxc-linux-gnueabi/arm-pxc-linux-gnueabi-g++.exe]
+        ignore line: [COLLECT_LTO_WRAPPER=c:/users/kirill/plcnextsdk/axcf2152/2024.0/sysroots/x86_64-w64-mingw32/usr/bin/arm-pxc-linux-gnueabi/../../libexec/arm-pxc-linux-gnueabi/gcc/arm-pxc-linux-gnueabi/11.4.0/lto-wrapper.exe]
+        ignore line: [Target: arm-pxc-linux-gnueabi]
+        ignore line: [Configured with: ../../../../../../work-shared/gcc-11.4.0-r0/gcc-11.4.0/configure --build=x86_64-linux --host=x86_64-w64-mingw32 --target=arm-pxc-linux-gnueabi --prefix=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-w64-mingw32/usr --exec_prefix=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-w64-mingw32/usr --bindir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-w64-mingw32/usr/bin/arm-pxc-linux-gnueabi --sbindir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-w64-mingw32/usr/bin/arm-pxc-linux-gnueabi --libexecdir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-w64-mingw32/usr/libexec/arm-pxc-linux-gnueabi --datadir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-w64-mingw32/usr/share --sysconfdir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-w64-mingw32/etc --sharedstatedir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-w64-mingw32/com --localstatedir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-w64-mingw32/var --libdir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-w64-mingw32/usr/lib/arm-pxc-linux-gnueabi --includedir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-w64-mingw32/usr/include --oldincludedir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-w64-mingw32/usr/include --infodir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-w64-mingw32/usr/share/info --mandir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-w64-mingw32/usr/share/man --disable-silent-rules --disable-dependency-tracking --with-libtool-sysroot=/yocto/jenkins/workspace/ts_Yocto_AXCF2152_release_24.0.x/axcf2152_build/tmp/work/x86_64-nativesdk-mingw32-w64-mingw32/gcc-cross-canadian-arm/11.4.0-r0/recipe-sysroot --enable-clocale=generic --with-gnu-ld --enable-shared --enable-languages=c,c++ --enable-threads=posix --enable-multilib --enable-default-pie --enable-c99 --enable-long-long --enable-symvers=gnu --enable-libstdcxx-pch --program-prefix=arm-pxc-linux-gnueabi- --without-local-prefix --disable-install-libiberty --disable-libssp --enable-libitm --enable-lto --disable-bootstrap --with-system-zlib --with-linker-hash-style=gnu --enable-linker-build-id --with-ppl=no --with-cloog=no --enable-checking=release --enable-cheaders=c_global --without-isl --with-gxx-include-dir=/not/exist/usr/include/c++/11.4.0 --with-build-time-tools=/yocto/jenkins/workspace/ts_Yocto_AXCF2152_release_24.0.x/axcf2152_build/tmp/work/x86_64-nativesdk-mingw32-w64-mingw32/gcc-cross-canadian-arm/11.4.0-r0/recipe-sysroot-native/usr/arm-pxc-linux-gnueabi/bin --with-sysroot=/not/exist --with-build-sysroot=/yocto/jenkins/workspace/ts_Yocto_AXCF2152_release_24.0.x/axcf2152_build/tmp/work/x86_64-nativesdk-mingw32-w64-mingw32/gcc-cross-canadian-arm/11.4.0-r0/recipe-sysroot --with-plugin-ld=ld --enable-poison-system-directories --disable-static --disable-nls --enable-initfini-array --disable-nls]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 11.4.0 (GCC) ]
+        ignore line: [COMPILER_PATH=c:/users/kirill/plcnextsdk/axcf2152/2024.0/sysroots/x86_64-w64-mingw32/usr/bin/arm-pxc-linux-gnueabi/../../libexec/arm-pxc-linux-gnueabi/gcc/arm-pxc-linux-gnueabi/11.4.0/]
+        ignore line: [c:/users/kirill/plcnextsdk/axcf2152/2024.0/sysroots/x86_64-w64-mingw32/usr/bin/arm-pxc-linux-gnueabi/../../libexec/arm-pxc-linux-gnueabi/gcc/]
+        ignore line: [LIBRARY_PATH=c:/users/kirill/plcnextsdk/axcf2152/2024.0/sysroots/x86_64-w64-mingw32/usr/bin/arm-pxc-linux-gnueabi/../../lib/arm-pxc-linux-gnueabi/gcc/arm-pxc-linux-gnueabi/11.4.0/]
+        ignore line: [c:/users/kirill/plcnextsdk/axcf2152/2024.0/sysroots/x86_64-w64-mingw32/usr/bin/arm-pxc-linux-gnueabi/../../lib/arm-pxc-linux-gnueabi/gcc/]
+        ignore line: [C:/Users/kirill/PLCnextSDK/AXCF2152/2024.0/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi/lib/]
+        ignore line: [C:/Users/kirill/PLCnextSDK/AXCF2152/2024.0/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi/usr/lib/arm-pxc-linux-gnueabi/11.4.0/]
+        ignore line: [C:/Users/kirill/PLCnextSDK/AXCF2152/2024.0/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-mfpu=neon' '-mfloat-abi=hard' '-mthumb' '-mfpu=neon' '-mfloat-abi=hard' '-mcpu=cortex-a9' '-v' '-o' 'cmTC_a557d' '-shared-libgcc' '-mtls-dialect=gnu' '-mlibarch=armv7-a+mp+sec+simd' '-march=armv7-a+mp+sec+simd' '-dumpdir' 'cmTC_a557d.']
+        link line: [ c:/users/kirill/plcnextsdk/axcf2152/2024.0/sysroots/x86_64-w64-mingw32/usr/bin/arm-pxc-linux-gnueabi/../../libexec/arm-pxc-linux-gnueabi/gcc/arm-pxc-linux-gnueabi/11.4.0/collect2.exe --sysroot=C:/Users/kirill/PLCnextSDK/AXCF2152/2024.0/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi --build-id --eh-frame-hdr --hash-style=gnu -dynamic-linker /lib/ld-linux-armhf.so.3 -X -m armelf_linux_eabi -pie -o cmTC_a557d C:/Users/kirill/PLCnextSDK/AXCF2152/2024.0/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi/usr/lib/Scrt1.o C:/Users/kirill/PLCnextSDK/AXCF2152/2024.0/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi/usr/lib/crti.o C:/Users/kirill/PLCnextSDK/AXCF2152/2024.0/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi/usr/lib/arm-pxc-linux-gnueabi/11.4.0/crtbeginS.o -Lc:/users/kirill/plcnextsdk/axcf2152/2024.0/sysroots/x86_64-w64-mingw32/usr/bin/arm-pxc-linux-gnueabi/../../lib/arm-pxc-linux-gnueabi/gcc/arm-pxc-linux-gnueabi/11.4.0 -Lc:/users/kirill/plcnextsdk/axcf2152/2024.0/sysroots/x86_64-w64-mingw32/usr/bin/arm-pxc-linux-gnueabi/../../lib/arm-pxc-linux-gnueabi/gcc -LC:/Users/kirill/PLCnextSDK/AXCF2152/2024.0/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi/lib -LC:/Users/kirill/PLCnextSDK/AXCF2152/2024.0/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi/usr/lib/arm-pxc-linux-gnueabi/11.4.0 -LC:/Users/kirill/PLCnextSDK/AXCF2152/2024.0/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi/usr/lib CMakeFiles/cmTC_a557d.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc C:/Users/kirill/PLCnextSDK/AXCF2152/2024.0/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi/usr/lib/arm-pxc-linux-gnueabi/11.4.0/crtendS.o C:/Users/kirill/PLCnextSDK/AXCF2152/2024.0/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi/usr/lib/crtn.o]
+          arg [c:/users/kirill/plcnextsdk/axcf2152/2024.0/sysroots/x86_64-w64-mingw32/usr/bin/arm-pxc-linux-gnueabi/../../libexec/arm-pxc-linux-gnueabi/gcc/arm-pxc-linux-gnueabi/11.4.0/collect2.exe] ==> ignore
+          arg [--sysroot=C:/Users/kirill/PLCnextSDK/AXCF2152/2024.0/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi] ==> ignore
+          arg [--build-id] ==> ignore
+          arg [--eh-frame-hdr] ==> ignore
+          arg [--hash-style=gnu] ==> ignore
+          arg [-dynamic-linker] ==> ignore
+          arg [/lib/ld-linux-armhf.so.3] ==> ignore
+          arg [-X] ==> ignore
+          arg [-m] ==> ignore
+          arg [armelf_linux_eabi] ==> ignore
+          arg [-pie] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_a557d] ==> ignore
+          arg [C:/Users/kirill/PLCnextSDK/AXCF2152/2024.0/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi/usr/lib/Scrt1.o] ==> obj [C:/Users/kirill/PLCnextSDK/AXCF2152/2024.0/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi/usr/lib/Scrt1.o]
+          arg [C:/Users/kirill/PLCnextSDK/AXCF2152/2024.0/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi/usr/lib/crti.o] ==> obj [C:/Users/kirill/PLCnextSDK/AXCF2152/2024.0/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi/usr/lib/crti.o]
+          arg [C:/Users/kirill/PLCnextSDK/AXCF2152/2024.0/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi/usr/lib/arm-pxc-linux-gnueabi/11.4.0/crtbeginS.o] ==> obj [C:/Users/kirill/PLCnextSDK/AXCF2152/2024.0/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi/usr/lib/arm-pxc-linux-gnueabi/11.4.0/crtbeginS.o]
+          arg [-Lc:/users/kirill/plcnextsdk/axcf2152/2024.0/sysroots/x86_64-w64-mingw32/usr/bin/arm-pxc-linux-gnueabi/../../lib/arm-pxc-linux-gnueabi/gcc/arm-pxc-linux-gnueabi/11.4.0] ==> dir [c:/users/kirill/plcnextsdk/axcf2152/2024.0/sysroots/x86_64-w64-mingw32/usr/bin/arm-pxc-linux-gnueabi/../../lib/arm-pxc-linux-gnueabi/gcc/arm-pxc-linux-gnueabi/11.4.0]
+          arg [-Lc:/users/kirill/plcnextsdk/axcf2152/2024.0/sysroots/x86_64-w64-mingw32/usr/bin/arm-pxc-linux-gnueabi/../../lib/arm-pxc-linux-gnueabi/gcc] ==> dir [c:/users/kirill/plcnextsdk/axcf2152/2024.0/sysroots/x86_64-w64-mingw32/usr/bin/arm-pxc-linux-gnueabi/../../lib/arm-pxc-linux-gnueabi/gcc]
+          arg [-LC:/Users/kirill/PLCnextSDK/AXCF2152/2024.0/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi/lib] ==> dir [C:/Users/kirill/PLCnextSDK/AXCF2152/2024.0/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi/lib]
+          arg [-LC:/Users/kirill/PLCnextSDK/AXCF2152/2024.0/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi/usr/lib/arm-pxc-linux-gnueabi/11.4.0] ==> dir [C:/Users/kirill/PLCnextSDK/AXCF2152/2024.0/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi/usr/lib/arm-pxc-linux-gnueabi/11.4.0]
+          arg [-LC:/Users/kirill/PLCnextSDK/AXCF2152/2024.0/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi/usr/lib] ==> dir [C:/Users/kirill/PLCnextSDK/AXCF2152/2024.0/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi/usr/lib]
+          arg [CMakeFiles/cmTC_a557d.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+          arg [-lstdc++] ==> lib [stdc++]
+          arg [-lm] ==> lib [m]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lc] ==> lib [c]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [C:/Users/kirill/PLCnextSDK/AXCF2152/2024.0/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi/usr/lib/arm-pxc-linux-gnueabi/11.4.0/crtendS.o] ==> obj [C:/Users/kirill/PLCnextSDK/AXCF2152/2024.0/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi/usr/lib/arm-pxc-linux-gnueabi/11.4.0/crtendS.o]
+          arg [C:/Users/kirill/PLCnextSDK/AXCF2152/2024.0/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi/usr/lib/crtn.o] ==> obj [C:/Users/kirill/PLCnextSDK/AXCF2152/2024.0/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi/usr/lib/crtn.o]
+        collapse library dir [c:/users/kirill/plcnextsdk/axcf2152/2024.0/sysroots/x86_64-w64-mingw32/usr/bin/arm-pxc-linux-gnueabi/../../lib/arm-pxc-linux-gnueabi/gcc/arm-pxc-linux-gnueabi/11.4.0] ==> [C:/Users/kirill/PLCnextSDK/AXCF2152/2024.0/sysroots/x86_64-w64-mingw32/usr/lib/arm-pxc-linux-gnueabi/gcc/arm-pxc-linux-gnueabi/11.4.0]
+        collapse library dir [c:/users/kirill/plcnextsdk/axcf2152/2024.0/sysroots/x86_64-w64-mingw32/usr/bin/arm-pxc-linux-gnueabi/../../lib/arm-pxc-linux-gnueabi/gcc] ==> [C:/Users/kirill/PLCnextSDK/AXCF2152/2024.0/sysroots/x86_64-w64-mingw32/usr/lib/arm-pxc-linux-gnueabi/gcc]
+        collapse library dir [C:/Users/kirill/PLCnextSDK/AXCF2152/2024.0/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi/lib] ==> [C:/Users/kirill/PLCnextSDK/AXCF2152/2024.0/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi/lib]
+        collapse library dir [C:/Users/kirill/PLCnextSDK/AXCF2152/2024.0/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi/usr/lib/arm-pxc-linux-gnueabi/11.4.0] ==> [C:/Users/kirill/PLCnextSDK/AXCF2152/2024.0/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi/usr/lib/arm-pxc-linux-gnueabi/11.4.0]
+        collapse library dir [C:/Users/kirill/PLCnextSDK/AXCF2152/2024.0/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi/usr/lib] ==> [C:/Users/kirill/PLCnextSDK/AXCF2152/2024.0/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi/usr/lib]
+        implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
+        implicit objs: [C:/Users/kirill/PLCnextSDK/AXCF2152/2024.0/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi/usr/lib/Scrt1.o;C:/Users/kirill/PLCnextSDK/AXCF2152/2024.0/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi/usr/lib/crti.o;C:/Users/kirill/PLCnextSDK/AXCF2152/2024.0/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi/usr/lib/arm-pxc-linux-gnueabi/11.4.0/crtbeginS.o;C:/Users/kirill/PLCnextSDK/AXCF2152/2024.0/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi/usr/lib/arm-pxc-linux-gnueabi/11.4.0/crtendS.o;C:/Users/kirill/PLCnextSDK/AXCF2152/2024.0/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi/usr/lib/crtn.o]
+        implicit dirs: [C:/Users/kirill/PLCnextSDK/AXCF2152/2024.0/sysroots/x86_64-w64-mingw32/usr/lib/arm-pxc-linux-gnueabi/gcc/arm-pxc-linux-gnueabi/11.4.0;C:/Users/kirill/PLCnextSDK/AXCF2152/2024.0/sysroots/x86_64-w64-mingw32/usr/lib/arm-pxc-linux-gnueabi/gcc;C:/Users/kirill/PLCnextSDK/AXCF2152/2024.0/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi/lib;C:/Users/kirill/PLCnextSDK/AXCF2152/2024.0/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi/usr/lib/arm-pxc-linux-gnueabi/11.4.0;C:/Users/kirill/PLCnextSDK/AXCF2152/2024.0/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi/usr/lib]
+        implicit fwks: []
+      
+      
+...

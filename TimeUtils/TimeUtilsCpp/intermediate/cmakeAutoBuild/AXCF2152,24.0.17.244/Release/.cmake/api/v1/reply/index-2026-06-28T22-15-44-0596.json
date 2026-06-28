@@ -1,0 +1,51 @@
+{
+	"cmake" : 
+	{
+		"generator" : 
+		{
+			"multiConfig" : false,
+			"name" : "Unix Makefiles"
+		},
+		"paths" : 
+		{
+			"cmake" : "C:/Program Files/PHOENIX CONTACT/PLCnext_Toolchain/cmake/bin/cmake.exe",
+			"cpack" : "C:/Program Files/PHOENIX CONTACT/PLCnext_Toolchain/cmake/bin/cpack.exe",
+			"ctest" : "C:/Program Files/PHOENIX CONTACT/PLCnext_Toolchain/cmake/bin/ctest.exe",
+			"root" : "C:/Program Files/PHOENIX CONTACT/PLCnext_Toolchain/cmake/share/cmake-3.27"
+		},
+		"version" : 
+		{
+			"isDirty" : false,
+			"major" : 3,
+			"minor" : 27,
+			"patch" : 7,
+			"string" : "3.27.7",
+			"suffix" : ""
+		}
+	},
+	"objects" : 
+	[
+		{
+			"jsonFile" : "codemodel-v2-5e9b2eb4e1f9e2f96bc2.json",
+			"kind" : "codemodel",
+			"version" : 
+			{
+				"major" : 2,
+				"minor" : 6
+			}
+		}
+	],
+	"reply" : 
+	{
+		"codemodel-v2" : 
+		{
+			"jsonFile" : "codemodel-v2-5e9b2eb4e1f9e2f96bc2.json",
+			"kind" : "codemodel",
+			"version" : 
+			{
+				"major" : 2,
+				"minor" : 6
+			}
+		}
+	}
+}

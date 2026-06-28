@@ -1,0 +1,11 @@
+C:\Users\kirill\PLCnext-libs\TimeUtils\TimeUtilsCSharp\Cli\TimeUtils.dll
+C:\Users\kirill\PLCnext-libs\TimeUtils\TimeUtilsCSharp\Cli\TimeUtils.pdb
+C:\Users\kirill\PLCnext-libs\TimeUtils\TimeUtilsCSharp\Cli\eclrlib.dll
+C:\Users\kirill\PLCnext-libs\TimeUtils\TimeUtilsCSharp\Cli\IecEngineering.dll
+C:\Users\kirill\PLCnext-libs\TimeUtils\TimeUtilsCSharp\Cli\mscorlib.dll
+C:\Users\kirill\PLCnext-libs\TimeUtils\TimeUtilsCSharp\Cli\pcoslib.dll
+C:\Users\kirill\PLCnext-libs\TimeUtils\TimeUtilsCSharp\obj\Release\TimeUtilsCSharp.csproj.AssemblyReference.cache
+C:\Users\kirill\PLCnext-libs\TimeUtils\TimeUtilsCSharp\obj\Release\TimeUtilsCSharp.csproj.CoreCompileInputs.cache
+C:\Users\kirill\PLCnext-libs\TimeUtils\TimeUtilsCSharp\obj\Release\TimeUtil.F6A81A66.Up2Date
+C:\Users\kirill\PLCnext-libs\TimeUtils\TimeUtilsCSharp\obj\Release\TimeUtils.dll
+C:\Users\kirill\PLCnext-libs\TimeUtils\TimeUtilsCSharp\obj\Release\TimeUtils.pdb
