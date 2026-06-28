@@ -90,4 +90,9 @@ CMakeFiles/TimeUtils.dir/src/GetUnixTimeULINT-cli.cpp.o: \
  /home/kirill/VS_Code_Files/PLCnext/PLCnext-libs/TimeUtils/TimeUtilsCpp/src/TimeUtils-cli32.h \
  /home/kirill/Downloads/PLCnext/tools/PLCnext_Toolchain/eCLR/v3.4.0/include/EclrInterfaces.h \
  /home/kirill/Downloads/PLCnext/tools/PLCnext_Toolchain/eCLR/v3.4.0/include/eclr.h \
- /home/kirill/VS_Code_Files/PLCnext/PLCnext-libs/TimeUtils/TimeUtilsCpp/intermediate/code/TimeUtils-version.h
+ /home/kirill/VS_Code_Files/PLCnext/PLCnext-libs/TimeUtils/TimeUtilsCpp/intermediate/code/TimeUtils-version.h \
+ /home/kirill/Downloads/PLCnext/tools/PLCnextSDK/AXCF2152/2024.0.17/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi/usr/include/time.h \
+ /home/kirill/Downloads/PLCnext/tools/PLCnextSDK/AXCF2152/2024.0.17/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi/usr/include/bits/time.h \
+ /home/kirill/Downloads/PLCnext/tools/PLCnextSDK/AXCF2152/2024.0.17/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi/usr/include/bits/timex.h \
+ /home/kirill/Downloads/PLCnext/tools/PLCnextSDK/AXCF2152/2024.0.17/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi/usr/include/bits/types/struct_tm.h \
+ /home/kirill/Downloads/PLCnext/tools/PLCnextSDK/AXCF2152/2024.0.17/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi/usr/include/bits/types/struct_itimerspec.h

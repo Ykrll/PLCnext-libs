@@ -176,8 +176,7 @@ CMAKE_BUILD_TYPE:STRING=Release
 //Enable/Disable color output during build.
 CMAKE_COLOR_MAKEFILE:BOOL=ON
 
-//CXX compiler
-CMAKE_CXX_COMPILER:STRING=/home/kirill/Downloads/PLCnext/tools/PLCnextSDK/AXCF2152/2024.0.17/sysroots/x86_64-pokysdk-linux/usr/bin/arm-pxc-linux-gnueabi/arm-pxc-linux-gnueabi-g++
+CMAKE_CXX_COMPILER:FILEPATH=/home/kirill/Downloads/PLCnext/tools/PLCnextSDK/AXCF2152/2024.0.17/sysroots/x86_64-pokysdk-linux/usr/bin/arm-pxc-linux-gnueabi/arm-pxc-linux-gnueabi-g++
 
 //A wrapper around 'ar' adding the appropriate '--plugin' option
 // for the GCC compiler
@@ -205,8 +204,7 @@ CMAKE_CXX_FLAGS_RELWITHDEBINFO:STRING=-O2 -g -DNDEBUG
 //Flags used by the compiler during all build types.
 CMAKE_CXX_LINK_FLAGS:STRING=  -mthumb -mfpu=neon -mfloat-abi=hard -mcpu=cortex-a9
 
-//C compiler
-CMAKE_C_COMPILER:STRING=/home/kirill/Downloads/PLCnext/tools/PLCnextSDK/AXCF2152/2024.0.17/sysroots/x86_64-pokysdk-linux/usr/bin/arm-pxc-linux-gnueabi/arm-pxc-linux-gnueabi-gcc
+CMAKE_C_COMPILER:FILEPATH=/home/kirill/Downloads/PLCnext/tools/PLCnextSDK/AXCF2152/2024.0.17/sysroots/x86_64-pokysdk-linux/usr/bin/arm-pxc-linux-gnueabi/arm-pxc-linux-gnueabi-gcc
 
 //A wrapper around 'ar' adding the appropriate '--plugin' option
 // for the GCC compiler

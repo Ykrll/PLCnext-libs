@@ -1,0 +1,411 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "libTimeUtils.so"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"install",
+			"target_link_options",
+			"target_link_libraries",
+			"find_package",
+			"target_include_directories"
+		],
+		"files" : 
+		[
+			"CMakeLists.txt",
+			"/home/kirill/Downloads/PLCnext/tools/PLCnextSDK/AXCF2152/2024.0.17/cmake/FindArpProgramming.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 15,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 77,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 61,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 68,
+				"parent" : 0
+			},
+			{
+				"file" : 1,
+				"parent" : 4
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 144,
+				"parent" : 5
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 70,
+				"parent" : 0
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 25,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "  -mthumb -mfpu=neon -mfloat-abi=hard -mcpu=cortex-a9 -O3 -DNDEBUG -std=c++17 -fPIC"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-fno-gnu-unique"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 7,
+					"define" : "ARP_DEVICE_AXCF2152"
+				},
+				{
+					"define" : "TimeUtils_EXPORTS"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 8,
+					"path" : "/home/kirill/VS_Code_Files/PLCnext/PLCnext-libs/TimeUtils/TimeUtilsCpp/intermediate/code"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "/home/kirill/VS_Code_Files/PLCnext/PLCnext-libs/TimeUtils/TimeUtilsCpp/src"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "/home/kirill/Downloads/PLCnext/tools/PLCnext_Toolchain/eCLR/v3.4.0/include"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "/home/kirill/Downloads/PLCnext/tools/PLCnext_Toolchain/eCLR/v3.4.0/include/linux"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "/home/kirill/Downloads/PLCnext/tools/PLCnextSDK/AXCF2152/2024.0.17/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi/usr/include/plcnext"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "/home/kirill/Downloads/PLCnext/tools/PLCnextSDK/AXCF2152/2024.0.17/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi/usr/include/libxml2"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					1
+				],
+				"standard" : "17"
+			},
+			"sourceIndexes" : 
+			[
+				4,
+				5,
+				6,
+				7
+			],
+			"sysroot" : 
+			{
+				"path" : "/home/kirill/Downloads/PLCnext/tools/PLCnextSDK/AXCF2152/2024.0.17/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi"
+			}
+		}
+	],
+	"id" : "TimeUtils::@6890427a1f51a3e7e1df",
+	"install" : 
+	{
+		"destinations" : 
+		[
+			{
+				"backtrace" : 2,
+				"path" : "AXCF2152_24.0.17.244/Release/lib"
+			},
+			{
+				"backtrace" : 2,
+				"path" : "AXCF2152_24.0.17.244/Release/lib"
+			}
+		],
+		"prefix" : 
+		{
+			"path" : "/usr/local"
+		}
+	},
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "-Wl,--no-undefined",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "-Wl,-rpath,:::::::",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "/home/kirill/Downloads/PLCnext/tools/PLCnextSDK/AXCF2152/2024.0.17/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi/usr/lib/libArp.System.Acf.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "/home/kirill/Downloads/PLCnext/tools/PLCnextSDK/AXCF2152/2024.0.17/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi/usr/lib/libArp.System.Commons.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "/home/kirill/Downloads/PLCnext/tools/PLCnextSDK/AXCF2152/2024.0.17/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi/usr/lib/libArp.System.Core.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "/home/kirill/Downloads/PLCnext/tools/PLCnextSDK/AXCF2152/2024.0.17/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi/usr/lib/libArp.Plc.Commons.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "/home/kirill/Downloads/PLCnext/tools/PLCnextSDK/AXCF2152/2024.0.17/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi/usr/lib/libArp.System.Rsc.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "/home/kirill/Downloads/PLCnext/tools/PLCnextSDK/AXCF2152/2024.0.17/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi/usr/lib/libArp.System.Commons.Services.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "/home/kirill/Downloads/PLCnext/tools/PLCnextSDK/AXCF2152/2024.0.17/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi/usr/lib/libArp.System.Lm.Services.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "/home/kirill/Downloads/PLCnext/tools/PLCnextSDK/AXCF2152/2024.0.17/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi/usr/lib/libArp.System.Nm.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "/home/kirill/Downloads/PLCnext/tools/PLCnextSDK/AXCF2152/2024.0.17/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi/usr/lib/libArp.System.NmPayload.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "/home/kirill/Downloads/PLCnext/tools/PLCnextSDK/AXCF2152/2024.0.17/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi/usr/lib/libArp.System.Security.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "/home/kirill/Downloads/PLCnext/tools/PLCnextSDK/AXCF2152/2024.0.17/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi/usr/lib/libArp.System.Security.Services.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "/home/kirill/Downloads/PLCnext/tools/PLCnextSDK/AXCF2152/2024.0.17/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi/usr/lib/libArp.System.Um.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "/home/kirill/Downloads/PLCnext/tools/PLCnextSDK/AXCF2152/2024.0.17/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi/usr/lib/libArp.System.Ve.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "/home/kirill/Downloads/PLCnext/tools/PLCnextSDK/AXCF2152/2024.0.17/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi/usr/lib/libArp.Plc.Domain.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "/home/kirill/Downloads/PLCnext/tools/PLCnextSDK/AXCF2152/2024.0.17/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi/usr/lib/libArp.Plc.Gds.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "/home/kirill/Downloads/PLCnext/tools/PLCnextSDK/AXCF2152/2024.0.17/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi/usr/lib/libArp.Plc.Meta.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "/home/kirill/Downloads/PLCnext/tools/PLCnextSDK/AXCF2152/2024.0.17/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi/usr/lib/libArp.Device.Interface.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "/home/kirill/Downloads/PLCnext/tools/PLCnextSDK/AXCF2152/2024.0.17/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi/usr/lib/libArp.Services.NotificationLogger.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "/home/kirill/Downloads/PLCnext/tools/PLCnextSDK/AXCF2152/2024.0.17/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi/usr/lib/libArp.Hardware.Nim.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "/home/kirill/Downloads/PLCnext/tools/PLCnextSDK/AXCF2152/2024.0.17/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi/usr/lib/libcppformat.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "/home/kirill/Downloads/PLCnext/tools/PLCnextSDK/AXCF2152/2024.0.17/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi/usr/lib/libpthread.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "/home/kirill/Downloads/PLCnext/tools/PLCnextSDK/AXCF2152/2024.0.17/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi/usr/lib/libArp.Io.Axioline.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "/home/kirill/Downloads/PLCnext/tools/PLCnextSDK/AXCF2152/2024.0.17/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi/usr/lib/libArp.Io.Interbus.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "/home/kirill/Downloads/PLCnext/tools/PLCnextSDK/AXCF2152/2024.0.17/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi/usr/lib/libArp.Io.Profibus.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "/home/kirill/Downloads/PLCnext/tools/PLCnextSDK/AXCF2152/2024.0.17/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi/usr/lib/libArp.Io.ProfinetStack.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "/home/kirill/Downloads/PLCnext/tools/PLCnextSDK/AXCF2152/2024.0.17/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi/usr/lib/libArp.Services.OpcUAServer.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "/home/kirill/Downloads/PLCnext/tools/PLCnextSDK/AXCF2152/2024.0.17/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi/usr/lib/libArp.Services.TraceController.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "/home/kirill/Downloads/PLCnext/tools/PLCnextSDK/AXCF2152/2024.0.17/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi/usr/lib/libArp.Services.DataLogger.so",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX",
+		"sysroot" : 
+		{
+			"path" : "/home/kirill/Downloads/PLCnext/tools/PLCnextSDK/AXCF2152/2024.0.17/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi"
+		}
+	},
+	"name" : "TimeUtils",
+	"nameOnDisk" : "libTimeUtils.so",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3
+			]
+		},
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				4,
+				5,
+				6,
+				7
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"path" : "intermediate/code/TimeUtils-version.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "intermediate/code/TimeUtils.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/TimeUtils-cli32.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/TimeUtils-cli64.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "intermediate/code/TimeUtils-cli32.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "intermediate/code/TimeUtils-cli64.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/GetUnixTimeULINT-cli.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/TimeUtils-cli.cpp",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "SHARED_LIBRARY"
+}

@@ -5,10 +5,17 @@
 #include "eclr.h"
 #include "TimeUtils.h"
 
+#include <time.h>
+
+
 // class TimeUtils.GetUnixTimeULINT implementation
 UInt64 __PInvoke__ TimeUtils::GetUnixTimeULINT::__Process()
 {
     // implement your code here !
-    return 0;
+    
+    timespec ts{};
+    clock_gettime(CLOCK_MONOTONIC, &ts);
+
+    return static_cast<UInt64>(ts.tv_sec) * 1000ULL + static_cast<UInt64>(ts.tv_nsec) / 1000000ULL;
 }
 
