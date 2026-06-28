@@ -6,7 +6,7 @@
 #include "TimeUtils.h"
 
 // class TimeUtils.GetUnixTimeULINT implementation
-UInt64 __PInvoke__ TimeUtils::GetUnixTimeULINT::__Process(Int16 p0, UInt16 p1)
+UInt64 __PInvoke__ TimeUtils::GetUnixTimeULINT::__Process()
 {
     // implement your code here !
     return 0;

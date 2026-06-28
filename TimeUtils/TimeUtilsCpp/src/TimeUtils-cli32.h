@@ -35,7 +35,7 @@ public:
     {
         // @Begin automatically generated code, do not modify inside @Begin/@End comment pair !
     public:
-        static UInt64 __Process(Int16 p0, UInt16 p1);
+        static UInt64 __Process();
         // @End automatically generated code
         // insert additional private methods and member here ! 
     };
