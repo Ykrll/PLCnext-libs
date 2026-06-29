@@ -31,11 +31,11 @@ public:
     // @End automatically generated code
 
     //#snfunction
-    class GetUnixTimeULINT : public Object
+    class GET_UNIX_TIME_ULINT : public Object
     {
         // @Begin automatically generated code, do not modify inside @Begin/@End comment pair !
     public:
-        static UInt64 __Process();
+        static UInt64 __Process(Boolean p0);
         // @End automatically generated code
         // insert additional private methods and member here ! 
     };

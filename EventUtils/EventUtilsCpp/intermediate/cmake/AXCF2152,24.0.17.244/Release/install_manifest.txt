@@ -1,0 +1,1 @@
+C:/Users/kirill/PLCnext-libs/EventUtils/EventUtilsCpp/bin/AXCF2152_24.0.17.244/Release/lib/libEventUtils.so

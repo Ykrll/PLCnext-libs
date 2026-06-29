@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ProjectSettings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://www.phoenixcontact.com/schema/cliproject">
+  <Id>31e53fc6-b891-4afb-b2b1-08df200580ae</Id>
   <Version>4.0</Version>
   <Name>TimeUtils</Name>
   <Type>snproject</Type>

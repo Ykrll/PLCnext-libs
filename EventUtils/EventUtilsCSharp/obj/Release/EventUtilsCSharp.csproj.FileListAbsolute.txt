@@ -1,0 +1,11 @@
+C:\Users\kirill\PLCnext-libs\EventUtils\EventUtilsCSharp\Cli\EventUtils.dll
+C:\Users\kirill\PLCnext-libs\EventUtils\EventUtilsCSharp\Cli\EventUtils.pdb
+C:\Users\kirill\PLCnext-libs\EventUtils\EventUtilsCSharp\Cli\eclrlib.dll
+C:\Users\kirill\PLCnext-libs\EventUtils\EventUtilsCSharp\Cli\IecEngineering.dll
+C:\Users\kirill\PLCnext-libs\EventUtils\EventUtilsCSharp\Cli\mscorlib.dll
+C:\Users\kirill\PLCnext-libs\EventUtils\EventUtilsCSharp\Cli\pcoslib.dll
+C:\Users\kirill\PLCnext-libs\EventUtils\EventUtilsCSharp\obj\Release\EventUtilsCSharp.csproj.AssemblyReference.cache
+C:\Users\kirill\PLCnext-libs\EventUtils\EventUtilsCSharp\obj\Release\EventUtilsCSharp.csproj.CoreCompileInputs.cache
+C:\Users\kirill\PLCnext-libs\EventUtils\EventUtilsCSharp\obj\Release\EventUti.FA029182.Up2Date
+C:\Users\kirill\PLCnext-libs\EventUtils\EventUtilsCSharp\obj\Release\EventUtils.dll
+C:\Users\kirill\PLCnext-libs\EventUtils\EventUtilsCSharp\obj\Release\EventUtils.pdb

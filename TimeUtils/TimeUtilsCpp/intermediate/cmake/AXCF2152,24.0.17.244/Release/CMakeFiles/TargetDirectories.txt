@@ -1,7 +1,7 @@
-/home/kirill/VS_Code_Files/PLCnext/PLCnext-libs/TimeUtils/TimeUtilsCpp/intermediate/cmake/AXCF2152,24.0.17.244/Release/CMakeFiles/TimeUtils.dir
-/home/kirill/VS_Code_Files/PLCnext/PLCnext-libs/TimeUtils/TimeUtilsCpp/intermediate/cmake/AXCF2152,24.0.17.244/Release/CMakeFiles/edit_cache.dir
-/home/kirill/VS_Code_Files/PLCnext/PLCnext-libs/TimeUtils/TimeUtilsCpp/intermediate/cmake/AXCF2152,24.0.17.244/Release/CMakeFiles/rebuild_cache.dir
-/home/kirill/VS_Code_Files/PLCnext/PLCnext-libs/TimeUtils/TimeUtilsCpp/intermediate/cmake/AXCF2152,24.0.17.244/Release/CMakeFiles/list_install_components.dir
-/home/kirill/VS_Code_Files/PLCnext/PLCnext-libs/TimeUtils/TimeUtilsCpp/intermediate/cmake/AXCF2152,24.0.17.244/Release/CMakeFiles/install.dir
-/home/kirill/VS_Code_Files/PLCnext/PLCnext-libs/TimeUtils/TimeUtilsCpp/intermediate/cmake/AXCF2152,24.0.17.244/Release/CMakeFiles/install/local.dir
-/home/kirill/VS_Code_Files/PLCnext/PLCnext-libs/TimeUtils/TimeUtilsCpp/intermediate/cmake/AXCF2152,24.0.17.244/Release/CMakeFiles/install/strip.dir
+C:/Users/kirill/PLCnext-libs/TimeUtils/TimeUtilsCpp/intermediate/cmake/AXCF2152,24.0.17.244/Release/CMakeFiles/TimeUtils.dir
+C:/Users/kirill/PLCnext-libs/TimeUtils/TimeUtilsCpp/intermediate/cmake/AXCF2152,24.0.17.244/Release/CMakeFiles/edit_cache.dir
+C:/Users/kirill/PLCnext-libs/TimeUtils/TimeUtilsCpp/intermediate/cmake/AXCF2152,24.0.17.244/Release/CMakeFiles/rebuild_cache.dir
+C:/Users/kirill/PLCnext-libs/TimeUtils/TimeUtilsCpp/intermediate/cmake/AXCF2152,24.0.17.244/Release/CMakeFiles/list_install_components.dir
+C:/Users/kirill/PLCnext-libs/TimeUtils/TimeUtilsCpp/intermediate/cmake/AXCF2152,24.0.17.244/Release/CMakeFiles/install.dir
+C:/Users/kirill/PLCnext-libs/TimeUtils/TimeUtilsCpp/intermediate/cmake/AXCF2152,24.0.17.244/Release/CMakeFiles/install/local.dir
+C:/Users/kirill/PLCnext-libs/TimeUtils/TimeUtilsCpp/intermediate/cmake/AXCF2152,24.0.17.244/Release/CMakeFiles/install/strip.dir

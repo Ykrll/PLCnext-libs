@@ -1,8 +1,8 @@
-# Install script for directory: /home/kirill/VS_Code_Files/PLCnext/PLCnext-libs/TimeUtils/TimeUtilsCpp
+# Install script for directory: C:/Users/kirill/PLCnext-libs/TimeUtils/TimeUtilsCpp
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/kirill/VS_Code_Files/PLCnext/PLCnext-libs/TimeUtils/TimeUtilsCpp/bin")
+  set(CMAKE_INSTALL_PREFIX "C:/Users/kirill/PLCnext-libs/TimeUtils/TimeUtilsCpp/bin")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -39,7 +39,7 @@ endif()
 
 # Set default install directory permissions.
 if(NOT DEFINED CMAKE_OBJDUMP)
-  set(CMAKE_OBJDUMP "/home/kirill/Downloads/PLCnext/tools/PLCnextSDK/AXCF2152/2024.0.17/sysroots/x86_64-pokysdk-linux/usr/bin/arm-pxc-linux-gnueabi/arm-pxc-linux-gnueabi-objdump")
+  set(CMAKE_OBJDUMP "C:/Users/kirill/PLCnextSDK/AXCF2152/2024.0/sysroots/x86_64-w64-mingw32/usr/bin/arm-pxc-linux-gnueabi/arm-pxc-linux-gnueabi-objdump.exe")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -47,17 +47,13 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/AXCF2152_24.0.17.244/Release/lib/libTimeUtils.so")
     file(RPATH_CHECK
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/AXCF2152_24.0.17.244/Release/lib/libTimeUtils.so"
-         RPATH "$ORIGIN")
+         RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/AXCF2152_24.0.17.244/Release/lib" TYPE SHARED_LIBRARY FILES "/home/kirill/VS_Code_Files/PLCnext/PLCnext-libs/TimeUtils/TimeUtilsCpp/intermediate/cmake/AXCF2152,24.0.17.244/Release/libTimeUtils.so")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/AXCF2152_24.0.17.244/Release/lib" TYPE SHARED_LIBRARY FILES "C:/Users/kirill/PLCnext-libs/TimeUtils/TimeUtilsCpp/intermediate/cmake/AXCF2152,24.0.17.244/Release/libTimeUtils.so")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/AXCF2152_24.0.17.244/Release/lib/libTimeUtils.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/AXCF2152_24.0.17.244/Release/lib/libTimeUtils.so")
-    file(RPATH_CHANGE
-         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/AXCF2152_24.0.17.244/Release/lib/libTimeUtils.so"
-         OLD_RPATH ":::::::"
-         NEW_RPATH "$ORIGIN")
     if(CMAKE_INSTALL_DO_STRIP)
-      execute_process(COMMAND "/home/kirill/Downloads/PLCnext/tools/PLCnextSDK/AXCF2152/2024.0.17/sysroots/x86_64-pokysdk-linux/usr/bin/arm-pxc-linux-gnueabi/arm-pxc-linux-gnueabi-strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/AXCF2152_24.0.17.244/Release/lib/libTimeUtils.so")
+      execute_process(COMMAND "C:/Users/kirill/PLCnextSDK/AXCF2152/2024.0/sysroots/x86_64-w64-mingw32/usr/bin/arm-pxc-linux-gnueabi/arm-pxc-linux-gnueabi-strip.exe" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/AXCF2152_24.0.17.244/Release/lib/libTimeUtils.so")
     endif()
   endif()
 endif()
@@ -73,5 +69,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/kirill/VS_Code_Files/PLCnext/PLCnext-libs/TimeUtils/TimeUtilsCpp/intermediate/cmake/AXCF2152,24.0.17.244/Release/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Users/kirill/PLCnext-libs/TimeUtils/TimeUtilsCpp/intermediate/cmake/AXCF2152,24.0.17.244/Release/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

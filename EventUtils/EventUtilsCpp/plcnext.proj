@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ProjectSettings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://www.phoenixcontact.com/schema/cliproject">
+  <Id>ae6db4ec-16a5-4fd3-ac04-2fa01fbbc6d6</Id>
+  <Version>4.0</Version>
+  <Name>EventUtils</Name>
+  <Type>snproject</Type>
+  <CSharpProjectPath>../EventUtilsCSharp</CSharpProjectPath>
+  <Target>AXCF2152,2024.0.17 LTS (24.0.17.244)</Target>
+</ProjectSettings>

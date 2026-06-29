@@ -1,0 +1,329 @@
+// PHOENIX CONTACT Software eCLR Native Library Builder version 3.0.1043.0
+// Do not modify this automatically generated file!
+
+#include "eclr.h"
+#include "EventUtils.h"
+
+#if ECLRMETA_COMPATID != 10
+  #error incompatible metadata, rebuild EventUtils.cs !
+#endif
+
+#ifdef PLATFORM_DATAMODEL_P64_DEFINED
+
+typedef uint64 t_meta;
+
+// declare the meta table
+struct EventUtils_Metatable
+{
+    t_meta meta[61];
+};
+
+// declare all class method member
+struct EventUtils_Classmember
+{
+    void (EventUtils::EVENT_TRIGGER::* p26)();
+    void (EventUtils::EVENT_TRIGGER::* p29)();
+    void (EventUtils::EVENT_TRIGGER::* p32)();
+};
+
+// declare the whole meta file structure
+struct EventUtils_Meta
+{
+    EventUtils_Metatable   metatable;
+    t_meta classmemberBegin;
+    EventUtils_Classmember classmember;
+    t_meta metatableEnd;
+};
+
+// calculates the distance to associated C++ member function
+#define MEMBERFUNC_DIST(method, index) \
+    (PLATFORM_OFFSETOF(EventUtils_Classmember, method) + PLATFORM_OFFSETOF(CppMemberfuncLayout, m_pEntry) + sizeof(EventUtils_Metatable) + sizeof(t_meta) - index*sizeof(t_meta) )
+
+// declare all static method member
+
+#if (PLATFORM_TARGET_ENDIANESS == TARGET_BIG_ENDIAN)
+#define META_0000 0x0000000000000110
+#define META_0001 0x00000A0800000000
+#define META_0002 0x0000000000000511
+#define META_0003 0x1061000100000000
+#define META_0004 0x0000000100244576
+#define META_0005 0x656E745574696C73
+#define META_0006 0x00006C6962457665
+#define META_0007 0x6E745574696C7300
+#define META_0008 0x0000000000000112
+#define META_0009 0x53797374656D0000
+#define META_0010 0x000000000000021A
+#define META_0011 0xFFFFFFFC4F626A65
+#define META_0012 0x6374000000000000
+#define META_0013 0x0000000000000212
+#define META_0014 0x4576656E74557469
+#define META_0015 0x6C73000000000000
+#define META_0016 0x0000000000000114
+#define META_0017 0x0000000000000000
+#define META_0018 0x0000000000001013
+#define META_0019 0x0000000000000000
+#define META_0020 0x0000000000000000
+#define META_0021 0x02108F20001E0003
+#define META_0022 0x00000010FFECFFF2
+#define META_0023 0x000C001700224556
+#define META_0024 0x454E545F54524947
+#define META_0025 0x4745520000000000
+#define META_0026 0x0000000000000000
+#define META_0027 0xA00100005F5F496E
+#define META_0028 0x6974000000000000
+#define META_0029 0x0000000000000000
+#define META_0030 0xA00100005F5F5072
+#define META_0031 0x6F63657373000000
+#define META_0032 0x0000000000000000
+#define META_0033 0xA80500002E63746F
+#define META_0034 0x7200000000000000
+#define META_0035 0x0000000000001515
+#define META_0036 0x0000000224000008
+#define META_0037 0x002B000724000009
+#define META_0038 0x0029000900000000
+#define META_0039 0x4578656375746500
+#define META_0040 0x06610007446F6E65
+#define META_0041 0x00000661001F0702
+#define META_0042 0x4965633631313331
+#define META_0043 0x2E456E67696E6565
+#define META_0044 0x72696E672E50726F
+#define META_0045 0x746F74797065732E
+#define META_0046 0x5661726961626C65
+#define META_0047 0x732E496E70757441
+#define META_0048 0x7474726962757465
+#define META_0049 0x0000496563363131
+#define META_0050 0x33312E456E67696E
+#define META_0051 0x656572696E672E50
+#define META_0052 0x726F746F74797065
+#define META_0053 0x732E566172696162
+#define META_0054 0x6C65732E4F757470
+#define META_0055 0x7574417474726962
+#define META_0056 0x7574650000000000
+#define META_0057 0x000000000000021A
+#define META_0058 0xFFFFFF9E426F6F6C
+#define META_0059 0x65616E0000000000
+#define META_0060 0x0000000000000001
+
+// class sizeof(type) assignment
+#undef META_0022
+#define META_0022 (t_meta)(0x00000000FFECFFF2 | ((uint64)sizeof(EventUtils::EVENT_TRIGGER) << 32) ) 
+// class method member assignment
+#undef META_0026
+#define META_0026 (t_meta)MEMBERFUNC_DIST(p26, 26) // EventUtils::EVENT_TRIGGER::__Init (non-static)
+#undef META_0029
+#define META_0029 (t_meta)MEMBERFUNC_DIST(p29, 29) // EventUtils::EVENT_TRIGGER::__Process (non-static)
+#undef META_0032
+#define META_0032 (t_meta)MEMBERFUNC_DIST(p32, 32) // EventUtils::EVENT_TRIGGER::.ctor (non-static)
+
+// 000000 00 00 00 00 00 00 01 10 00 00 0A 08 00 00 00 00    ................ 
+// 000016 00 00 00 00 00 00 05 11 10 61 00 01 00 00 00 00    .........a...... 
+// 000032 00 00 00 01 00 24 45 76 65 6E 74 55 74 69 6C 73    .....$EventUtils 
+// 000048 00 00 6C 69 62 45 76 65 6E 74 55 74 69 6C 73 00    ..libEventUtils. 
+// 000064 00 00 00 00 00 00 01 12 53 79 73 74 65 6D 00 00    ........System.. 
+// 000080 00 00 00 00 00 00 02 1A FF FF FF FC 4F 62 6A 65    ............Obje 
+// 000096 63 74 00 00 00 00 00 00 00 00 00 00 00 00 02 12    ct.............. 
+// 000112 45 76 65 6E 74 55 74 69 6C 73 00 00 00 00 00 00    EventUtils...... 
+// 000128 00 00 00 00 00 00 01 14 00 00 00 00 00 00 00 00    ................ 
+// 000144 00 00 00 00 00 00 10 13 00 00 00 00 00 00 00 00    ................ 
+// 000160 00 00 00 00 00 00 00 00 02 10 8F 20 00 1E 00 03    ........... .... 
+// 000176 00 00 00 00 FF EC FF F2 00 0C 00 17 00 22 45 56    ............."EV 
+// 000192 45 4E 54 5F 54 52 49 47 47 45 52 00 00 00 00 00    ENT_TRIGGER..... 
+// 000208 00 00 00 00 00 00 00 00 A0 01 00 00 5F 5F 49 6E    ............__In 
+// 000224 69 74 00 00 00 00 00 00 00 00 00 00 00 00 00 00    it.............. 
+// 000240 A0 01 00 00 5F 5F 50 72 6F 63 65 73 73 00 00 00    ....__Process... 
+// 000256 00 00 00 00 00 00 00 00 A8 05 00 00 2E 63 74 6F    .............cto 
+// 000272 72 00 00 00 00 00 00 00 00 00 00 00 00 00 15 15    r............... 
+// 000288 00 00 00 02 24 00 00 08 00 2B 00 07 24 00 00 09    ....$....+..$... 
+// 000304 00 29 00 09 00 00 00 00 45 78 65 63 75 74 65 00    .)......Execute. 
+// 000320 06 61 00 07 44 6F 6E 65 00 00 06 61 00 1F 07 02    .a..Done...a.... 
+// 000336 49 65 63 36 31 31 33 31 2E 45 6E 67 69 6E 65 65    Iec61131.Enginee 
+// 000352 72 69 6E 67 2E 50 72 6F 74 6F 74 79 70 65 73 2E    ring.Prototypes. 
+// 000368 56 61 72 69 61 62 6C 65 73 2E 49 6E 70 75 74 41    Variables.InputA 
+// 000384 74 74 72 69 62 75 74 65 00 00 49 65 63 36 31 31    ttribute..Iec611 
+// 000400 33 31 2E 45 6E 67 69 6E 65 65 72 69 6E 67 2E 50    31.Engineering.P 
+// 000416 72 6F 74 6F 74 79 70 65 73 2E 56 61 72 69 61 62    rototypes.Variab 
+// 000432 6C 65 73 2E 4F 75 74 70 75 74 41 74 74 72 69 62    les.OutputAttrib 
+// 000448 75 74 65 00 00 00 00 00 00 00 00 00 00 00 02 1A    ute............. 
+// 000464 FF FF FF 9E 42 6F 6F 6C 65 61 6E 00 00 00 00 00    ....Boolean..... 
+// 000480 00 00 00 00 00 00 00 01    ........ 
+
+
+#elif (PLATFORM_TARGET_ENDIANESS == TARGET_LITTLE_ENDIAN)
+#define META_0000 0x0000000000000110
+#define META_0001 0x000000000A080000
+#define META_0002 0x0000000000000511
+#define META_0003 0x0000000000011061
+#define META_0004 0x7645002400010000
+#define META_0005 0x736C697455746E65
+#define META_0006 0x65764562696C0000
+#define META_0007 0x00736C697455746E
+#define META_0008 0x0000000000000112
+#define META_0009 0x00006D6574737953
+#define META_0010 0x000000000000021A
+#define META_0011 0x656A624FFFFCFFFF
+#define META_0012 0x0000000000007463
+#define META_0013 0x0000000000000212
+#define META_0014 0x697455746E657645
+#define META_0015 0x000000000000736C
+#define META_0016 0x0000000000000114
+#define META_0017 0x0000000000000000
+#define META_0018 0x0000000000001013
+#define META_0019 0x0000000000000000
+#define META_0020 0x0000000000000000
+#define META_0021 0x0003001E8F200210
+#define META_0022 0xFFF2FFEC00000010
+#define META_0023 0x564500220017000C
+#define META_0024 0x474952545F544E45
+#define META_0025 0x0000000000524547
+#define META_0026 0x0000000000000000
+#define META_0027 0x6E495F5F0000A001
+#define META_0028 0x0000000000007469
+#define META_0029 0x0000000000000000
+#define META_0030 0x72505F5F0000A001
+#define META_0031 0x000000737365636F
+#define META_0032 0x0000000000000000
+#define META_0033 0x6F74632E0000A805
+#define META_0034 0x0000000000000072
+#define META_0035 0x0000000000001515
+#define META_0036 0x0008240000020000
+#define META_0037 0x000924000007002B
+#define META_0038 0x0000000000090029
+#define META_0039 0x0065747563657845
+#define META_0040 0x656E6F4400076106
+#define META_0041 0x0207001F61060000
+#define META_0042 0x3133313136636549
+#define META_0043 0x65656E69676E452E
+#define META_0044 0x6F72502E676E6972
+#define META_0045 0x2E73657079746F74
+#define META_0046 0x656C626169726156
+#define META_0047 0x417475706E492E73
+#define META_0048 0x6574756269727474
+#define META_0049 0x3131366365490000
+#define META_0050 0x6E69676E452E3133
+#define META_0051 0x502E676E69726565
+#define META_0052 0x657079746F746F72
+#define META_0053 0x6261697261562E73
+#define META_0054 0x7074754F2E73656C
+#define META_0055 0x6269727474417475
+#define META_0056 0x0000000000657475
+#define META_0057 0x000000000000021A
+#define META_0058 0x6C6F6F42FF9EFFFF
+#define META_0059 0x00000000006E6165
+#define META_0060 0x0000000000000001
+
+// class sizeof(type) assignment
+#undef META_0022
+#define META_0022 (t_meta)(0xFFF2FFEC00000000 | (uint32)sizeof(EventUtils::EVENT_TRIGGER) ) 
+// class method member assignment
+#undef META_0026
+#define META_0026 (t_meta)MEMBERFUNC_DIST(p26, 26) // EventUtils::EVENT_TRIGGER::__Init (non-static)
+#undef META_0029
+#define META_0029 (t_meta)MEMBERFUNC_DIST(p29, 29) // EventUtils::EVENT_TRIGGER::__Process (non-static)
+#undef META_0032
+#define META_0032 (t_meta)MEMBERFUNC_DIST(p32, 32) // EventUtils::EVENT_TRIGGER::.ctor (non-static)
+
+// 000000 10 01 00 00 00 00 00 00 00 00 08 0A 00 00 00 00    ................ 
+// 000016 11 05 00 00 00 00 00 00 61 10 01 00 00 00 00 00    ........a....... 
+// 000032 00 00 01 00 24 00 45 76 65 6E 74 55 74 69 6C 73    ....$.EventUtils 
+// 000048 00 00 6C 69 62 45 76 65 6E 74 55 74 69 6C 73 00    ..libEventUtils. 
+// 000064 12 01 00 00 00 00 00 00 53 79 73 74 65 6D 00 00    ........System.. 
+// 000080 1A 02 00 00 00 00 00 00 FF FF FC FF 4F 62 6A 65    ............Obje 
+// 000096 63 74 00 00 00 00 00 00 12 02 00 00 00 00 00 00    ct.............. 
+// 000112 45 76 65 6E 74 55 74 69 6C 73 00 00 00 00 00 00    EventUtils...... 
+// 000128 14 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00    ................ 
+// 000144 13 10 00 00 00 00 00 00 00 00 00 00 00 00 00 00    ................ 
+// 000160 00 00 00 00 00 00 00 00 10 02 20 8F 1E 00 03 00    .......... ..... 
+// 000176 00 00 00 00 EC FF F2 FF 0C 00 17 00 22 00 45 56    ............".EV 
+// 000192 45 4E 54 5F 54 52 49 47 47 45 52 00 00 00 00 00    ENT_TRIGGER..... 
+// 000208 00 00 00 00 00 00 00 00 01 A0 00 00 5F 5F 49 6E    ............__In 
+// 000224 69 74 00 00 00 00 00 00 00 00 00 00 00 00 00 00    it.............. 
+// 000240 01 A0 00 00 5F 5F 50 72 6F 63 65 73 73 00 00 00    ....__Process... 
+// 000256 00 00 00 00 00 00 00 00 05 A8 00 00 2E 63 74 6F    .............cto 
+// 000272 72 00 00 00 00 00 00 00 15 15 00 00 00 00 00 00    r............... 
+// 000288 00 00 02 00 00 24 08 00 2B 00 07 00 00 24 09 00    .....$..+....$.. 
+// 000304 29 00 09 00 00 00 00 00 45 78 65 63 75 74 65 00    ).......Execute. 
+// 000320 06 61 07 00 44 6F 6E 65 00 00 06 61 1F 00 07 02    .a..Done...a.... 
+// 000336 49 65 63 36 31 31 33 31 2E 45 6E 67 69 6E 65 65    Iec61131.Enginee 
+// 000352 72 69 6E 67 2E 50 72 6F 74 6F 74 79 70 65 73 2E    ring.Prototypes. 
+// 000368 56 61 72 69 61 62 6C 65 73 2E 49 6E 70 75 74 41    Variables.InputA 
+// 000384 74 74 72 69 62 75 74 65 00 00 49 65 63 36 31 31    ttribute..Iec611 
+// 000400 33 31 2E 45 6E 67 69 6E 65 65 72 69 6E 67 2E 50    31.Engineering.P 
+// 000416 72 6F 74 6F 74 79 70 65 73 2E 56 61 72 69 61 62    rototypes.Variab 
+// 000432 6C 65 73 2E 4F 75 74 70 75 74 41 74 74 72 69 62    les.OutputAttrib 
+// 000448 75 74 65 00 00 00 00 00 1A 02 00 00 00 00 00 00    ute............. 
+// 000464 FF FF 9E FF 42 6F 6F 6C 65 61 6E 00 00 00 00 00    ....Boolean..... 
+// 000480 01 00 00 00 00 00 00 00    ........ 
+
+
+#else
+#error target endianess not defined
+#endif
+
+
+EventUtils_Meta const EventUtils_meta = {
+    {{
+    META_0000,META_0001,META_0002,META_0003,META_0004,META_0005,META_0006,META_0007,
+    META_0008,META_0009,META_0010,META_0011,META_0012,META_0013,META_0014,META_0015,
+    META_0016,META_0017,META_0018,META_0019,META_0020,META_0021,META_0022,META_0023,
+    META_0024,META_0025,META_0026,META_0027,META_0028,META_0029,META_0030,META_0031,
+    META_0032,META_0033,META_0034,META_0035,META_0036,META_0037,META_0038,META_0039,
+    META_0040,META_0041,META_0042,META_0043,META_0044,META_0045,META_0046,META_0047,
+    META_0048,META_0049,META_0050,META_0051,META_0052,META_0053,META_0054,META_0055,
+    META_0056,META_0057,META_0058,META_0059,META_0060
+    },},
+    // classmember table start
+    (sizeof(EventUtils_Classmember)/sizeof(t_meta)) << 8,
+    // classmember table
+    {
+    &EventUtils::EVENT_TRIGGER::__Init,
+    &EventUtils::EVENT_TRIGGER::__Process,
+    &EventUtils::EVENT_TRIGGER::ctor
+    },
+    // meta end
+    0x00000001
+};
+
+
+unsigned EventUtils::s_modulHndl;
+
+#ifdef PLATFORM_CLASSLAYOUT_CHECK
+// Note: please modify the EventUtils.h header if this function is not yet declared (see *-template.h)
+bool EventUtils::checkLayout()
+{
+    // check layout for class EventUtils.EVENT_TRIGGER
+    if (PLATFORM_OFFSETOF(EVENT_TRIGGER, Execute) != 8) { return false; }
+    if (PLATFORM_OFFSETOF(EVENT_TRIGGER, Done) != 9) { return false; }
+    return true;
+}
+#endif //#ifdef PLATFORM_CLASSLAYOUT_CHECK
+
+#ifdef PLATFORM_NATIVEDLL_LOADER
+
+#include "NativeDllLoader.code"
+
+static bool LoadLibrary()
+{
+#ifdef PLATFORM_CLASSLAYOUT_CHECK
+    if (!EventUtils::checkLayout()) { return false; }
+#endif
+    if (!EventUtils::init()) { return false; }
+    LoadLibraryInfo(&EventUtils_meta, sizeof(EventUtils_meta), EventUtils::isCompatible, EventUtils::load, EventUtils::unload);
+    return true;
+}
+
+#else
+
+bool EventUtils::loadLibrary()
+{
+#ifdef PLATFORM_CLASSLAYOUT_CHECK
+    if (!checkLayout()) { return false; }
+#endif
+    s_modulHndl = CNativeLibraryManager::AddNativeLibrary(&EventUtils_meta, sizeof(EventUtils_meta), isCompatible, load, unload);
+    return true;
+
+}
+
+#endif //#ifdef PLATFORM_NATIVEDLL_LOADER
+
+#endif //#ifdef PLATFORM_DATAMODEL_P64_DEFINED
+

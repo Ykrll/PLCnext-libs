@@ -44,19 +44,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/kirill/Downloads/PLCnext/tools/PLCnext_Toolchain/cmake/bin/cmake
+CMAKE_COMMAND = "C:/Program Files/PHOENIX CONTACT/PLCnext_Toolchain/cmake/bin/cmake.exe"
 
 # The command to remove a file.
-RM = /home/kirill/Downloads/PLCnext/tools/PLCnext_Toolchain/cmake/bin/cmake -E rm -f
+RM = "C:/Program Files/PHOENIX CONTACT/PLCnext_Toolchain/cmake/bin/cmake.exe" -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/kirill/VS_Code_Files/PLCnext/PLCnext-libs/TimeUtils/TimeUtilsCpp
+CMAKE_SOURCE_DIR = C:/Users/kirill/PLCnext-libs/TimeUtils/TimeUtilsCpp
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/kirill/VS_Code_Files/PLCnext/PLCnext-libs/TimeUtils/TimeUtilsCpp/intermediate/cmake/AXCF2152,24.0.17.244/Release
+CMAKE_BINARY_DIR = C:/Users/kirill/PLCnext-libs/TimeUtils/TimeUtilsCpp/intermediate/cmake/AXCF2152,24.0.17.244/Release
 
 # Include any dependencies generated for this target.
 include CMakeFiles/TimeUtils.dir/depend.make
@@ -70,66 +70,66 @@ include CMakeFiles/TimeUtils.dir/progress.make
 include CMakeFiles/TimeUtils.dir/flags.make
 
 CMakeFiles/TimeUtils.dir/intermediate/code/TimeUtils-cli32.cpp.o: CMakeFiles/TimeUtils.dir/flags.make
-CMakeFiles/TimeUtils.dir/intermediate/code/TimeUtils-cli32.cpp.o: /home/kirill/VS_Code_Files/PLCnext/PLCnext-libs/TimeUtils/TimeUtilsCpp/intermediate/code/TimeUtils-cli32.cpp
+CMakeFiles/TimeUtils.dir/intermediate/code/TimeUtils-cli32.cpp.o: C:/Users/kirill/PLCnext-libs/TimeUtils/TimeUtilsCpp/intermediate/code/TimeUtils-cli32.cpp
 CMakeFiles/TimeUtils.dir/intermediate/code/TimeUtils-cli32.cpp.o: CMakeFiles/TimeUtils.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kirill/VS_Code_Files/PLCnext/PLCnext-libs/TimeUtils/TimeUtilsCpp/intermediate/cmake/AXCF2152,24.0.17.244/Release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/TimeUtils.dir/intermediate/code/TimeUtils-cli32.cpp.o"
-	/home/kirill/Downloads/PLCnext/tools/PLCnextSDK/AXCF2152/2024.0.17/sysroots/x86_64-pokysdk-linux/usr/bin/arm-pxc-linux-gnueabi/arm-pxc-linux-gnueabi-g++ --sysroot=/home/kirill/Downloads/PLCnext/tools/PLCnextSDK/AXCF2152/2024.0.17/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/TimeUtils.dir/intermediate/code/TimeUtils-cli32.cpp.o -MF CMakeFiles/TimeUtils.dir/intermediate/code/TimeUtils-cli32.cpp.o.d -o CMakeFiles/TimeUtils.dir/intermediate/code/TimeUtils-cli32.cpp.o -c /home/kirill/VS_Code_Files/PLCnext/PLCnext-libs/TimeUtils/TimeUtilsCpp/intermediate/code/TimeUtils-cli32.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:/Users/kirill/PLCnext-libs/TimeUtils/TimeUtilsCpp/intermediate/cmake/AXCF2152,24.0.17.244/Release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/TimeUtils.dir/intermediate/code/TimeUtils-cli32.cpp.o"
+	C:/Users/kirill/PLCnextSDK/AXCF2152/2024.0/sysroots/x86_64-w64-mingw32/usr/bin/arm-pxc-linux-gnueabi/arm-pxc-linux-gnueabi-g++.exe --sysroot=C:/Users/kirill/PLCnextSDK/AXCF2152/2024.0/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/TimeUtils.dir/intermediate/code/TimeUtils-cli32.cpp.o -MF CMakeFiles/TimeUtils.dir/intermediate/code/TimeUtils-cli32.cpp.o.d -o CMakeFiles/TimeUtils.dir/intermediate/code/TimeUtils-cli32.cpp.o -c C:/Users/kirill/PLCnext-libs/TimeUtils/TimeUtilsCpp/intermediate/code/TimeUtils-cli32.cpp
 
 CMakeFiles/TimeUtils.dir/intermediate/code/TimeUtils-cli32.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/TimeUtils.dir/intermediate/code/TimeUtils-cli32.cpp.i"
-	/home/kirill/Downloads/PLCnext/tools/PLCnextSDK/AXCF2152/2024.0.17/sysroots/x86_64-pokysdk-linux/usr/bin/arm-pxc-linux-gnueabi/arm-pxc-linux-gnueabi-g++ --sysroot=/home/kirill/Downloads/PLCnext/tools/PLCnextSDK/AXCF2152/2024.0.17/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kirill/VS_Code_Files/PLCnext/PLCnext-libs/TimeUtils/TimeUtilsCpp/intermediate/code/TimeUtils-cli32.cpp > CMakeFiles/TimeUtils.dir/intermediate/code/TimeUtils-cli32.cpp.i
+	C:/Users/kirill/PLCnextSDK/AXCF2152/2024.0/sysroots/x86_64-w64-mingw32/usr/bin/arm-pxc-linux-gnueabi/arm-pxc-linux-gnueabi-g++.exe --sysroot=C:/Users/kirill/PLCnextSDK/AXCF2152/2024.0/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:/Users/kirill/PLCnext-libs/TimeUtils/TimeUtilsCpp/intermediate/code/TimeUtils-cli32.cpp > CMakeFiles/TimeUtils.dir/intermediate/code/TimeUtils-cli32.cpp.i
 
 CMakeFiles/TimeUtils.dir/intermediate/code/TimeUtils-cli32.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/TimeUtils.dir/intermediate/code/TimeUtils-cli32.cpp.s"
-	/home/kirill/Downloads/PLCnext/tools/PLCnextSDK/AXCF2152/2024.0.17/sysroots/x86_64-pokysdk-linux/usr/bin/arm-pxc-linux-gnueabi/arm-pxc-linux-gnueabi-g++ --sysroot=/home/kirill/Downloads/PLCnext/tools/PLCnextSDK/AXCF2152/2024.0.17/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kirill/VS_Code_Files/PLCnext/PLCnext-libs/TimeUtils/TimeUtilsCpp/intermediate/code/TimeUtils-cli32.cpp -o CMakeFiles/TimeUtils.dir/intermediate/code/TimeUtils-cli32.cpp.s
+	C:/Users/kirill/PLCnextSDK/AXCF2152/2024.0/sysroots/x86_64-w64-mingw32/usr/bin/arm-pxc-linux-gnueabi/arm-pxc-linux-gnueabi-g++.exe --sysroot=C:/Users/kirill/PLCnextSDK/AXCF2152/2024.0/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:/Users/kirill/PLCnext-libs/TimeUtils/TimeUtilsCpp/intermediate/code/TimeUtils-cli32.cpp -o CMakeFiles/TimeUtils.dir/intermediate/code/TimeUtils-cli32.cpp.s
 
 CMakeFiles/TimeUtils.dir/intermediate/code/TimeUtils-cli64.cpp.o: CMakeFiles/TimeUtils.dir/flags.make
-CMakeFiles/TimeUtils.dir/intermediate/code/TimeUtils-cli64.cpp.o: /home/kirill/VS_Code_Files/PLCnext/PLCnext-libs/TimeUtils/TimeUtilsCpp/intermediate/code/TimeUtils-cli64.cpp
+CMakeFiles/TimeUtils.dir/intermediate/code/TimeUtils-cli64.cpp.o: C:/Users/kirill/PLCnext-libs/TimeUtils/TimeUtilsCpp/intermediate/code/TimeUtils-cli64.cpp
 CMakeFiles/TimeUtils.dir/intermediate/code/TimeUtils-cli64.cpp.o: CMakeFiles/TimeUtils.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kirill/VS_Code_Files/PLCnext/PLCnext-libs/TimeUtils/TimeUtilsCpp/intermediate/cmake/AXCF2152,24.0.17.244/Release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/TimeUtils.dir/intermediate/code/TimeUtils-cli64.cpp.o"
-	/home/kirill/Downloads/PLCnext/tools/PLCnextSDK/AXCF2152/2024.0.17/sysroots/x86_64-pokysdk-linux/usr/bin/arm-pxc-linux-gnueabi/arm-pxc-linux-gnueabi-g++ --sysroot=/home/kirill/Downloads/PLCnext/tools/PLCnextSDK/AXCF2152/2024.0.17/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/TimeUtils.dir/intermediate/code/TimeUtils-cli64.cpp.o -MF CMakeFiles/TimeUtils.dir/intermediate/code/TimeUtils-cli64.cpp.o.d -o CMakeFiles/TimeUtils.dir/intermediate/code/TimeUtils-cli64.cpp.o -c /home/kirill/VS_Code_Files/PLCnext/PLCnext-libs/TimeUtils/TimeUtilsCpp/intermediate/code/TimeUtils-cli64.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:/Users/kirill/PLCnext-libs/TimeUtils/TimeUtilsCpp/intermediate/cmake/AXCF2152,24.0.17.244/Release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/TimeUtils.dir/intermediate/code/TimeUtils-cli64.cpp.o"
+	C:/Users/kirill/PLCnextSDK/AXCF2152/2024.0/sysroots/x86_64-w64-mingw32/usr/bin/arm-pxc-linux-gnueabi/arm-pxc-linux-gnueabi-g++.exe --sysroot=C:/Users/kirill/PLCnextSDK/AXCF2152/2024.0/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/TimeUtils.dir/intermediate/code/TimeUtils-cli64.cpp.o -MF CMakeFiles/TimeUtils.dir/intermediate/code/TimeUtils-cli64.cpp.o.d -o CMakeFiles/TimeUtils.dir/intermediate/code/TimeUtils-cli64.cpp.o -c C:/Users/kirill/PLCnext-libs/TimeUtils/TimeUtilsCpp/intermediate/code/TimeUtils-cli64.cpp
 
 CMakeFiles/TimeUtils.dir/intermediate/code/TimeUtils-cli64.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/TimeUtils.dir/intermediate/code/TimeUtils-cli64.cpp.i"
-	/home/kirill/Downloads/PLCnext/tools/PLCnextSDK/AXCF2152/2024.0.17/sysroots/x86_64-pokysdk-linux/usr/bin/arm-pxc-linux-gnueabi/arm-pxc-linux-gnueabi-g++ --sysroot=/home/kirill/Downloads/PLCnext/tools/PLCnextSDK/AXCF2152/2024.0.17/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kirill/VS_Code_Files/PLCnext/PLCnext-libs/TimeUtils/TimeUtilsCpp/intermediate/code/TimeUtils-cli64.cpp > CMakeFiles/TimeUtils.dir/intermediate/code/TimeUtils-cli64.cpp.i
+	C:/Users/kirill/PLCnextSDK/AXCF2152/2024.0/sysroots/x86_64-w64-mingw32/usr/bin/arm-pxc-linux-gnueabi/arm-pxc-linux-gnueabi-g++.exe --sysroot=C:/Users/kirill/PLCnextSDK/AXCF2152/2024.0/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:/Users/kirill/PLCnext-libs/TimeUtils/TimeUtilsCpp/intermediate/code/TimeUtils-cli64.cpp > CMakeFiles/TimeUtils.dir/intermediate/code/TimeUtils-cli64.cpp.i
 
 CMakeFiles/TimeUtils.dir/intermediate/code/TimeUtils-cli64.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/TimeUtils.dir/intermediate/code/TimeUtils-cli64.cpp.s"
-	/home/kirill/Downloads/PLCnext/tools/PLCnextSDK/AXCF2152/2024.0.17/sysroots/x86_64-pokysdk-linux/usr/bin/arm-pxc-linux-gnueabi/arm-pxc-linux-gnueabi-g++ --sysroot=/home/kirill/Downloads/PLCnext/tools/PLCnextSDK/AXCF2152/2024.0.17/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kirill/VS_Code_Files/PLCnext/PLCnext-libs/TimeUtils/TimeUtilsCpp/intermediate/code/TimeUtils-cli64.cpp -o CMakeFiles/TimeUtils.dir/intermediate/code/TimeUtils-cli64.cpp.s
+	C:/Users/kirill/PLCnextSDK/AXCF2152/2024.0/sysroots/x86_64-w64-mingw32/usr/bin/arm-pxc-linux-gnueabi/arm-pxc-linux-gnueabi-g++.exe --sysroot=C:/Users/kirill/PLCnextSDK/AXCF2152/2024.0/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:/Users/kirill/PLCnext-libs/TimeUtils/TimeUtilsCpp/intermediate/code/TimeUtils-cli64.cpp -o CMakeFiles/TimeUtils.dir/intermediate/code/TimeUtils-cli64.cpp.s
 
-CMakeFiles/TimeUtils.dir/src/GetUnixTimeULINT-cli.cpp.o: CMakeFiles/TimeUtils.dir/flags.make
-CMakeFiles/TimeUtils.dir/src/GetUnixTimeULINT-cli.cpp.o: /home/kirill/VS_Code_Files/PLCnext/PLCnext-libs/TimeUtils/TimeUtilsCpp/src/GetUnixTimeULINT-cli.cpp
-CMakeFiles/TimeUtils.dir/src/GetUnixTimeULINT-cli.cpp.o: CMakeFiles/TimeUtils.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kirill/VS_Code_Files/PLCnext/PLCnext-libs/TimeUtils/TimeUtilsCpp/intermediate/cmake/AXCF2152,24.0.17.244/Release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/TimeUtils.dir/src/GetUnixTimeULINT-cli.cpp.o"
-	/home/kirill/Downloads/PLCnext/tools/PLCnextSDK/AXCF2152/2024.0.17/sysroots/x86_64-pokysdk-linux/usr/bin/arm-pxc-linux-gnueabi/arm-pxc-linux-gnueabi-g++ --sysroot=/home/kirill/Downloads/PLCnext/tools/PLCnextSDK/AXCF2152/2024.0.17/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/TimeUtils.dir/src/GetUnixTimeULINT-cli.cpp.o -MF CMakeFiles/TimeUtils.dir/src/GetUnixTimeULINT-cli.cpp.o.d -o CMakeFiles/TimeUtils.dir/src/GetUnixTimeULINT-cli.cpp.o -c /home/kirill/VS_Code_Files/PLCnext/PLCnext-libs/TimeUtils/TimeUtilsCpp/src/GetUnixTimeULINT-cli.cpp
+CMakeFiles/TimeUtils.dir/src/GET_UNIX_TIME_ULINT-cli.cpp.o: CMakeFiles/TimeUtils.dir/flags.make
+CMakeFiles/TimeUtils.dir/src/GET_UNIX_TIME_ULINT-cli.cpp.o: C:/Users/kirill/PLCnext-libs/TimeUtils/TimeUtilsCpp/src/GET_UNIX_TIME_ULINT-cli.cpp
+CMakeFiles/TimeUtils.dir/src/GET_UNIX_TIME_ULINT-cli.cpp.o: CMakeFiles/TimeUtils.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:/Users/kirill/PLCnext-libs/TimeUtils/TimeUtilsCpp/intermediate/cmake/AXCF2152,24.0.17.244/Release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/TimeUtils.dir/src/GET_UNIX_TIME_ULINT-cli.cpp.o"
+	C:/Users/kirill/PLCnextSDK/AXCF2152/2024.0/sysroots/x86_64-w64-mingw32/usr/bin/arm-pxc-linux-gnueabi/arm-pxc-linux-gnueabi-g++.exe --sysroot=C:/Users/kirill/PLCnextSDK/AXCF2152/2024.0/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/TimeUtils.dir/src/GET_UNIX_TIME_ULINT-cli.cpp.o -MF CMakeFiles/TimeUtils.dir/src/GET_UNIX_TIME_ULINT-cli.cpp.o.d -o CMakeFiles/TimeUtils.dir/src/GET_UNIX_TIME_ULINT-cli.cpp.o -c C:/Users/kirill/PLCnext-libs/TimeUtils/TimeUtilsCpp/src/GET_UNIX_TIME_ULINT-cli.cpp
 
-CMakeFiles/TimeUtils.dir/src/GetUnixTimeULINT-cli.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/TimeUtils.dir/src/GetUnixTimeULINT-cli.cpp.i"
-	/home/kirill/Downloads/PLCnext/tools/PLCnextSDK/AXCF2152/2024.0.17/sysroots/x86_64-pokysdk-linux/usr/bin/arm-pxc-linux-gnueabi/arm-pxc-linux-gnueabi-g++ --sysroot=/home/kirill/Downloads/PLCnext/tools/PLCnextSDK/AXCF2152/2024.0.17/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kirill/VS_Code_Files/PLCnext/PLCnext-libs/TimeUtils/TimeUtilsCpp/src/GetUnixTimeULINT-cli.cpp > CMakeFiles/TimeUtils.dir/src/GetUnixTimeULINT-cli.cpp.i
+CMakeFiles/TimeUtils.dir/src/GET_UNIX_TIME_ULINT-cli.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/TimeUtils.dir/src/GET_UNIX_TIME_ULINT-cli.cpp.i"
+	C:/Users/kirill/PLCnextSDK/AXCF2152/2024.0/sysroots/x86_64-w64-mingw32/usr/bin/arm-pxc-linux-gnueabi/arm-pxc-linux-gnueabi-g++.exe --sysroot=C:/Users/kirill/PLCnextSDK/AXCF2152/2024.0/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:/Users/kirill/PLCnext-libs/TimeUtils/TimeUtilsCpp/src/GET_UNIX_TIME_ULINT-cli.cpp > CMakeFiles/TimeUtils.dir/src/GET_UNIX_TIME_ULINT-cli.cpp.i
 
-CMakeFiles/TimeUtils.dir/src/GetUnixTimeULINT-cli.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/TimeUtils.dir/src/GetUnixTimeULINT-cli.cpp.s"
-	/home/kirill/Downloads/PLCnext/tools/PLCnextSDK/AXCF2152/2024.0.17/sysroots/x86_64-pokysdk-linux/usr/bin/arm-pxc-linux-gnueabi/arm-pxc-linux-gnueabi-g++ --sysroot=/home/kirill/Downloads/PLCnext/tools/PLCnextSDK/AXCF2152/2024.0.17/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kirill/VS_Code_Files/PLCnext/PLCnext-libs/TimeUtils/TimeUtilsCpp/src/GetUnixTimeULINT-cli.cpp -o CMakeFiles/TimeUtils.dir/src/GetUnixTimeULINT-cli.cpp.s
+CMakeFiles/TimeUtils.dir/src/GET_UNIX_TIME_ULINT-cli.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/TimeUtils.dir/src/GET_UNIX_TIME_ULINT-cli.cpp.s"
+	C:/Users/kirill/PLCnextSDK/AXCF2152/2024.0/sysroots/x86_64-w64-mingw32/usr/bin/arm-pxc-linux-gnueabi/arm-pxc-linux-gnueabi-g++.exe --sysroot=C:/Users/kirill/PLCnextSDK/AXCF2152/2024.0/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:/Users/kirill/PLCnext-libs/TimeUtils/TimeUtilsCpp/src/GET_UNIX_TIME_ULINT-cli.cpp -o CMakeFiles/TimeUtils.dir/src/GET_UNIX_TIME_ULINT-cli.cpp.s
 
 CMakeFiles/TimeUtils.dir/src/TimeUtils-cli.cpp.o: CMakeFiles/TimeUtils.dir/flags.make
-CMakeFiles/TimeUtils.dir/src/TimeUtils-cli.cpp.o: /home/kirill/VS_Code_Files/PLCnext/PLCnext-libs/TimeUtils/TimeUtilsCpp/src/TimeUtils-cli.cpp
+CMakeFiles/TimeUtils.dir/src/TimeUtils-cli.cpp.o: C:/Users/kirill/PLCnext-libs/TimeUtils/TimeUtilsCpp/src/TimeUtils-cli.cpp
 CMakeFiles/TimeUtils.dir/src/TimeUtils-cli.cpp.o: CMakeFiles/TimeUtils.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kirill/VS_Code_Files/PLCnext/PLCnext-libs/TimeUtils/TimeUtilsCpp/intermediate/cmake/AXCF2152,24.0.17.244/Release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/TimeUtils.dir/src/TimeUtils-cli.cpp.o"
-	/home/kirill/Downloads/PLCnext/tools/PLCnextSDK/AXCF2152/2024.0.17/sysroots/x86_64-pokysdk-linux/usr/bin/arm-pxc-linux-gnueabi/arm-pxc-linux-gnueabi-g++ --sysroot=/home/kirill/Downloads/PLCnext/tools/PLCnextSDK/AXCF2152/2024.0.17/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/TimeUtils.dir/src/TimeUtils-cli.cpp.o -MF CMakeFiles/TimeUtils.dir/src/TimeUtils-cli.cpp.o.d -o CMakeFiles/TimeUtils.dir/src/TimeUtils-cli.cpp.o -c /home/kirill/VS_Code_Files/PLCnext/PLCnext-libs/TimeUtils/TimeUtilsCpp/src/TimeUtils-cli.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:/Users/kirill/PLCnext-libs/TimeUtils/TimeUtilsCpp/intermediate/cmake/AXCF2152,24.0.17.244/Release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/TimeUtils.dir/src/TimeUtils-cli.cpp.o"
+	C:/Users/kirill/PLCnextSDK/AXCF2152/2024.0/sysroots/x86_64-w64-mingw32/usr/bin/arm-pxc-linux-gnueabi/arm-pxc-linux-gnueabi-g++.exe --sysroot=C:/Users/kirill/PLCnextSDK/AXCF2152/2024.0/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/TimeUtils.dir/src/TimeUtils-cli.cpp.o -MF CMakeFiles/TimeUtils.dir/src/TimeUtils-cli.cpp.o.d -o CMakeFiles/TimeUtils.dir/src/TimeUtils-cli.cpp.o -c C:/Users/kirill/PLCnext-libs/TimeUtils/TimeUtilsCpp/src/TimeUtils-cli.cpp
 
 CMakeFiles/TimeUtils.dir/src/TimeUtils-cli.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/TimeUtils.dir/src/TimeUtils-cli.cpp.i"
-	/home/kirill/Downloads/PLCnext/tools/PLCnextSDK/AXCF2152/2024.0.17/sysroots/x86_64-pokysdk-linux/usr/bin/arm-pxc-linux-gnueabi/arm-pxc-linux-gnueabi-g++ --sysroot=/home/kirill/Downloads/PLCnext/tools/PLCnextSDK/AXCF2152/2024.0.17/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kirill/VS_Code_Files/PLCnext/PLCnext-libs/TimeUtils/TimeUtilsCpp/src/TimeUtils-cli.cpp > CMakeFiles/TimeUtils.dir/src/TimeUtils-cli.cpp.i
+	C:/Users/kirill/PLCnextSDK/AXCF2152/2024.0/sysroots/x86_64-w64-mingw32/usr/bin/arm-pxc-linux-gnueabi/arm-pxc-linux-gnueabi-g++.exe --sysroot=C:/Users/kirill/PLCnextSDK/AXCF2152/2024.0/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:/Users/kirill/PLCnext-libs/TimeUtils/TimeUtilsCpp/src/TimeUtils-cli.cpp > CMakeFiles/TimeUtils.dir/src/TimeUtils-cli.cpp.i
 
 CMakeFiles/TimeUtils.dir/src/TimeUtils-cli.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/TimeUtils.dir/src/TimeUtils-cli.cpp.s"
-	/home/kirill/Downloads/PLCnext/tools/PLCnextSDK/AXCF2152/2024.0.17/sysroots/x86_64-pokysdk-linux/usr/bin/arm-pxc-linux-gnueabi/arm-pxc-linux-gnueabi-g++ --sysroot=/home/kirill/Downloads/PLCnext/tools/PLCnextSDK/AXCF2152/2024.0.17/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kirill/VS_Code_Files/PLCnext/PLCnext-libs/TimeUtils/TimeUtilsCpp/src/TimeUtils-cli.cpp -o CMakeFiles/TimeUtils.dir/src/TimeUtils-cli.cpp.s
+	C:/Users/kirill/PLCnextSDK/AXCF2152/2024.0/sysroots/x86_64-w64-mingw32/usr/bin/arm-pxc-linux-gnueabi/arm-pxc-linux-gnueabi-g++.exe --sysroot=C:/Users/kirill/PLCnextSDK/AXCF2152/2024.0/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:/Users/kirill/PLCnext-libs/TimeUtils/TimeUtilsCpp/src/TimeUtils-cli.cpp -o CMakeFiles/TimeUtils.dir/src/TimeUtils-cli.cpp.s
 
 # Object files for target TimeUtils
 TimeUtils_OBJECTS = \
 "CMakeFiles/TimeUtils.dir/intermediate/code/TimeUtils-cli32.cpp.o" \
 "CMakeFiles/TimeUtils.dir/intermediate/code/TimeUtils-cli64.cpp.o" \
-"CMakeFiles/TimeUtils.dir/src/GetUnixTimeULINT-cli.cpp.o" \
+"CMakeFiles/TimeUtils.dir/src/GET_UNIX_TIME_ULINT-cli.cpp.o" \
 "CMakeFiles/TimeUtils.dir/src/TimeUtils-cli.cpp.o"
 
 # External object files for target TimeUtils
@@ -137,40 +137,39 @@ TimeUtils_EXTERNAL_OBJECTS =
 
 libTimeUtils.so: CMakeFiles/TimeUtils.dir/intermediate/code/TimeUtils-cli32.cpp.o
 libTimeUtils.so: CMakeFiles/TimeUtils.dir/intermediate/code/TimeUtils-cli64.cpp.o
-libTimeUtils.so: CMakeFiles/TimeUtils.dir/src/GetUnixTimeULINT-cli.cpp.o
+libTimeUtils.so: CMakeFiles/TimeUtils.dir/src/GET_UNIX_TIME_ULINT-cli.cpp.o
 libTimeUtils.so: CMakeFiles/TimeUtils.dir/src/TimeUtils-cli.cpp.o
 libTimeUtils.so: CMakeFiles/TimeUtils.dir/build.make
-libTimeUtils.so: /home/kirill/Downloads/PLCnext/tools/PLCnextSDK/AXCF2152/2024.0.17/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi/usr/lib/libArp.System.Acf.so
-libTimeUtils.so: /home/kirill/Downloads/PLCnext/tools/PLCnextSDK/AXCF2152/2024.0.17/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi/usr/lib/libArp.System.Commons.so
-libTimeUtils.so: /home/kirill/Downloads/PLCnext/tools/PLCnextSDK/AXCF2152/2024.0.17/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi/usr/lib/libArp.System.Core.a
-libTimeUtils.so: /home/kirill/Downloads/PLCnext/tools/PLCnextSDK/AXCF2152/2024.0.17/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi/usr/lib/libArp.Plc.Commons.so
-libTimeUtils.so: /home/kirill/Downloads/PLCnext/tools/PLCnextSDK/AXCF2152/2024.0.17/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi/usr/lib/libArp.System.Rsc.so
-libTimeUtils.so: /home/kirill/Downloads/PLCnext/tools/PLCnextSDK/AXCF2152/2024.0.17/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi/usr/lib/libArp.System.Commons.Services.so
-libTimeUtils.so: /home/kirill/Downloads/PLCnext/tools/PLCnextSDK/AXCF2152/2024.0.17/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi/usr/lib/libArp.System.Lm.Services.a
-libTimeUtils.so: /home/kirill/Downloads/PLCnext/tools/PLCnextSDK/AXCF2152/2024.0.17/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi/usr/lib/libArp.System.Nm.so
-libTimeUtils.so: /home/kirill/Downloads/PLCnext/tools/PLCnextSDK/AXCF2152/2024.0.17/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi/usr/lib/libArp.System.NmPayload.so
-libTimeUtils.so: /home/kirill/Downloads/PLCnext/tools/PLCnextSDK/AXCF2152/2024.0.17/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi/usr/lib/libArp.System.Security.so
-libTimeUtils.so: /home/kirill/Downloads/PLCnext/tools/PLCnextSDK/AXCF2152/2024.0.17/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi/usr/lib/libArp.System.Security.Services.so
-libTimeUtils.so: /home/kirill/Downloads/PLCnext/tools/PLCnextSDK/AXCF2152/2024.0.17/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi/usr/lib/libArp.System.Um.so
-libTimeUtils.so: /home/kirill/Downloads/PLCnext/tools/PLCnextSDK/AXCF2152/2024.0.17/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi/usr/lib/libArp.System.Ve.so
-libTimeUtils.so: /home/kirill/Downloads/PLCnext/tools/PLCnextSDK/AXCF2152/2024.0.17/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi/usr/lib/libArp.Plc.Domain.so
-libTimeUtils.so: /home/kirill/Downloads/PLCnext/tools/PLCnextSDK/AXCF2152/2024.0.17/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi/usr/lib/libArp.Plc.Gds.so
-libTimeUtils.so: /home/kirill/Downloads/PLCnext/tools/PLCnextSDK/AXCF2152/2024.0.17/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi/usr/lib/libArp.Plc.Meta.so
-libTimeUtils.so: /home/kirill/Downloads/PLCnext/tools/PLCnextSDK/AXCF2152/2024.0.17/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi/usr/lib/libArp.Device.Interface.so
-libTimeUtils.so: /home/kirill/Downloads/PLCnext/tools/PLCnextSDK/AXCF2152/2024.0.17/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi/usr/lib/libArp.Services.NotificationLogger.so
-libTimeUtils.so: /home/kirill/Downloads/PLCnext/tools/PLCnextSDK/AXCF2152/2024.0.17/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi/usr/lib/libArp.Hardware.Nim.so
-libTimeUtils.so: /home/kirill/Downloads/PLCnext/tools/PLCnextSDK/AXCF2152/2024.0.17/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi/usr/lib/libcppformat.so
-libTimeUtils.so: /home/kirill/Downloads/PLCnext/tools/PLCnextSDK/AXCF2152/2024.0.17/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi/usr/lib/libpthread.so
-libTimeUtils.so: /home/kirill/Downloads/PLCnext/tools/PLCnextSDK/AXCF2152/2024.0.17/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi/usr/lib/libArp.Io.Axioline.so
-libTimeUtils.so: /home/kirill/Downloads/PLCnext/tools/PLCnextSDK/AXCF2152/2024.0.17/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi/usr/lib/libArp.Io.Interbus.so
-libTimeUtils.so: /home/kirill/Downloads/PLCnext/tools/PLCnextSDK/AXCF2152/2024.0.17/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi/usr/lib/libArp.Io.Profibus.so
-libTimeUtils.so: /home/kirill/Downloads/PLCnext/tools/PLCnextSDK/AXCF2152/2024.0.17/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi/usr/lib/libArp.Io.ProfinetStack.so
-libTimeUtils.so: /home/kirill/Downloads/PLCnext/tools/PLCnextSDK/AXCF2152/2024.0.17/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi/usr/lib/libArp.Services.OpcUAServer.so
-libTimeUtils.so: /home/kirill/Downloads/PLCnext/tools/PLCnextSDK/AXCF2152/2024.0.17/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi/usr/lib/libArp.Services.TraceController.so
-libTimeUtils.so: /home/kirill/Downloads/PLCnext/tools/PLCnextSDK/AXCF2152/2024.0.17/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi/usr/lib/libArp.Services.DataLogger.so
-libTimeUtils.so: CMakeFiles/TimeUtils.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/kirill/VS_Code_Files/PLCnext/PLCnext-libs/TimeUtils/TimeUtilsCpp/intermediate/cmake/AXCF2152,24.0.17.244/Release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX shared library libTimeUtils.so"
-	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/TimeUtils.dir/link.txt --verbose=$(VERBOSE)
+libTimeUtils.so: C:/Users/kirill/PLCnextSDK/AXCF2152/2024.0/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi/usr/lib/libArp.System.Acf.so
+libTimeUtils.so: C:/Users/kirill/PLCnextSDK/AXCF2152/2024.0/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi/usr/lib/libArp.System.Commons.so
+libTimeUtils.so: C:/Users/kirill/PLCnextSDK/AXCF2152/2024.0/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi/usr/lib/libArp.System.Core.a
+libTimeUtils.so: C:/Users/kirill/PLCnextSDK/AXCF2152/2024.0/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi/usr/lib/libArp.Plc.Commons.so
+libTimeUtils.so: C:/Users/kirill/PLCnextSDK/AXCF2152/2024.0/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi/usr/lib/libArp.System.Rsc.so
+libTimeUtils.so: C:/Users/kirill/PLCnextSDK/AXCF2152/2024.0/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi/usr/lib/libArp.System.Commons.Services.so
+libTimeUtils.so: C:/Users/kirill/PLCnextSDK/AXCF2152/2024.0/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi/usr/lib/libArp.System.Lm.Services.a
+libTimeUtils.so: C:/Users/kirill/PLCnextSDK/AXCF2152/2024.0/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi/usr/lib/libArp.System.Nm.so
+libTimeUtils.so: C:/Users/kirill/PLCnextSDK/AXCF2152/2024.0/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi/usr/lib/libArp.System.NmPayload.so
+libTimeUtils.so: C:/Users/kirill/PLCnextSDK/AXCF2152/2024.0/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi/usr/lib/libArp.System.Security.so
+libTimeUtils.so: C:/Users/kirill/PLCnextSDK/AXCF2152/2024.0/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi/usr/lib/libArp.System.Security.Services.so
+libTimeUtils.so: C:/Users/kirill/PLCnextSDK/AXCF2152/2024.0/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi/usr/lib/libArp.System.Um.so
+libTimeUtils.so: C:/Users/kirill/PLCnextSDK/AXCF2152/2024.0/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi/usr/lib/libArp.System.Ve.so
+libTimeUtils.so: C:/Users/kirill/PLCnextSDK/AXCF2152/2024.0/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi/usr/lib/libArp.Plc.Domain.so
+libTimeUtils.so: C:/Users/kirill/PLCnextSDK/AXCF2152/2024.0/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi/usr/lib/libArp.Plc.Gds.so
+libTimeUtils.so: C:/Users/kirill/PLCnextSDK/AXCF2152/2024.0/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi/usr/lib/libArp.Plc.Meta.so
+libTimeUtils.so: C:/Users/kirill/PLCnextSDK/AXCF2152/2024.0/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi/usr/lib/libArp.Device.Interface.so
+libTimeUtils.so: C:/Users/kirill/PLCnextSDK/AXCF2152/2024.0/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi/usr/lib/libArp.Services.NotificationLogger.so
+libTimeUtils.so: C:/Users/kirill/PLCnextSDK/AXCF2152/2024.0/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi/usr/lib/libArp.Hardware.Nim.so
+libTimeUtils.so: C:/Users/kirill/PLCnextSDK/AXCF2152/2024.0/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi/usr/lib/libcppformat.so
+libTimeUtils.so: C:/Users/kirill/PLCnextSDK/AXCF2152/2024.0/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi/usr/lib/libpthread.so
+libTimeUtils.so: C:/Users/kirill/PLCnextSDK/AXCF2152/2024.0/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi/usr/lib/libArp.Io.Axioline.so
+libTimeUtils.so: C:/Users/kirill/PLCnextSDK/AXCF2152/2024.0/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi/usr/lib/libArp.Io.Interbus.so
+libTimeUtils.so: C:/Users/kirill/PLCnextSDK/AXCF2152/2024.0/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi/usr/lib/libArp.Io.Profibus.so
+libTimeUtils.so: C:/Users/kirill/PLCnextSDK/AXCF2152/2024.0/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi/usr/lib/libArp.Io.ProfinetStack.so
+libTimeUtils.so: C:/Users/kirill/PLCnextSDK/AXCF2152/2024.0/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi/usr/lib/libArp.Services.OpcUAServer.so
+libTimeUtils.so: C:/Users/kirill/PLCnextSDK/AXCF2152/2024.0/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi/usr/lib/libArp.Services.TraceController.so
+libTimeUtils.so: C:/Users/kirill/PLCnextSDK/AXCF2152/2024.0/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi/usr/lib/libArp.Services.DataLogger.so
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:/Users/kirill/PLCnext-libs/TimeUtils/TimeUtilsCpp/intermediate/cmake/AXCF2152,24.0.17.244/Release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX shared library libTimeUtils.so"
+	C:/Users/kirill/PLCnextSDK/AXCF2152/2024.0/sysroots/x86_64-w64-mingw32/usr/bin/arm-pxc-linux-gnueabi/arm-pxc-linux-gnueabi-g++.exe --sysroot=C:/Users/kirill/PLCnextSDK/AXCF2152/2024.0/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi -fPIC   -mthumb -mfpu=neon -mfloat-abi=hard -mcpu=cortex-a9 -O3 -DNDEBUG -Wl,--no-undefined -shared -Wl,-soname,libTimeUtils.so -o libTimeUtils.so $(TimeUtils_OBJECTS) $(TimeUtils_EXTERNAL_OBJECTS)  -Wl,-rpath,$$ORIGIN C:/Users/kirill/PLCnextSDK/AXCF2152/2024.0/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi/usr/lib/libArp.System.Acf.so C:/Users/kirill/PLCnextSDK/AXCF2152/2024.0/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi/usr/lib/libArp.System.Commons.so C:/Users/kirill/PLCnextSDK/AXCF2152/2024.0/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi/usr/lib/libArp.System.Core.a C:/Users/kirill/PLCnextSDK/AXCF2152/2024.0/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi/usr/lib/libArp.Plc.Commons.so C:/Users/kirill/PLCnextSDK/AXCF2152/2024.0/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi/usr/lib/libArp.System.Rsc.so C:/Users/kirill/PLCnextSDK/AXCF2152/2024.0/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi/usr/lib/libArp.System.Commons.Services.so C:/Users/kirill/PLCnextSDK/AXCF2152/2024.0/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi/usr/lib/libArp.System.Lm.Services.a C:/Users/kirill/PLCnextSDK/AXCF2152/2024.0/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi/usr/lib/libArp.System.Nm.so C:/Users/kirill/PLCnextSDK/AXCF2152/2024.0/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi/usr/lib/libArp.System.NmPayload.so C:/Users/kirill/PLCnextSDK/AXCF2152/2024.0/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi/usr/lib/libArp.System.Security.so C:/Users/kirill/PLCnextSDK/AXCF2152/2024.0/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi/usr/lib/libArp.System.Security.Services.so C:/Users/kirill/PLCnextSDK/AXCF2152/2024.0/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi/usr/lib/libArp.System.Um.so C:/Users/kirill/PLCnextSDK/AXCF2152/2024.0/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi/usr/lib/libArp.System.Ve.so C:/Users/kirill/PLCnextSDK/AXCF2152/2024.0/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi/usr/lib/libArp.Plc.Domain.so C:/Users/kirill/PLCnextSDK/AXCF2152/2024.0/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi/usr/lib/libArp.Plc.Gds.so C:/Users/kirill/PLCnextSDK/AXCF2152/2024.0/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi/usr/lib/libArp.Plc.Meta.so C:/Users/kirill/PLCnextSDK/AXCF2152/2024.0/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi/usr/lib/libArp.Device.Interface.so C:/Users/kirill/PLCnextSDK/AXCF2152/2024.0/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi/usr/lib/libArp.Services.NotificationLogger.so C:/Users/kirill/PLCnextSDK/AXCF2152/2024.0/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi/usr/lib/libArp.Hardware.Nim.so C:/Users/kirill/PLCnextSDK/AXCF2152/2024.0/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi/usr/lib/libcppformat.so C:/Users/kirill/PLCnextSDK/AXCF2152/2024.0/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi/usr/lib/libpthread.so C:/Users/kirill/PLCnextSDK/AXCF2152/2024.0/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi/usr/lib/libArp.Io.Axioline.so C:/Users/kirill/PLCnextSDK/AXCF2152/2024.0/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi/usr/lib/libArp.Io.Interbus.so C:/Users/kirill/PLCnextSDK/AXCF2152/2024.0/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi/usr/lib/libArp.Io.Profibus.so C:/Users/kirill/PLCnextSDK/AXCF2152/2024.0/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi/usr/lib/libArp.Io.ProfinetStack.so C:/Users/kirill/PLCnextSDK/AXCF2152/2024.0/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi/usr/lib/libArp.Services.OpcUAServer.so C:/Users/kirill/PLCnextSDK/AXCF2152/2024.0/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi/usr/lib/libArp.Services.TraceController.so C:/Users/kirill/PLCnextSDK/AXCF2152/2024.0/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi/usr/lib/libArp.Services.DataLogger.so 
 
 # Rule to build all files generated by this target.
 CMakeFiles/TimeUtils.dir/build: libTimeUtils.so
@@ -181,6 +180,6 @@ CMakeFiles/TimeUtils.dir/clean:
 .PHONY : CMakeFiles/TimeUtils.dir/clean
 
 CMakeFiles/TimeUtils.dir/depend:
-	cd /home/kirill/VS_Code_Files/PLCnext/PLCnext-libs/TimeUtils/TimeUtilsCpp/intermediate/cmake/AXCF2152,24.0.17.244/Release && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kirill/VS_Code_Files/PLCnext/PLCnext-libs/TimeUtils/TimeUtilsCpp /home/kirill/VS_Code_Files/PLCnext/PLCnext-libs/TimeUtils/TimeUtilsCpp /home/kirill/VS_Code_Files/PLCnext/PLCnext-libs/TimeUtils/TimeUtilsCpp/intermediate/cmake/AXCF2152,24.0.17.244/Release /home/kirill/VS_Code_Files/PLCnext/PLCnext-libs/TimeUtils/TimeUtilsCpp/intermediate/cmake/AXCF2152,24.0.17.244/Release /home/kirill/VS_Code_Files/PLCnext/PLCnext-libs/TimeUtils/TimeUtilsCpp/intermediate/cmake/AXCF2152,24.0.17.244/Release/CMakeFiles/TimeUtils.dir/DependInfo.cmake "--color=$(COLOR)"
+	$(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" C:/Users/kirill/PLCnext-libs/TimeUtils/TimeUtilsCpp C:/Users/kirill/PLCnext-libs/TimeUtils/TimeUtilsCpp C:/Users/kirill/PLCnext-libs/TimeUtils/TimeUtilsCpp/intermediate/cmake/AXCF2152,24.0.17.244/Release C:/Users/kirill/PLCnext-libs/TimeUtils/TimeUtilsCpp/intermediate/cmake/AXCF2152,24.0.17.244/Release C:/Users/kirill/PLCnext-libs/TimeUtils/TimeUtilsCpp/intermediate/cmake/AXCF2152,24.0.17.244/Release/CMakeFiles/TimeUtils.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/TimeUtils.dir/depend
 
