@@ -4,7 +4,17 @@
 
 #include "eclr.h"
 #include "EventUtils.h"
+
 #include "Arp/Plc/Commons/Esm/RtEventManagerProxy.hpp"
+
+
+enum StatusCode : UInt16
+{
+    STATUS_OK               = 0,
+    STATUS_EMPTY_EVENT_NAME = 1,
+    STATUS_EVENT_NOT_FOUND  = 2
+};
+
 
 // class EventUtils.EVENT_TRIGGER implementation
 void __PInvoke__ EventUtils::EVENT_TRIGGER::__Init()
@@ -12,27 +22,53 @@ void __PInvoke__ EventUtils::EVENT_TRIGGER::__Init()
     // implement your code here !
 
     executeOld = false;
-    rtEvent = nullptr;
+
     Done = false;
+    Error = false;
+    Status = STATUS_OK;
 }
 
 void __PInvoke__ EventUtils::EVENT_TRIGGER::__Process()
 {
     // implement your code here !
 
+    Done = false;
+    Error = false;
+    Status = STATUS_OK;
+
+    if (!Execute)
+    {
+        executeOld = false;
+        return;
+    }
+
+    if (executeOld)
+    {
+        return;
+    }
+
+    executeOld = true;
+
+    if (EventName.GetLength() == 0)
+    {
+        Error = true;
+        Status = STATUS_EMPTY_EVENT_NAME;
+        return;
+    }
+
+    const char* eventName = EventName;
+    auto rtEvent = Arp::Plc::Commons::Esm::RtEventManagerProxy::GetInstance().GetEvent(eventName);
+
     if (rtEvent == nullptr)
     {
-        rtEvent = Arp::Plc::Commons::Esm::RtEventManagerProxy::GetInstance().GetEvent("Event1");
+        Error = true;
+        Status = STATUS_EVENT_NOT_FOUND;
+        return;
     }
 
-    Done = (rtEvent != nullptr);
+    rtEvent->Set();
 
-    if (Execute && !executeOld && rtEvent != nullptr)
-    {
-        rtEvent->Set();
-    }
-
-    executeOld = Execute;
+    Done = true;
 }
 
 EventUtils::EVENT_TRIGGER::EVENT_TRIGGER()

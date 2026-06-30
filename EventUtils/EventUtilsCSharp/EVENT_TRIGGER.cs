@@ -15,16 +15,22 @@ namespace EventUtils
     public class EVENT_TRIGGER
     {
 
-        [Input]
+        // inputs
+        [Input] // triger event (rising edge)
         public bool Execute;
-        
-        // [Output, DataType("WORD")]
-        // public ushort OUT;
-        // [Output]
-        // public bool EventFound;
 
-        [Output]
+        [Input] // event name to trigger
+        public IecString80 EventName;
+
+        // outputs
+        [Output] // event completed
         public bool Done;
+
+        [Output] // error occurred
+        public bool Error;
+
+        [Output, DataType("WORD")] // error code
+        public ushort Status;
 
 
         [Initialization]

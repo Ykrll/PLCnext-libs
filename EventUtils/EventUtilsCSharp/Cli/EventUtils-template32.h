@@ -40,7 +40,11 @@ public:
         EVENT_TRIGGER();
         void ctor();
         Boolean Execute;  // offset=4
-        Boolean Done;  // offset=5
+                uint8 __pad1[1];
+        pcoslib::IecString80 EventName;  // offset=6
+        Boolean Done;  // offset=92
+        Boolean Error;  // offset=93
+        UInt16 Status;  // offset=94
         // @End automatically generated code
         // insert additional private methods and member here ! 
     };

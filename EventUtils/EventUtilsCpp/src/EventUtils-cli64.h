@@ -8,7 +8,6 @@
 #include "EclrInterfaces.h"
 
 #include "EventUtils-version.h"
-#include "Arp/Plc/Commons/Esm/RtEventManagerProxy.hpp"
 
 // public scope class for library implementation
 // use EventUtils::init() and EventUtils::loadLibrary() during startup 
@@ -41,13 +40,16 @@ public:
         EVENT_TRIGGER();
         void ctor();
         Boolean Execute;  // offset=8
-        Boolean Done;  // offset=9
+                uint8 __pad1[1];
+        pcoslib::IecString80 EventName;  // offset=10
+        Boolean Done;  // offset=96
+        Boolean Error;  // offset=97
+        UInt16 Status;  // offset=98
         // @End automatically generated code
         // insert additional private methods and member here ! 
-
+    
     private:
         bool executeOld = false;
-        Arp::Plc::Commons::Esm::RtEvent::Ptr rtEvent;
     };
 
 
